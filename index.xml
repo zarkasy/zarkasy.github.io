@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog Zarkasy</title><link>https://zarkasy.github.io/</link><description>Recent content on Blog Zarkasy</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>@ Zarkasy</copyright><lastBuildDate>Tue, 06 Sep 2022 18:56:59 +0700</lastBuildDate><atom:link href="https://zarkasy.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>First Post</title><link>https://zarkasy.github.io/posts/first-post/</link><pubDate>Tue, 06 Sep 2022 18:56:59 +0700</pubDate><guid>https://zarkasy.github.io/posts/first-post/</guid><description>Postingan pertama setelah lama tidak menulis blog. Kenapa menulis blog? atau lebih tepatnya kenapa menulis? Hmm, ga tau kenapa tapi dari dulu emang suka nulis. Tulisan itu seperti pembuangan pemikiran-pemikiran dalam benak, media penyaluran unek-unek yang sering kali melintas lalu lalang didalam kepala dan menurutku lebih baik kalau disalurkan. Seperti kata Imam ghazali, air yang menggengan menimbulkan penyakit, begitu juga sepertinya, pikiran yang diam begitu saja didalam kepala serasa sayang jika tidak dituangkan.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog Zarkasy</title>
+    <link>https://zarkasy.github.io/</link>
+    <description>Recent content on Blog Zarkasy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>@ Zarkasy</copyright>
+    <lastBuildDate>Tue, 06 Sep 2022 18:56:59 +0700</lastBuildDate><atom:link href="https://zarkasy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://zarkasy.github.io/posts/first-post/</link>
+      <pubDate>Tue, 06 Sep 2022 18:56:59 +0700</pubDate>
+      
+      <guid>https://zarkasy.github.io/posts/first-post/</guid>
+      <description>Postingan pertama setelah lama tidak menulis blog. Kenapa menulis blog? atau lebih tepatnya kenapa menulis? Hmm, ga tau kenapa tapi dari dulu emang suka nulis. Tulisan itu seperti pembuangan pemikiran-pemikiran dalam benak, media penyaluran unek-unek yang sering kali melintas lalu lalang didalam kepala dan menurutku lebih baik kalau disalurkan. Seperti kata Imam ghazali, air yang menggengan menimbulkan penyakit, begitu juga sepertinya, pikiran yang diam begitu saja didalam kepala serasa sayang jika tidak dituangkan.</description>
+    </item>
+    
+  </channel>
+</rss>
