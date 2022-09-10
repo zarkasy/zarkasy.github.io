@@ -1,0 +1,6 @@
+baseURL = 'https://zarkasy.github.io'
+languageCode = 'en-us'
+title = 'Blog Zarkasy'
+theme = 'archie'
+copyright = "@ Zarkasy"
+
