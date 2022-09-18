@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@ Zarkasy</copyright>
-    <lastBuildDate>Sun, 11 Sep 2022 20:00:48 +0700</lastBuildDate><atom:link href="https://zarkasy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Sep 2022 21:13:52 +0700</lastBuildDate><atom:link href="https://zarkasy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django plus Vue dan Vite</title>
+      <link>https://zarkasy.github.io/posts/django_plus_vue_dan_vite/</link>
+      <pubDate>Wed, 14 Sep 2022 21:13:52 +0700</pubDate>
+      
+      <guid>https://zarkasy.github.io/posts/django_plus_vue_dan_vite/</guid>
+      <description>Django, Vue JS dan Vite JS Django merupakan web framework terpopuler berbasis python, sedangkan VueJS juga merupakan salah satu Javascript Framework terpopuler. Django memiliki kelebihan di kemudahan dan kelengkapan librarinya yang memberikan kecepatan bagi developer untuk menciptakan suatu produk, sedangkan VueJs dikenal sebagai solusi SPA (Single Page Application) yang memiliki susunan sintaks yang rapih dan mudah dimengerti. Jika django memberikan kemudahan bagi kita membangun aplikasi web yang bersifat tradisional dimana biasanya aplikasi web yang dibangun terdiri dari kumpulan berbagai jenis halaman, seperti halaman login, home, konten, admin dsb, sedangkan VueJS sendiri memiliki kekuatan dalam pembangunan SPA dimana biasanya aplikasi jenis ini memiliki mekanisme yang kompleks yang ditampilkan di satu halaman saja, contohnya User Interface Facebook dimana didalamnya terjadi banyak aktifitas mulai dari pengambilan konten terbaru, memunculkan notifikasi, chat, dan teman yang sedang online sekarang, dan semuanya terjadi secara real time.</description>
+    </item>
+    
     <item>
       <title>Pengalaman naik Transjakarta setelah lebih 10 tahun merantau</title>
       <link>https://zarkasy.github.io/posts/pengalaman-transjakarta/</link>
