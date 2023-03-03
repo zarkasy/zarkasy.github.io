@@ -7,7 +7,8 @@ draft: true
 ## Ketidakpuasan dengan keadaan saat ini.
 Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu lakukan jika apa yang kamu rasakan sudah berlangsung selama beberapa tahun? Mungkin banyak orang yang mengalami fase-fase sulit dalam hidupnya yang dirasakan tidak hanya sebentar. Perjuangan yang tak pernah tau kapan selesainya. Ada ga pernah kamu merasa bahwa kamu tidak memiliki harapan di masa depan di tempatmu sekarang? 
 
-## Migrasi hewan-hewan 
-Belajar dari hewan-hewan, ada hewan yang hidupnya bebas, ada hewan yang hidupnya terkungkung dalam kandang atau peternakan. Hewan ternak mungkin hidupnya enak, tapi mungkin kita tidak tau dalam pikirannya mereka mungkin ingin bebas, tapi satu hal yang pasti, keberlangsungan hidupnya tergantung dari lingkungan tempat mereka berada. Jika tuannya baik, mereka akan hidup nyaman, tapi tetap saja akhir hidupnya mereka bakal tau mau diapakan, apakah disembelih atau dijual.. yang pada akhirnya mungkin juga menjadi santapan juga. Berbeda dengan hewan ternak, hewan liar memiliki kemampuan 
+## Hewan ternak dan hewan liar.
+Belajar dari hewan-hewan, ada hewan yang hidupnya bebas, ada hewan yang hidupnya terkungkung dalam kandang atau peternakan. Hewan ternak mungkin hidupnya enak, tapi mungkin kita tidak tau dalam pikirannya mereka mungkin ingin bebas, tapi satu hal yang pasti, keberlangsungan hidupnya tergantung dari lingkungan tempat mereka berada. Jika tuannya baik, mereka akan hidup nyaman, tapi tetap saja akhir hidupnya mereka bakal tau mau diapakan, apakah disembelih atau dijual.. yang pada akhirnya mungkin juga menjadi santapan juga. Berbeda dengan hewan ternak, hewan liar hidup bebas, mereka bebas pergi kemanapun atau makan dimanapun. Namun mereka harus berusaha sendiri dalam mencari makan dan mencari tempat berlindung. Tapi ada satu hal penting yang mereka miliki yang membedakan kita dengan hewan ternak yaitu kebebasan.
 
+## 
 
