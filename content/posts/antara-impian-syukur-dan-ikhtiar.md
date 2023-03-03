@@ -1,5 +1,5 @@
 ---
-title: "Antara Impian Syukur Dan Ikhtiar"
+title: "Antara Impian, Syukur, dan Ikhtiar"
 date: 2023-03-03T08:18:25+07:00
 draft: true
 ---
@@ -10,5 +10,8 @@ Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu l
 ## Hewan ternak dan hewan liar.
 Belajar dari hewan-hewan, ada hewan yang hidupnya bebas, ada hewan yang hidupnya terkungkung dalam kandang atau peternakan. Hewan ternak mungkin hidupnya enak, tapi mungkin kita tidak tau dalam pikirannya mereka mungkin ingin bebas, tapi satu hal yang pasti, keberlangsungan hidupnya tergantung dari lingkungan tempat mereka berada. Jika tuannya baik, mereka akan hidup nyaman, tapi tetap saja akhir hidupnya mereka bakal tau mau diapakan, apakah disembelih atau dijual.. yang pada akhirnya mungkin juga menjadi santapan juga. Berbeda dengan hewan ternak, hewan liar hidup bebas, mereka bebas pergi kemanapun atau makan dimanapun. Namun mereka harus berusaha sendiri dalam mencari makan dan mencari tempat berlindung. Tapi ada satu hal penting yang mereka miliki yang membedakan kita dengan hewan ternak yaitu kebebasan.
 
-## 
+## Evaluasi diri.
+Sekarang berkaca ke hewan-hewan tersebut, apakah diri ini termasuk manusia bebas atau manusia yang terpenjara? Terpenjara dalam arti terkungkung pikirannya, lingkungannya, atau yang lain. Terkungkung pikiran berarti kita sudah merasa nyaman dengan kondisi sekarang, atau merasa sudah tidak harapan perubahan, atau tidak berani untuk keluar dari lingkungan sekarang. Mungkin kita punya impian, tapi takut untuk berjalan menuju impian tersebut disebabkan letaknya diluar pagar zona nyaman yang sekarang. Mungkin kita menggunakan alasan 'harus bersyukur', tapi bukan berarti orang yang berusaha mencari nikmat Tuhannya adalah orang yang tidak bersyukur, karena Tuhan memerintahkan manusia untuk berterbaran di muka bumi untuk mencari rahmatnya, mungkin karena itulah hewan-hewan bermigrasi.
 
+## Melangkah kedepan
+Setelah memikirkan contoh-contoh hewan te
