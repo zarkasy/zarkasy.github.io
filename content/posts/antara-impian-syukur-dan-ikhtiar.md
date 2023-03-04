@@ -1,7 +1,7 @@
 ---
 title: "Antara Impian, Syukur, dan Ikhtiar"
 date: 2023-03-03T08:18:25+07:00
-draft: true
+draft: false
 ---
 
 ## Ketidakpuasan dengan keadaan saat ini.
@@ -13,5 +13,5 @@ Belajar dari hewan-hewan, ada hewan yang hidupnya bebas, ada hewan yang hidupnya
 ## Evaluasi diri.
 Sekarang berkaca ke hewan-hewan tersebut, apakah diri ini termasuk manusia bebas atau manusia yang terpenjara? Terpenjara dalam arti terkungkung pikirannya, lingkungannya, atau yang lain. Terkungkung pikiran berarti kita sudah merasa nyaman dengan kondisi sekarang, atau merasa sudah tidak harapan perubahan, atau tidak berani untuk keluar dari lingkungan sekarang. Mungkin kita punya impian, tapi takut untuk berjalan menuju impian tersebut disebabkan letaknya diluar pagar zona nyaman yang sekarang. Mungkin kita menggunakan alasan 'harus bersyukur', tapi bukan berarti orang yang berusaha mencari nikmat Tuhannya adalah orang yang tidak bersyukur, karena Tuhan memerintahkan manusia untuk berterbaran di muka bumi untuk mencari rahmatnya, mungkin karena itulah hewan-hewan bermigrasi.
 
-## Melangkah kedepan
-Setelah memikirkan contoh-contoh hewan te
+## Langkah kedepan
+Waktunya sekarang menentukan langkah apa yang akan diambil. Apakah tetap di tempat sekarang dengan segala kenyamanan dan kekurangannya namun mengubur impian-impian, atau mulai memberanikan diri berpikir diluar zona nyaman, mulai mencoba mengambil langkah kecil menuju impian didepan, meskipun kita tidak tau tempat yang ingin kita tuju tersebut akan lebih indah dari tempat yang sekarang, namun menurutku satu hal yang bisa diperoleh dari perjalanan tersebut, kita menjadi manusia yang bebas.
