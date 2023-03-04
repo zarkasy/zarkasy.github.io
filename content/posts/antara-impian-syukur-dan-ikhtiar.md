@@ -2,6 +2,7 @@
 title: "Antara Impian, Syukur, dan Ikhtiar"
 date: 2023-03-03T08:18:25+07:00
 draft: false
+tags: ["Pikiran"]
 ---
 
 ## Ketidakpuasan dengan keadaan saat ini.
