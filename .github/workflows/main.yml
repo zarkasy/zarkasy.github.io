@@ -33,7 +33,7 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v3
       with:
-          node-version: '16'
+          node-version: '20'
 
     # Step 2 - Sets up the latest version of Hugo
     - name: Setup Hugo
