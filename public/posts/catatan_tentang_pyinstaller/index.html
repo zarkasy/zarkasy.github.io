@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html><head lang="en">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Catatan Tentang Pyinstaller - Blog Zarkasy</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.
+Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe." />
+	<meta property="og:image" content=""/>
+	<meta property="og:title" content="Catatan Tentang Pyinstaller" />
+<meta property="og:description" content="Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.
+Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://aplikasihebat.com/posts/catatan_tentang_pyinstaller/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-05-18T06:30:46+07:00" />
+<meta property="article:modified_time" content="2024-05-18T06:30:46+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Catatan Tentang Pyinstaller"/>
+<meta name="twitter:description" content="Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.
+Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe."/>
+<script src="https://aplikasihebat.com/js/feather.min.js"></script>
+	
+	
+        <link href="https://aplikasihebat.com/css/fonts.11a1877508139eac0b5b4852ceb110c35641b3533321e66e39149e901ed5756b.css" rel="stylesheet">
+	
+
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="https://aplikasihebat.com/css/main.d902908ac6e0fab67957de5db5aea1b6455b19ae2ca98eac4c95a4a0fdc02238.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://aplikasihebat.com/css/dark.c95c5dcf5f32f8b67bd36f7dab66680e068fce2b303087294114aabf7a7c080b.css" media="(prefers-color-scheme: dark)"  />
+	
+
+	
+	
+
+	
+	
+	
+	
+</head>
+<body>
+        <div class="content"><header>
+	<div class="main">
+		<a href="https://aplikasihebat.com/">Blog Zarkasy</a>
+	</div>
+	<nav>
+		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		<a href="/tags">Tags</a>
+		
+		
+	</nav>
+</header>
+
+<main>
+	<article>
+		<div class="title">
+			<h1 class="title">Catatan Tentang Pyinstaller</h1>
+			<div class="meta">Posted on May 18, 2024</div>
+		</div>
+		
+
+		<section class="body">
+			<h2 id="tentang-pyinstallerhttpspyinstallerorgenstable">Tentang <a href="https://pyinstaller.org/en/stable/">Pyinstaller</a></h2>
+<p>Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.</p>
+<h2 id="auto-py-to-exehttpspypiorgprojectauto-py-to-exe"><a href="https://pypi.org/project/auto-py-to-exe/">Auto-py-to-exe</a></h2>
+<p>Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe. Library ini adalah wrapper dari pyinstaller dimana kita diberikan fasilitasi GUI (Graphical User Interface) untuk melakukan bundling aplikasi kita, sehingga prosesnya bisa lebih mudah.</p>
+<h2 id="catatan-catatan-tentang-auto-py-to-exe">Catatan-catatan tentang Auto-py-to-exe</h2>
+<p>Dari pengalaman menggunakan python 3.8.9 dan python 3.11.9 saya menemukan bahwa auto-py-to-exe dapat menemukan library-library yang dibutuhkan secara ototomatis pada python versi 3.8.9. Kasus ini ditemukan saat bundling menggunakan OS windows, tapi belum dicoba untuk OS yang lainnnya. Salah satu dugaaan penyebab dari hal ini adalah, dalam instalasi python 3.8.9, package <strong>virtualenv</strong> terinstall didalam folder yang sama dengan package <strong>python</strong> biasanya pada Program Files/Python/, sedangan pada python versi terbaru package <strong>virtualenv</strong> lokasi penyimpanannya pada folder temp user. Jadi untuk sekarang lebih baik menggunakan python versi yang lama jika akan melakukan bundling exe dengan auto-py-to-exe ini, karena jika menggunakan python versi terbaru akan ditemukan masalah dimana kita harus mengimport package-package yang tidak ditemukan secara manual.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+			
+			
+		</div>
+		</article>
+</main>
+<footer>
+  <div style="display:flex"><a class="soc" href="https://github.com/zarkasy" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a></div>
+  <div class="footer-info">
+    2024  @ Zarkasy |  <a
+      href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
+  </div>
+</footer>
+
+
+<script>
+  feather.replace()
+</script></div>
+    </body>
+</html>
