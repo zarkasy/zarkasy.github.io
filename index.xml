@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>@ Zarkasy</copyright>
-    <lastBuildDate>Sat, 18 May 2024 06:30:46 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2024 16:29:20 +0700</lastBuildDate>
     <atom:link href="https://aplikasihebat.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lingkaran Kehidupan</title>
+      <link>https://aplikasihebat.com/posts/three_days_holidays_recap/</link>
+      <pubDate>Mon, 27 May 2024 16:29:20 +0700</pubDate>
+      <guid>https://aplikasihebat.com/posts/three_days_holidays_recap/</guid>
+      <description>Liburan Panjang Bulan Mei 2024 </description>
+    </item>
     <item>
       <title>Catatan Tentang Pyinstaller</title>
       <link>https://aplikasihebat.com/posts/catatan_tentang_pyinstaller/</link>
