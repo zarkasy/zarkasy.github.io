@@ -27,6 +27,7 @@ Please note that the Application utilizes third-party services that have their o
     Google Play Services
     AdMob
     Google Analytics for Firebase
+    RevenueCat
 
 
 The Service Provider may disclose User Provided and Automatically Collected Information:
@@ -58,7 +59,7 @@ Changes
 
 This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
 
-This privacy policy is effective as of 2024-06-04
+This privacy policy is effective as of 2024-08-09
 
 Your Consent
 
