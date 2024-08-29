@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>@ Zarkasy</copyright>
-    <lastBuildDate>Tue, 04 Jun 2024 16:15:34 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 12:57:47 +0700</lastBuildDate>
     <atom:link href="https://aplikasihebat.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pengalaman Kena Limit Ad Serving Admob</title>
+      <link>https://aplikasihebat.com/posts/pengalaman-kena-limit-ad-serving-admob/</link>
+      <pubDate>Thu, 29 Aug 2024 12:57:47 +0700</pubDate>
+      <guid>https://aplikasihebat.com/posts/pengalaman-kena-limit-ad-serving-admob/</guid>
+      <description>Tulisan ini kubuat untuk catatan pribadiku jika kedepannya hal ini terjadi lagi. Sedikit cerita kalau aplikasiku yaitu game edukasi yang berjudul Belajar membaca tanpa mengeja pada tanggal 5 Agustus 2024 tiba-tiba saja mendapat notifikasi dari https://admob.google.com/home/ kalau iklan yang ditampilkan pada aplikasiku kena limit. Buat yang belum tau apa itu Admob Jujur awal membaca email pemeberitahuan tersebut cukup kaget dan bertanya-tanya pelanggaran apa yang kubuat sehingga bisa sampai kena limit. Jadi buat teman-teman yang belum tahu apa itu Admob, dia semacam Iklan Provider dimana kita bisa menampilkan iklan dari mereka dan mendapatkan uang dari iklan yang muncul pada aplikasi kita, semacam [https://adsense.</description>
+    </item>
     <item>
       <title>Pengalaman Update App Google Play Ditolak</title>
       <link>https://aplikasihebat.com/posts/pengalaman-update-app-google-play-ditolak/</link>
