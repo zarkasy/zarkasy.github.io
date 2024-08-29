@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pikiran on Blog Zarkasy</title>
-    <link>https://aplikasihebat.com/tags/pikiran/</link>
+    <link>http://localhost:1313/tags/pikiran/</link>
     <description>Recent content in Pikiran on Blog Zarkasy</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@ Zarkasy</copyright>
     <lastBuildDate>Fri, 03 Mar 2023 08:18:25 +0700</lastBuildDate>
-    <atom:link href="https://aplikasihebat.com/tags/pikiran/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/pikiran/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Antara Impian, Syukur, dan Ikhtiar</title>
-      <link>https://aplikasihebat.com/posts/antara-impian-syukur-dan-ikhtiar/</link>
+      <link>http://localhost:1313/posts/antara-impian-syukur-dan-ikhtiar/</link>
       <pubDate>Fri, 03 Mar 2023 08:18:25 +0700</pubDate>
-      <guid>https://aplikasihebat.com/posts/antara-impian-syukur-dan-ikhtiar/</guid>
+      <guid>http://localhost:1313/posts/antara-impian-syukur-dan-ikhtiar/</guid>
       <description>Ketidakpuasan dengan keadaan saat ini. Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu lakukan jika apa yang kamu rasakan sudah berlangsung selama beberapa tahun? Mungkin banyak orang yang mengalami fase-fase sulit dalam hidupnya yang dirasakan tidak hanya sebentar. Perjuangan yang tak pernah tau kapan selesainya. Ada ga pernah kamu merasa bahwa kamu tidak memiliki harapan di masa depan di tempatmu sekarang?
 Hewan ternak dan hewan liar.</description>
     </item>
