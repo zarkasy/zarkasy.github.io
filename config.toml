@@ -45,3 +45,4 @@ name = "Tags"
 url = "/tags"
 weight = 4
 
+builddrafts = true
