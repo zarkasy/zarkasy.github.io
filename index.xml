@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog Zarkasy</title>
     <link>https://aplikasihebat.com/</link>
     <description>Recent content on Blog Zarkasy</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@ Zarkasy</copyright>
     <lastBuildDate>Thu, 29 Aug 2024 12:57:47 +0700</lastBuildDate>
@@ -35,7 +35,8 @@
       <link>https://aplikasihebat.com/posts/catatan_tentang_pyinstaller/</link>
       <pubDate>Sat, 18 May 2024 06:30:46 +0700</pubDate>
       <guid>https://aplikasihebat.com/posts/catatan_tentang_pyinstaller/</guid>
-      <description>Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.&#xA;Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe.</description>
+      <description>Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.
+Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe.</description>
     </item>
     <item>
       <title>Menjaga Kewarasan Sebagai Pengemudi</title>
@@ -49,7 +50,8 @@
       <link>https://aplikasihebat.com/posts/antara-impian-syukur-dan-ikhtiar/</link>
       <pubDate>Fri, 03 Mar 2023 08:18:25 +0700</pubDate>
       <guid>https://aplikasihebat.com/posts/antara-impian-syukur-dan-ikhtiar/</guid>
-      <description>Ketidakpuasan dengan keadaan saat ini. Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu lakukan jika apa yang kamu rasakan sudah berlangsung selama beberapa tahun? Mungkin banyak orang yang mengalami fase-fase sulit dalam hidupnya yang dirasakan tidak hanya sebentar. Perjuangan yang tak pernah tau kapan selesainya. Ada ga pernah kamu merasa bahwa kamu tidak memiliki harapan di masa depan di tempatmu sekarang?&#xA;Hewan ternak dan hewan liar.</description>
+      <description>Ketidakpuasan dengan keadaan saat ini. Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu lakukan jika apa yang kamu rasakan sudah berlangsung selama beberapa tahun? Mungkin banyak orang yang mengalami fase-fase sulit dalam hidupnya yang dirasakan tidak hanya sebentar. Perjuangan yang tak pernah tau kapan selesainya. Ada ga pernah kamu merasa bahwa kamu tidak memiliki harapan di masa depan di tempatmu sekarang?
+Hewan ternak dan hewan liar.</description>
     </item>
     <item>
       <title>Django plus Vue dan Vite</title>
