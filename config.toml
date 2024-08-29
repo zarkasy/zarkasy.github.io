@@ -1,7 +1,7 @@
 baseURL = 'https://aplikasihebat.com/'
 languageCode = 'en-us'
 title = 'Blog Zarkasy'
-theme = 'archie'
+theme = ["PaperMod"] 
 copyright = "@ Zarkasy"
 # Code Highlight
 pygmentsstyle = "monokai"
