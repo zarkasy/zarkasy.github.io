@@ -1,4 +1,4 @@
-baseURL = 'https://aplikasihebat.com/'
+baseURL = 'https://aplikasihebat.com/blog/'
 languageCode = 'en-us'
 title = 'Blog Zarkasy'
 theme = ["PaperMod"] 

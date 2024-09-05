@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Transjakarta on Blog Zarkasy</title>
-    <link>http://localhost:1313/tags/transjakarta/</link>
+    <link>https://aplikasihebat.com/blog/tags/transjakarta/</link>
     <description>Recent content in Transjakarta on Blog Zarkasy</description>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@ Zarkasy</copyright>
-    <lastBuildDate>Sun, 11 Sep 2022 20:00:48 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/transjakarta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Sep 2022 20:00:48 +0700</lastBuildDate><atom:link href="https://aplikasihebat.com/blog/tags/transjakarta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pengalaman naik Transjakarta setelah lebih 10 tahun merantau</title>
-      <link>http://localhost:1313/posts/pengalaman-transjakarta/</link>
+      <link>https://aplikasihebat.com/blog/posts/pengalaman-transjakarta/</link>
       <pubDate>Sun, 11 Sep 2022 20:00:48 +0700</pubDate>
-      <guid>http://localhost:1313/posts/pengalaman-transjakarta/</guid>
+      
+      <guid>https://aplikasihebat.com/blog/posts/pengalaman-transjakarta/</guid>
       <description>Tamasya dengan keluarga Hari ini aku memenuhi janjiku ke anak untuk mengajak jalan-jalan menggunakan MRT (Mass Rapid Transit). Sudah lama menjanjikan dan sudah berkali-kali ditagih kapan mau jalan-jalan pakai MRT, namanya juga anak kecil yang masih penasaran dengan yang namanya kereta, pesawat, dan kapal laut. Terutama anakku yang suka sekali dengan hal-hal yang berkaitan dengan kendaraan, entah itu mobil, truk, bus, escavator, mobil pemadam, pesawat semuanya digandrunginya. Tiap kali jalan-jalan kalau ketemu toko mainan pasti minta dibelikan yang mainan yang paling masih berputar pada kendaraan darat atau laut.</description>
     </item>
+    
   </channel>
 </rss>

@@ -1,9 +1,34 @@
-import 'package:aplikasihebat_homepage/pages/home.dart';
+import 'package:aplikasihebat_homepage/components/home_content.dart';
+import 'package:aplikasihebat_homepage/components/kontak_content.dart';
+import 'package:aplikasihebat_homepage/components/page_template.dart';
+import 'package:aplikasihebat_homepage/components/tentang_content.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 
 void main() {
   runApp(const MyApp());
 }
+
+final GoRouter _router = GoRouter(routes: <RouteBase>[
+  GoRoute(
+    path: '/',
+    builder: (context, state) {
+      return PageTemplate(HomeContent());
+    },
+  ),
+  GoRoute(
+    path: '/about',
+    builder: (context, state) {
+      return PageTemplate(TentangContent());
+    },
+  ),
+  GoRoute(
+    path: '/contact',
+    builder: (context, state) {
+      return PageTemplate(KontakContent());
+    },
+  ),
+]);
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -32,7 +57,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Home(),
+      home: MaterialApp.router(
+        routerConfig: _router,
+      ),
     );
   }
 }

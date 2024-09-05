@@ -1,11 +1,16 @@
+import 'package:aplikasihebat_homepage/components/page_template.dart';
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+typedef MenuItemCallback = void Function()?;
 
 class MenuItemComp extends StatefulWidget {
   final String title;
   final double fontSize;
+  final MenuItemCallback callback;
 
-  MenuItemComp(this.title, this.fontSize);
+  MenuItemComp(this.title, this.fontSize, this.callback);
 
   @override
   State<StatefulWidget> createState() {
@@ -33,7 +38,7 @@ class _MenuItemCompState extends State<MenuItemComp> {
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 10.0),
         child: GestureDetector(
-          onTap: () => print("Tapped"),
+          onTap: widget.callback,
           child: Container(
             padding: EdgeInsets.all(5),
             decoration: BoxDecoration(
