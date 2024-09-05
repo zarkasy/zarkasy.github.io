@@ -1,4 +1,5 @@
-baseURL = 'https://aplikasihebat.com/blog/'
+baseURL = 'https://aplikasihebat.com/'
+publishDir = "/public/blog/"
 languageCode = 'en-us'
 title = 'Blog Zarkasy'
 theme = ["PaperMod"] 
