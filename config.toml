@@ -4,6 +4,7 @@ title = 'Blog Zarkasy'
 theme = ["PaperMod"] 
 copyright = "@ Zarkasy"
 # Code Highlight
+
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
