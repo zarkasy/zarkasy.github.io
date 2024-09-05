@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Blog Zarkasy</title>
-    <link>https://aplikasihebat.com/blog/tags/</link>
+    <link>https://aplikasihebat.com/tags/</link>
     <description>Recent content in Tags on Blog Zarkasy</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@ Zarkasy</copyright>
     <lastBuildDate>Fri, 03 Mar 2023 08:18:25 +0700</lastBuildDate>
-    <atom:link href="https://aplikasihebat.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://aplikasihebat.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pikiran</title>
-      <link>https://aplikasihebat.com/blog/tags/pikiran/</link>
+      <link>https://aplikasihebat.com/tags/pikiran/</link>
       <pubDate>Fri, 03 Mar 2023 08:18:25 +0700</pubDate>
-      <guid>https://aplikasihebat.com/blog/tags/pikiran/</guid>
+      <guid>https://aplikasihebat.com/tags/pikiran/</guid>
       <description></description>
     </item>
     <item>
       <title>MRT</title>
-      <link>https://aplikasihebat.com/blog/tags/mrt/</link>
+      <link>https://aplikasihebat.com/tags/mrt/</link>
       <pubDate>Sun, 11 Sep 2022 20:00:48 +0700</pubDate>
-      <guid>https://aplikasihebat.com/blog/tags/mrt/</guid>
+      <guid>https://aplikasihebat.com/tags/mrt/</guid>
       <description></description>
     </item>
     <item>
       <title>Transjakarta</title>
-      <link>https://aplikasihebat.com/blog/tags/transjakarta/</link>
+      <link>https://aplikasihebat.com/tags/transjakarta/</link>
       <pubDate>Sun, 11 Sep 2022 20:00:48 +0700</pubDate>
-      <guid>https://aplikasihebat.com/blog/tags/transjakarta/</guid>
+      <guid>https://aplikasihebat.com/tags/transjakarta/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>https://aplikasihebat.com/blog/tags/blog/</link>
+      <link>https://aplikasihebat.com/tags/blog/</link>
       <pubDate>Sat, 10 Sep 2022 23:09:40 +0700</pubDate>
-      <guid>https://aplikasihebat.com/blog/tags/blog/</guid>
+      <guid>https://aplikasihebat.com/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Gratis</title>
-      <link>https://aplikasihebat.com/blog/tags/gratis/</link>
+      <link>https://aplikasihebat.com/tags/gratis/</link>
       <pubDate>Sat, 10 Sep 2022 23:09:40 +0700</pubDate>
-      <guid>https://aplikasihebat.com/blog/tags/gratis/</guid>
+      <guid>https://aplikasihebat.com/tags/gratis/</guid>
       <description></description>
     </item>
   </channel>
