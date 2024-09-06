@@ -41,7 +41,7 @@ jobs:
     #  with:
     #      hugo-version: '0.133.1'
 
-    Step 3 - Clean and don't fail
+    #Step 3 - Clean and don't fail
     - name: Clean public directory
      run: rm -rf public/blog/
 
