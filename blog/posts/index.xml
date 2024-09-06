@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Thu, 29 Aug 2024 12:57:47 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 21:31:27 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cara Deploy Flutter Web dan Hugo di Github Pages</title>
+      <link>/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</link>
+      <pubDate>Fri, 06 Sep 2024 21:31:27 +0700</pubDate>
+      <guid>/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</guid>
+      <description>Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.
+Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran.</description>
+    </item>
     <item>
       <title>Pengalaman Kena Limit Ad Serving Admob</title>
       <link>/blog/posts/pengalaman-kena-limit-ad-serving-admob/</link>
