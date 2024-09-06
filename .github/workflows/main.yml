@@ -56,9 +56,10 @@ jobs:
           flutter-version: 3.24.0
           cache: true
           # flutter-version-file: aplikasihebat_homepage/pubspec.yaml
-        working-directory: aplikasihebat_homepage
       - run: flutter pub get
+        working-directory: aplikasihebat_homepage
       - run: flutter build web -o ../public/
+        working-directory: aplikasihebat_homepage
 
       - name: Copy file CNAME
         uses: canastro/copy-file-action@master
