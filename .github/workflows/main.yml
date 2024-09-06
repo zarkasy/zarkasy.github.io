@@ -7,7 +7,7 @@ name: github pages
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -19,44 +19,43 @@ jobs:
       contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-      
+
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true # Fetch Hugo themes
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
-    # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
-    - name: Checkout
-      uses: actions/checkout@v4
-      with:
-          submodules: true  # Fetch Hugo themes
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-          
-    - name: Setup Node
-      uses: actions/setup-node@v4
-      with:
-          node-version: '20'
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-    # Step 2 - Sets up the latest version of Hugo
-    #- name: Setup Hugo
-    #  uses: peaceiris/actions-hugo@v3
-    #  with:
-    #      hugo-version: '0.133.1'
+      # Step 2 - Sets up the latest version of Hugo
+      #- name: Setup Hugo
+      #  uses: peaceiris/actions-hugo@v3
+      #  with:
+      #      hugo-version: '0.133.1'
 
-    #Step 3 - Clean and don't fail
-    - name: Clean public directory
-     run: rm -rf public/blog/
+      #Step 3 - Clean and don't fail
+      - name: Clean public directory
+        run: rm -rf public/blog/
 
-    # Step 4 - Builds the site using the latest version of Hugo
-    # Also specifies the theme we want to use
-    #- name: Build
-    #  run: hugo --theme=PaperMod
+      # Step 4 - Builds the site using the latest version of Hugo
+      # Also specifies the theme we want to use
+      #- name: Build
+      #  run: hugo --theme=PaperMod
 
-    # Step 5 - Create name file
-    # - name: Create cname file
-    #   run: echo 'freshswift.net' > public/CNAME
+      # Step 5 - Create name file
+      # - name: Create cname file
+      #   run: echo 'freshswift.net' > public/CNAME
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
     # Step 6 - Push our generated site to our gh-pages branch
