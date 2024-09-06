@@ -1,5 +1,5 @@
 baseURL = '/blog/'
-publishDir = "/public/blog/"
+publishDir = "public/blog/"
 languageCode = 'en-us'
 title = 'Blog Aplikasi Hebat'
 theme = ["PaperMod"] 
@@ -9,7 +9,6 @@ copyright = "@AplikasiHebat"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
-publishDir = 'public/blog/'
 
 paginate=5 # articles per page
 
