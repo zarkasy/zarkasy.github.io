@@ -53,9 +53,9 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: stable
-          flutter-version: 3.5.0
           cache: true
           flutter-version-file: aplikasihebat_homepage/pubspec.yaml
+
       - run: flutter pub get
       - run: flutter build web -o "public/"
 
