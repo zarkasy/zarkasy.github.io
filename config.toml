@@ -1,9 +1,11 @@
-baseURL = 'https://aplikasihebat.com/'
+baseURL = '/blog/'
+publishDir = "/public/blog/"
 languageCode = 'en-us'
-title = 'Blog Zarkasy'
+title = 'Blog Aplikasi Hebat'
 theme = ["PaperMod"] 
-copyright = "@ Zarkasy"
+copyright = "@AplikasiHebat"
 # Code Highlight
+
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
