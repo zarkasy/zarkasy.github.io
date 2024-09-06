@@ -42,12 +42,34 @@ jobs:
 
       #Step 3 - Clean and don't fail
       - name: Clean public directory
-        run: rm -rf public/blog/
+        run: rm -rf public
 
       # Step 4 - Builds the site using the latest version of Hugo
       # Also specifies the theme we want to use
       - name: Build
         run: hugo --theme=PaperMod
+
+      - name: "Install Flutter and Dart SDK"
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          flutter-version: 3.5.0
+          cache: true
+          flutter-version-file: aplikasihebat_homepage/pubspec.yaml
+      - run: flutter pub get
+      - run: flutter build web -o "public/"
+
+      - name: Copy file CNAME
+        uses: canastro/copy-file-action@master
+        with:
+          source: "public/blog/CNAME"
+          target: "public/CNAME"
+
+      - name: Copy file app-ads.txt
+        uses: canastro/copy-file-action@master
+        with:
+          source: "public/blog/app-ads.txt"
+          target: "public/app-ads.txt"
 
       # Step 5 - Create name file
       # - name: Create cname file
