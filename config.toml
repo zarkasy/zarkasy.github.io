@@ -7,8 +7,9 @@ copyright = "@ Zarkasy"
 pygmentsstyle = "monokai"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
+publishDir = 'public/blog/'
 
-paginate=3 # articles per page
+paginate=5 # articles per page
 
 [params]
 	mode="auto" # color-mode → light,dark,toggle or auto
