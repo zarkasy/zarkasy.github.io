@@ -57,7 +57,7 @@ jobs:
           cache: true
           # flutter-version-file: aplikasihebat_homepage/pubspec.yaml
 
-      - run: flutter pub get --directory=aplikashebat_homepage
+      - run: flutter pub get --directory=aplikasihebat_homepage
       - run: flutter build web -t "aplikasihebat_homepage/lib/main.dart" -o "public/"
 
       - name: Copy file CNAME
