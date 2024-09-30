@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Fri, 06 Sep 2024 21:31:27 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2024 09:15:37 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bugs in Audioplayers Package</title>
+      <link>/blog/posts/bugs-in-audioplayers-package/</link>
+      <pubDate>Mon, 30 Sep 2024 09:15:37 +0700</pubDate>
+      <guid>/blog/posts/bugs-in-audioplayers-package/</guid>
+      <description>This writings is to remind myself in the future when developing apps using flutter and especially if using AudioPlayers package.
+The Bug So for my application which is an education App i have been developed for over one year now, started as unserious project because i had google developer account that has been laying around. It was when Flutter was began to get famous for it&amp;rsquo;s flexibility, write once and publish everywhere, either google play store, ios, web, and desktop.</description>
+    </item>
     <item>
       <title>Cara Deploy Flutter Web dan Hugo di Github Pages</title>
       <link>/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</link>
