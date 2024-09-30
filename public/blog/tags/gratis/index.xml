@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gratis on Blog Aplikasi Hebat</title>
+    <link>//localhost:1313///blog/tags/gratis/</link>
+    <description>Recent content in Gratis on Blog Aplikasi Hebat</description>
+    <generator>Hugo -- 0.133.1</generator>
+    <language>en-us</language>
+    <copyright>@AplikasiHebat</copyright>
+    <lastBuildDate>Sat, 10 Sep 2022 23:09:40 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313///blog/tags/gratis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Gratisan Dengan Github Pages</title>
+      <link>//localhost:1313///blog/posts/blog-gratisan-dengan-github-pages/</link>
+      <pubDate>Sat, 10 Sep 2022 23:09:40 +0700</pubDate>
+      <guid>//localhost:1313///blog/posts/blog-gratisan-dengan-github-pages/</guid>
+      <description>Siapa yang masih suka nge-blog? Ga ada. Seperti postinganku yang pertama dulu, bisa kamu lihat disini sepertinya yang namanya blog itu udah mendekati kematian, setuju ga? Hayo coba siapa yang masih pakai blogspot, wordpress, joomlah? Haha, barang usang nan kuno. Walapun sekarang sih masih bermunculan situs blogging modern sepertim Medium. Oke lanjut ke topik pada judul, siapa tau dari kalian masih suka nulis dan cari situs gratisan buat nulis nih, dan kebetulan kalian bisa programming dikit-dikit, ini aku bagi tips buat nge-blog gratisan.</description>
+    </item>
+  </channel>
+</rss>
