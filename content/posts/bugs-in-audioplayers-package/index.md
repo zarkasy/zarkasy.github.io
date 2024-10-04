@@ -13,7 +13,7 @@ So for my [application](https://play.google.com/store/apps/details?id=com.aplika
 
 The first feature i created was called "Learning to read without spelling", i dont know if my translation from Indonesian is correct, but basically it is a new method to teach kid learning to read faster without them have to know about each alphabets first. So this feature required voice to help children know how to read the words when they click or tap the word. Initially I use potrait as my app's screen orientation, but as time goes and also with more addition of menus to my app, I began to changed the new screen orientations of new menu to landscape. Everything goes well until few weeks ago where the crash and ANR rate for my app began to hike, and the culprit was audioplayer.
 
-![Audioplayer Bugs](/audioplayer_bugs.PNG)
+![Audioplayer Bugs](/blog/audioplayer_bugs.PNG)
 
 As the picture above, from today alone as a write this post, the crashs caused by audioplayers totaled 79 users affected. So yesterday i began to bugs hunting, because you also have to know, if you have apps on playstore and your crash and ANR goes beyond the normal limits, your app visibility will goes down, so did my app, it goes from became one of the top result for certain keyword searches to become gone nowhere.
 

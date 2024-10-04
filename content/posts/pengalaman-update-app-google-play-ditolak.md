@@ -8,13 +8,13 @@ Aplikasiku yang bernama [Belajar membaca tanpa mengeja](https://play.google.com/
 
 Pengalaman tidak mengenakkan kurasakan kemarin ketika baru selesai mempublish update konten listing di google console, beberapa jam setelahnya muncul notifikasi kalau updateku direject karena dua violation/pelanggaran.
 
-![screenshot app rejected](/app_rejected.PNG)
-![screenshot app rejected](/app_rejected2.PNG)
+![screenshot app rejected](/blog/app_rejected.PNG)
+![screenshot app rejected](/blog/app_rejected2.PNG)
 
 Dari pengalaman sebelumnya belum pernah ada masalah dengan privacy policy yang sudah ada, namun tiba-tiba tidak ada angin tidak ada hujan, update yang terakhir ini ditolak. Jujur hal ini buat agak dag dig dug karena takut dapat pengalaman yang ga mengenakkan seperti aplikasi di take down atau lebih parahnya akun developerku di ban.
 
 Untuk mengatasi hal ini yang pertama kulakukan adalah mencoba membaca lagi pesan email yang kuterima, kubaca beberapa kali untuk memahami pelanggaran apa yang dimaksud oleh google. Kemudian kucoba membaca lagi privacy policy lama punyaku.
 
-![old privacy policy](/old_privacy.png)
+![old privacy policy](/blog/old_privacy.png)
 
 Salah satu hal yang kucermati dari privacy policy yang lama adalah masih ada kata-kata kurang jelas dari privacy policy generator yang kupakai. Kemudian ada informasi yang kudapat dari searching internet kalau link yang disubmit harus readable dan mengandung kata-kata **privacy policy**, link yang kupakai sebelumnya memang link dari google drive, sehingga tidak ada muncul kata-kata tersebut. Sekanga privacy policy untuk aplikasiku kurubah menjadi https://aplikasihebat.com/belajar-membaca-tanpa-mengeja/privacy.txt dan Alhamdulillah selang beberapa waktu langsung diaccept.
