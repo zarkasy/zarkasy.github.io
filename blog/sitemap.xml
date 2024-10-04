@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/blog/</loc>
-    <lastmod>2024-10-04T14:00:31+07:00</lastmod>
+    <lastmod>2024-10-04T19:35:37+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</loc>
+    <lastmod>2024-10-04T19:35:37+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/</loc>
-    <lastmod>2024-10-04T14:00:31+07:00</lastmod>
+    <lastmod>2024-10-04T19:35:37+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/bugs-in-audioplayers-package/</loc>
     <lastmod>2024-09-30T09:15:37+07:00</lastmod>

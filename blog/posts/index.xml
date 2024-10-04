@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Mon, 30 Sep 2024 09:15:37 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2024 19:35:37 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Memperbaiki Error Akses Asset Gambar pada Hugo</title>
+      <link>/blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</link>
+      <pubDate>Fri, 04 Oct 2024 19:35:37 +0700</pubDate>
+      <guid>/blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</guid>
+      <description>Memang nyaman sekali jika bisa meng-hosting blog kita secara gratis, seperti blogku ini yang dihosting di Github Pages dengan menggunakan Hugo sehingga diriku ga perlu memikirkan biaya langganan server bulanan, hha. Sebelumnya aku pernah punya pengalaman menghosting websiteku secara berbayar, namun melihat dari tipe websiteku ini yang bersifat halaman statis maka aku coba berpikir ulang dan merubah framework yang kugunakan. Jika sebelumnya aku memakai database untuk menyimpan tulisan-tulisanku, sekarang aku hanya membuhkan git respositori dan beberapa file statis yang dari hugo, selesai.</description>
+    </item>
     <item>
       <title>Bugs in Audioplayers Package</title>
       <link>/blog/posts/bugs-in-audioplayers-package/</link>
