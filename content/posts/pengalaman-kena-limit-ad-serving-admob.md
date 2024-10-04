@@ -6,7 +6,7 @@ draft: false
 
 Tulisan ini kubuat untuk catatan pribadiku jika kedepannya hal ini terjadi lagi. Sedikit cerita kalau aplikasiku yaitu game edukasi yang berjudul [Belajar membaca tanpa mengeja](https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&pcampaignid=web_share) pada tanggal 5 Agustus 2024 tiba-tiba saja mendapat notifikasi dari [Admob](https://admob.google.com/home/) kalau iklan yang ditampilkan pada aplikasiku kena limit. Buat yang belum tau apa itu **Admob** Jujur awal membaca email pemeberitahuan tersebut cukup kaget dan bertanya-tanya pelanggaran apa yang kubuat sehingga bisa sampai kena limit. Jadi buat teman-teman yang belum tahu apa itu Admob, dia semacam Iklan Provider dimana kita bisa menampilkan iklan dari mereka dan mendapatkan uang dari iklan yang muncul pada aplikasi kita, semacam [Google Adsense](https://adsense.google.com/intl/id_id/start/) tapi khusus untuk aplikasi saja, cuma tetep punya google juga.
 
-![Email notifikasi dari Admob](/admob_limit.PNG)
+![Email notifikasi dari Admob](admob_limit.PNG)
 
 Setelah menerima email tersebut, coba kucari penyebabnya by searching internet siapa tau ada yang punya pengalaman yang sama, dan benar saja ternyata ketemu beberapa yang sharing pengalaman mengapa mereka kena limit dan solusi yang mereka gunakan. Hanya saja, dari informasi yang kudapat dari internet, dari notifikasi yang mereka dapatkan, terdapat penjelasan tentang kenapa mereka kena limit, namun dari email yang kudapat tidak ada penjelasan sama sekali namun satu hal yang kucurigai adalah kualitas traffic Ads dari aplikasiku mereka curigai.
 
