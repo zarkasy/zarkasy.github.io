@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Blog Aplikasi Hebat</title>
     <link>https://aplikasihebat.com/blog/posts/</link>
     <description>Recent content in Posts on Blog Aplikasi Hebat</description>
-    <generator>Hugo -- 0.133.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
     <lastBuildDate>Mon, 30 Sep 2024 09:15:37 +0700</lastBuildDate>
@@ -14,16 +14,14 @@
       <link>https://aplikasihebat.com/blog/posts/bugs-in-audioplayers-package/</link>
       <pubDate>Mon, 30 Sep 2024 09:15:37 +0700</pubDate>
       <guid>https://aplikasihebat.com/blog/posts/bugs-in-audioplayers-package/</guid>
-      <description>This writings is to remind myself in the future when developing apps using flutter and especially if using AudioPlayers package.
-The Bug So for my application which is an education App i have been developed for over one year now, started as unserious project because i had google developer account that has been laying around. It was when Flutter was began to get famous for it&amp;rsquo;s flexibility, write once and publish everywhere, either google play store, ios, web, and desktop.</description>
+      <description>This writings is to remind myself in the future when developing apps using flutter and especially if using AudioPlayers package.&#xA;The Bug So for my application which is an education App i have been developed for over one year now, started as unserious project because i had google developer account that has been laying around. It was when Flutter was began to get famous for it&amp;rsquo;s flexibility, write once and publish everywhere, either google play store, ios, web, and desktop.</description>
     </item>
     <item>
       <title>Cara Deploy Flutter Web dan Hugo di Github Pages</title>
       <link>https://aplikasihebat.com/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</link>
       <pubDate>Fri, 06 Sep 2024 21:31:27 +0700</pubDate>
       <guid>https://aplikasihebat.com/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</guid>
-      <description>Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.
-Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran.</description>
+      <description>Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.&#xA;Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran.</description>
     </item>
     <item>
       <title>Pengalaman Kena Limit Ad Serving Admob</title>
@@ -51,8 +49,7 @@ Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi p
       <link>https://aplikasihebat.com/blog/posts/catatan_tentang_pyinstaller/</link>
       <pubDate>Sat, 18 May 2024 06:30:46 +0700</pubDate>
       <guid>https://aplikasihebat.com/blog/posts/catatan_tentang_pyinstaller/</guid>
-      <description>Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.
-Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe.</description>
+      <description>Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.&#xA;Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe.</description>
     </item>
     <item>
       <title>Menjaga Kewarasan Sebagai Pengemudi</title>
@@ -66,8 +63,7 @@ Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script s
       <link>https://aplikasihebat.com/blog/posts/antara-impian-syukur-dan-ikhtiar/</link>
       <pubDate>Fri, 03 Mar 2023 08:18:25 +0700</pubDate>
       <guid>https://aplikasihebat.com/blog/posts/antara-impian-syukur-dan-ikhtiar/</guid>
-      <description>Ketidakpuasan dengan keadaan saat ini. Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu lakukan jika apa yang kamu rasakan sudah berlangsung selama beberapa tahun? Mungkin banyak orang yang mengalami fase-fase sulit dalam hidupnya yang dirasakan tidak hanya sebentar. Perjuangan yang tak pernah tau kapan selesainya. Ada ga pernah kamu merasa bahwa kamu tidak memiliki harapan di masa depan di tempatmu sekarang?
-Hewan ternak dan hewan liar.</description>
+      <description>Ketidakpuasan dengan keadaan saat ini. Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu lakukan jika apa yang kamu rasakan sudah berlangsung selama beberapa tahun? Mungkin banyak orang yang mengalami fase-fase sulit dalam hidupnya yang dirasakan tidak hanya sebentar. Perjuangan yang tak pernah tau kapan selesainya. Ada ga pernah kamu merasa bahwa kamu tidak memiliki harapan di masa depan di tempatmu sekarang?&#xA;Hewan ternak dan hewan liar.</description>
     </item>
     <item>
       <title>Django plus Vue dan Vite</title>
