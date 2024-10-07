@@ -34694,7 +34694,7 @@ A.aaD.prototype={
 $0(){A.C6(A.cZ("https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&pcampaignid=web_share",0,null))},
 $S:0}
 A.aaE.prototype={
-$0(){A.C6(A.cZ("/belajar-baca/",0,null))},
+$0(){A.C6(A.cZ("http://127.0.0.1:8000/belajar-baca/",0,null))},
 $S:0}
 A.Fp.prototype={
 K(a){var s=null
