@@ -122,7 +122,7 @@ class _HomeContentState extends State<HomeContent> {
                 cursor: SystemMouseCursors.click,
                 child: GestureDetector(
                   onTap: () {
-                    launchUrl(Uri.parse('http://127.0.0.1:8000/belajar-baca/'));
+                    launchUrl(Uri.parse('/belajar-baca/'));
                   },
                   child: Container(
                     height: 50 * pengaliSize,

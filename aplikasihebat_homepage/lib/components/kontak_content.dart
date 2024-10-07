@@ -9,7 +9,7 @@ class KontakContent extends StatelessWidget {
           height: 50,
         ),
         Text(
-          "Whatsapp : 0877-8390-6191",
+          "Whatsapp : 0851-9898-5411",
           style: TextStyle(fontSize: 20),
         ),
       ],
