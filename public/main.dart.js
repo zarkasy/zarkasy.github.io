@@ -34698,7 +34698,7 @@ $0(){A.C6(A.cZ("/belajar-baca/",0,null))},
 $S:0}
 A.Fp.prototype={
 K(a){var s=null
-return A.iY(A.b([A.di(s,50,s),A.eN("Whatsapp : 0877-8390-6191",s,s,A.fU(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s))],t.E),B.a5,B.aF,B.az)}}
+return A.iY(A.b([A.di(s,50,s),A.eN("Whatsapp : 0851-9898-5411",s,s,A.fU(s,s,s,s,s,s,s,s,s,s,s,20,s,s,s,s,s,!0,s,s,s,s,s,s,s,s))],t.E),B.a5,B.aF,B.az)}}
 A.i6.prototype={
 ad(){return new A.M0(B.z)}}
 A.M0.prototype={
