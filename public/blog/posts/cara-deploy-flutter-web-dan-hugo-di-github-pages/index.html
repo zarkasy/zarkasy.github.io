@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="///blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=//blog/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Cara Deploy Flutter Web dan Hugo di Github Pages | Blog Aplikasi Hebat</title>
 <meta name="keywords" content="">
 <meta name="description" content="Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.
 Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran.">
 <meta name="author" content="">
-<link rel="canonical" href="//localhost:1313///blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/">
-<link crossorigin="anonymous" href="///blog/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="//localhost:1313/blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/blog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="//localhost:1313/blog/apple-touch-icon.png">
-<link rel="mask-icon" href="//localhost:1313/blog/safari-pinned-tab.svg">
+<link rel="canonical" href="/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="//localhost:1313///blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/">
+<link rel="alternate" hreflang="en" href="/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/">
 <noscript>
     <style>
         #theme-toggle,
@@ -57,6 +57,71 @@ Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi p
 
     </style>
 </noscript>
+  
+
+<meta property="og:title" content="Cara Deploy Flutter Web dan Hugo di Github Pages" />
+<meta property="og:description" content="Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.
+Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-09-06T21:31:27+07:00" />
+<meta property="article:modified_time" content="2024-09-06T21:31:27+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cara Deploy Flutter Web dan Hugo di Github Pages"/>
+<meta name="twitter:description" content="Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.
+Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Cara Deploy Flutter Web dan Hugo di Github Pages",
+      "item": "/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Cara Deploy Flutter Web dan Hugo di Github Pages",
+  "name": "Cara Deploy Flutter Web dan Hugo di Github Pages",
+  "description": "Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.\nSedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Sekitar seminggu terakhir Aplikasi Hebat sedang merombak homepagenya yang sebelumnya hanya berisi blog, sekarang sudah ditambahkan landing page, walapun masih seadanya. Pada tulisan sebelumnya kujelaskan bagaimana website ini dihosting secara gratis pada Github Pages. Website ini sebelumnya hanya menggunakan Hugo untuk menggenerate file static yang akan dihosting, namun sekarang karena ada tambahan landing page dimana aku menggunakan Flutter Web untuk membuatnya.\nSedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi pertamaku di Google Playstore yang berjudul Belajar Membaca Tanpa Mengeja, yaitu aplikasi edukasi anak dimana didalamnya sekarang sudah ada tujuh belas game pembelajaran. Sekarang aplikasiku sudah didownload lebih dari 10 ribu kali dan mendapatkan 40 reviuw dari pengguna.\nKembali lagi ke topik utama yaitu bagaimana aku bisa mempublish aplikasi yang didevelop dengan Flutter di github pages secara cuma-cuma. Flutter sendiri merupakan framework baru dari Google untuk mengembangkan aplikasi multiplatform, dengan flutter kamu bisa membuat aplikasi Android, IOS, Desktop dan Web dengan satu source code saja, cukup efisien. Karena alasan itulah aku mencoba untuk membuat homepage dari Aplikasi Hebat menggunakan Flutter.\nPrinsip Hosting di Github Pages Sebenarnya untuk menghosting websitemu di Github Pages yang kamu butuhkan adalah file static berupa html beserta asset-asset yang lain seperti css dan javascript. Secara umum struktur direktori pada Github Pages adalah seperti ini\nparent_folder/ css/ javascript/ index.html Bisa dilihat bahwa prinsip hosting di Github Pages adalah dengan cara mempublish file static websitemu. Index.html adalah pintu utama dimana websitemu dapat diakses oleh dunia luar. Seperti itu juga websiteku ini dihosting pada Github, namun ada sedikit trik tambahan dimana terdapat dua jenis file static yang kugunakan, yang pertama adalah file static Blog yang dihasilkan dari Hugo, dan yang kedua adalah file static yang dihasilkan dari Flutter. Sehingga secara sederhana sekarang struktur file untuk websiteku adalah seperti ini.\nparent_folder/ css/ javascript/ index.html blog/ css/ javscript/ index.html Jika dulu file index.html adalah halaman utama dari blogku, sekarang blogku kupindah kedalam subfolder yang bernama blog dan pada parent folder sekarang berisi file yang digenerate dari Flutter yang merupakan landing page yang sekarang. Dengan cara seperti ini aku bisa mempublish dua jenis aplikasi pada satu domain pada Github Pages.\nStruktur seperti ini sangat scalable, tidak hanya terbatas pada Hugo atau Flutter saja, kalian dapat mempublish aplikasi lain kalian entahkan itu dari framework javascript atau yang lain asalkan bentuk file yang dihasilkan adalah file static berupa html, css, dan javascript, kalian dapat meng-hosting website kalian secara cuma-cuma pada Github. Misalkan kalian punya project lain lagi, cukup tambahkan subfolder lagi pada parent folder dan project baru kalian akan online dan dapat diakses pada dunia luar.\n",
+  "wordCount" : "424",
+  "inLanguage": "en",
+  "datePublished": "2024-09-06T21:31:27+07:00",
+  "dateModified": "2024-09-06T21:31:27+07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog Aplikasi Hebat",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/blog/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
 <body class="" id="top">
@@ -82,7 +147,7 @@ Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi p
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="//localhost:1313/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
+            <a href="/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -108,22 +173,22 @@ Sedikit aku ingin bercerita, sekitar setahun yang lalu aku mempublish aplikasi p
         </div>
         <ul id="menu">
             <li>
-                <a href="//localhost:1313/blog/" title="Home">
+                <a href="/blog/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/blog/posts" title="All posts">
+                <a href="/blog/posts" title="All posts">
                     <span>All posts</span>
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/blog/about" title="About">
+                <a href="/blog/about" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="//localhost:1313/blog/tags" title="Tags">
+                <a href="/blog/tags" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>

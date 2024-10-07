@@ -2,66 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313///blog/</loc>
+    <loc>/blog/</loc>
+    <lastmod>2024-10-04T19:35:37+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</loc>
+    <lastmod>2024-10-04T19:35:37+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/</loc>
+    <lastmod>2024-10-04T19:35:37+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/bugs-in-audioplayers-package/</loc>
     <lastmod>2024-09-30T09:15:37+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/bugs-in-audioplayers-package/</loc>
-    <lastmod>2024-09-30T09:15:37+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313///blog/posts/</loc>
-    <lastmod>2024-09-30T09:15:37+07:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313///blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</loc>
+    <loc>/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</loc>
     <lastmod>2024-09-06T21:31:27+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/pengalaman-kena-limit-ad-serving-admob/</loc>
+    <loc>/blog/posts/pengalaman-kena-limit-ad-serving-admob/</loc>
     <lastmod>2024-08-29T12:57:47+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/pengalaman-update-app-google-play-ditolak/</loc>
+    <loc>/blog/posts/pengalaman-update-app-google-play-ditolak/</loc>
     <lastmod>2024-06-04T16:15:34+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/three_days_holidays_recap/</loc>
+    <loc>/blog/posts/three_days_holidays_recap/</loc>
     <lastmod>2024-05-27T16:29:20+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/catatan_tentang_pyinstaller/</loc>
+    <loc>/blog/posts/catatan_tentang_pyinstaller/</loc>
     <lastmod>2024-05-18T06:30:46+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/menjaga-kewarasan-sebagai-pengemudi/</loc>
+    <loc>/blog/posts/menjaga-kewarasan-sebagai-pengemudi/</loc>
     <lastmod>2023-04-23T07:59:49+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/antara-impian-syukur-dan-ikhtiar/</loc>
+    <loc>/blog/posts/antara-impian-syukur-dan-ikhtiar/</loc>
     <lastmod>2023-03-03T08:18:25+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/tags/pikiran/</loc>
+    <loc>/blog/tags/pikiran/</loc>
     <lastmod>2023-03-03T08:18:25+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/tags/</loc>
+    <loc>/blog/tags/</loc>
     <lastmod>2023-03-03T08:18:25+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/django_plus_vue_dan_vite/</loc>
+    <loc>/blog/posts/django_plus_vue_dan_vite/</loc>
     <lastmod>2022-09-14T21:13:52+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/tags/mrt/</loc>
+    <loc>/blog/tags/mrt/</loc>
     <lastmod>2022-09-11T20:00:48+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/pengalaman-transjakarta/</loc>
+    <loc>/blog/posts/pengalaman-transjakarta/</loc>
     <lastmod>2022-09-11T20:00:48+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/tags/transjakarta/</loc>
+    <loc>/blog/tags/transjakarta/</loc>
     <lastmod>2022-09-11T20:00:48+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/tags/blog/</loc>
+    <loc>/blog/tags/blog/</loc>
     <lastmod>2022-09-10T23:09:40+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/blog-gratisan-dengan-github-pages/</loc>
+    <loc>/blog/posts/blog-gratisan-dengan-github-pages/</loc>
     <lastmod>2022-09-10T23:09:40+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/tags/gratis/</loc>
+    <loc>/blog/tags/gratis/</loc>
     <lastmod>2022-09-10T23:09:40+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/posts/first-post/</loc>
+    <loc>/blog/posts/first-post/</loc>
     <lastmod>2022-09-06T18:56:59+07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313///blog/categories/</loc>
+    <loc>/blog/categories/</loc>
   </url>
 </urlset>

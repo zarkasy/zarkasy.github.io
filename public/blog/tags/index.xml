@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Blog Aplikasi Hebat</title>
-    <link>//localhost:1313///blog/tags/</link>
+    <link>/blog/tags/</link>
     <description>Recent content in Tags on Blog Aplikasi Hebat</description>
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
     <lastBuildDate>Fri, 03 Mar 2023 08:18:25 +0700</lastBuildDate>
-    <atom:link href="//localhost:1313///blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pikiran</title>
-      <link>//localhost:1313///blog/tags/pikiran/</link>
+      <link>/blog/tags/pikiran/</link>
       <pubDate>Fri, 03 Mar 2023 08:18:25 +0700</pubDate>
-      <guid>//localhost:1313///blog/tags/pikiran/</guid>
+      <guid>/blog/tags/pikiran/</guid>
       <description></description>
     </item>
     <item>
       <title>MRT</title>
-      <link>//localhost:1313///blog/tags/mrt/</link>
+      <link>/blog/tags/mrt/</link>
       <pubDate>Sun, 11 Sep 2022 20:00:48 +0700</pubDate>
-      <guid>//localhost:1313///blog/tags/mrt/</guid>
+      <guid>/blog/tags/mrt/</guid>
       <description></description>
     </item>
     <item>
       <title>Transjakarta</title>
-      <link>//localhost:1313///blog/tags/transjakarta/</link>
+      <link>/blog/tags/transjakarta/</link>
       <pubDate>Sun, 11 Sep 2022 20:00:48 +0700</pubDate>
-      <guid>//localhost:1313///blog/tags/transjakarta/</guid>
+      <guid>/blog/tags/transjakarta/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>//localhost:1313///blog/tags/blog/</link>
+      <link>/blog/tags/blog/</link>
       <pubDate>Sat, 10 Sep 2022 23:09:40 +0700</pubDate>
-      <guid>//localhost:1313///blog/tags/blog/</guid>
+      <guid>/blog/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Gratis</title>
-      <link>//localhost:1313///blog/tags/gratis/</link>
+      <link>/blog/tags/gratis/</link>
       <pubDate>Sat, 10 Sep 2022 23:09:40 +0700</pubDate>
-      <guid>//localhost:1313///blog/tags/gratis/</guid>
+      <guid>/blog/tags/gratis/</guid>
       <description></description>
     </item>
   </channel>
