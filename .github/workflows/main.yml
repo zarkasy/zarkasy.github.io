@@ -77,6 +77,16 @@ jobs:
       # - name: Create cname file
       #   run: echo 'freshswift.net' > public/CNAME
 
+      #Step 6 - Clean and don't fail
+      - name: Copy Belajar Baca App to public
+        uses: andstor/copycat-action@v3
+        with:
+          personal_token: ghp_9Jv1DVJXasYksyE4t4Nv7gktMQjHrXQQj3Ec2
+          src_path: /baca_app/.
+          dst_path: /public/belajar-baca/
+          dst_owner: zarkasy
+          dst_repo_name: zarkasy.github.io
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
