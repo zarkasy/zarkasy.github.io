@@ -78,8 +78,8 @@ jobs:
         uses: andstor/copycat-action@v3
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          src_path: baca_app/
-          dst_path: public/belajar-baca/
+          src_path: belajar-baca/
+          dst_path: public/
           dst_owner: zarkasy
           dst_repo_name: zarkasy.github.io
 
