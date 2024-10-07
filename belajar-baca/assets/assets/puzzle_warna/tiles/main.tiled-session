@@ -1,0 +1,194 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "D:/Projects/baca_app/assets/pasang_huruf_besar_kecil/tiles/level.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "file.lastUsedOpenFilter": "All Files (*)",
+    "fileStates": {
+        "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "D:/Projects/baca_app/assets/pasang_huruf_besar_kecil/tiles/level.tmx": {
+            "scale": 3.1039930555555553,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 144.00805414173055,
+                "y": 112.27473572347448
+            }
+        },
+        "finish.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 141.33333333333331,
+                "y": 126.99999999999997
+            }
+        },
+        "finish.tmx#monyet_happy": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "finish.tmx#monyet_happy_hijau": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "finish.tmx#monyet_happy_kuning": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "finish.tmx#monyet_happy_merah": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "finish.tmx#monyet_happy_ungu": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "level1.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128,
+                "y": 59.25
+            }
+        },
+        "level1.tmx#TilesetWater": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#bg": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#bg2": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#pagar": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#tiles": {
+            "scaleInDock": 1
+        },
+        "level2.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 2,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 111.75,
+                "y": 95.75
+            }
+        },
+        "level2.tmx#TilesetWater": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#bg2": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#pagar": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#tiles": {
+            "scaleInDock": 1
+        },
+        "level3.tmx": {
+            "scale": 3.4919921874999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 127.43442026959002,
+                "y": 95.50422283125455
+            }
+        },
+        "level3.tmx#TilesetWater": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#bg2": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#pagar": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#tiles": {
+            "scaleInDock": 1
+        },
+        "level4.tmx": {
+            "scale": 4.5125,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 96.17728531855954,
+                "y": 96.06648199445983
+            }
+        },
+        "level4.tmx#TilesetWater": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#bg2": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#pagar": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#tiles": {
+            "scaleInDock": 1
+        },
+        "level5.tmx": {
+            "scale": 3.990848214285714,
+            "selectedLayer": 5,
+            "viewCenter": {
+                "x": 112.00626433245709,
+                "y": 96.09485989149283
+            }
+        },
+        "level5.tmx#TilesetWater": {
+            "scaleInDock": 1
+        },
+        "level5.tmx#bg2": {
+            "scaleInDock": 1
+        },
+        "level5.tmx#pagar": {
+            "scaleInDock": 1
+        },
+        "level5.tmx#tiles": {
+            "scaleInDock": 1
+        },
+        "level6.tmx": {
+            "scale": 3.4919921874999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 128.00715923709382,
+                "y": 96.07696179875833
+            }
+        },
+        "level6.tmx#TilesetWater": {
+            "scaleInDock": 1
+        },
+        "level6.tmx#bg2": {
+            "scaleInDock": 1
+        },
+        "level6.tmx#pagar": {
+            "scaleInDock": 1
+        },
+        "level6.tmx#tiles": {
+            "scaleInDock": 1
+        }
+    },
+    "frame.defaultDuration": 100,
+    "map.height": 6,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 8,
+    "openFiles": [
+        "D:/Projects/baca_app/assets/pasang_huruf_besar_kecil/tiles/level.tmx"
+    ],
+    "project": "main.tiled-project",
+    "recentFiles": [
+        "D:/Projects/baca_app/assets/pasang_huruf_besar_kecil/tiles/level.tmx",
+        "level2.tmx",
+        "finish.tmx",
+        "level1.tmx"
+    ],
+    "tileset.embedInMap": true
+}
