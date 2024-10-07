@@ -73,15 +73,18 @@ jobs:
           source: "public/blog/app-ads.txt"
           target: "public/app-ads.txt"
 
+      # #Step 6 - Clean and don't fail
+      # - name: Copy Belajar Baca App to public
+      #   uses: andstor/copycat-action@v3
+      #   with:
+      #     personal_token: ${{ secrets.PERSONAL_TOKEN }}
+      #     src_path: belajar-baca/
+      #     dst_path: public/
+      #     dst_owner: zarkasy
+      #     dst_repo_name: zarkasy.github.io
       #Step 6 - Clean and don't fail
       - name: Copy Belajar Baca App to public
-        uses: andstor/copycat-action@v3
-        with:
-          personal_token: ${{ secrets.PERSONAL_TOKEN }}
-          src_path: belajar-baca/
-          dst_path: public/
-          dst_owner: zarkasy
-          dst_repo_name: zarkasy.github.io
+        run: cp -a /belajar-baca/. /public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
