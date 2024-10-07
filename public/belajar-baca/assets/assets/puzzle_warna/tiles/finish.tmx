@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="6" height="6" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="11">
+ <tileset firstgid="1" name="monyet_happy_ungu" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="images/monyet_happy_ungu.png" width="160" height="32"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="6" name="monyet_happy" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="images/monyet_happy.png" width="160" height="32"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="11" name="monyet_happy_hijau" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="images/monyet_happy_hijau.png" width="160" height="32"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="16" name="monyet_happy_kuning" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="images/monyet_happy_kuning.png" width="160" height="32"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="21" name="monyet_happy_merah" tilewidth="32" tileheight="32" tilecount="5" columns="5">
+  <image source="images/monyet_happy_merah.png" width="160" height="32"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="6" height="6">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="button">
+  <object id="5" x="32" y="128" width="32" height="32"/>
+  <object id="7" x="128" y="128" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="3" name="monyet">
+  <object id="9" x="64" y="32" width="64" height="64"/>
+ </objectgroup>
+</map>

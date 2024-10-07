@@ -120,34 +120,39 @@ class _HomeContentState extends State<HomeContent> {
               ),
               MouseRegion(
                 cursor: SystemMouseCursors.click,
-                child: Container(
-                  height: 50 * pengaliSize,
-                  width: 150 * pengaliSize,
-                  decoration: BoxDecoration(
-                      color: Colors.red,
-                      boxShadow: [
-                        BoxShadow(color: Colors.amber, offset: Offset(2, 2))
+                child: GestureDetector(
+                  onTap: () {
+                    launchUrl(Uri.parse('/belajar-baca/'));
+                  },
+                  child: Container(
+                    height: 50 * pengaliSize,
+                    width: 150 * pengaliSize,
+                    decoration: BoxDecoration(
+                        color: Colors.red,
+                        boxShadow: [
+                          BoxShadow(color: Colors.amber, offset: Offset(2, 2))
+                        ],
+                        borderRadius: BorderRadius.circular(10)),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          Icons.play_arrow,
+                          color: Colors.white,
+                          size: 40 * pengaliSize,
+                        ),
+                        SizedBox(
+                          width: 5,
+                        ),
+                        Text(
+                          'Play'.toUpperCase(),
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20 * pengaliSize,
+                              fontWeight: FontWeight.bold),
+                        )
                       ],
-                      borderRadius: BorderRadius.circular(10)),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Icon(
-                        Icons.play_arrow,
-                        color: Colors.white,
-                        size: 40 * pengaliSize,
-                      ),
-                      SizedBox(
-                        width: 5,
-                      ),
-                      Text(
-                        'Play'.toUpperCase(),
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 20 * pengaliSize,
-                            fontWeight: FontWeight.bold),
-                      )
-                    ],
+                    ),
                   ),
                 ),
               )
