@@ -81,8 +81,8 @@ jobs:
       - name: Copy Belajar Baca App to public
         uses: andstor/copycat-action@v3
         with:
-          personal_token: ghp_9Jv1DVJXasYksyE4t4Nv7gktMQjHrXQQj3Ec2
-          src_path: /baca_app/.
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          src_path: baca_app/.
           dst_path: /public/belajar-baca/
           dst_owner: zarkasy
           dst_repo_name: zarkasy.github.io
