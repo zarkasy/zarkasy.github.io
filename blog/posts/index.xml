@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Fri, 04 Oct 2024 19:35:37 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 08 Oct 2024 07:49:01 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Host Multiple Flutter Projects in Github Pages</title>
+      <link>/blog/posts/host-multiple-flutter-projects-in-github-pages/</link>
+      <pubDate>Tue, 08 Oct 2024 07:49:01 +0700</pubDate>
+      <guid>/blog/posts/host-multiple-flutter-projects-in-github-pages/</guid>
+      <description>I remembered when I picked Flutter as my next tool to create my next project I had a vision where i can publish my app into Google Play Store and my own website. The reason behind it was I don&amp;rsquo;t want work only tied down into only one platform, and Flutter certainly enabled it.
+One of the advantage of using Flutter as framework to build apps is its versatility, with one source code, although you still need to make adjustments within your code, you can publish app for Android, IOS, Windows, and Web.</description>
+    </item>
     <item>
       <title>Memperbaiki Error Akses Asset Gambar pada Hugo</title>
       <link>/blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</link>
