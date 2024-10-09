@@ -79,7 +79,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/images/belajar_baca2.jpg": "8097130962d939a68c018857ce241a23",
 "blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/images/belajar_baca.jpg": "d075b447125d09b78d755ab1f59224d1",
 "blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/images/puzzle_kata.PNG": "7ae4a915fb74ea3676402e7d6747bc28",
-"blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/index.html": "666790bbe30db144bcc558f3c4d2edd8",
+"blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/index.html": "a90b71a745f1413ff9da49e8ffc348f8",
 "blog/posts/antara-impian-syukur-dan-ikhtiar/index.html": "656c9fab822417baf38a9888e3f3f156",
 "blog/posts/index.html": "1adbcd2d3f6a70efdd208a9f0a55b72f",
 "blog/posts/blog-gratisan-dengan-github-pages/index.html": "29073fb28ea4bd010ae98d4ce856215b",
@@ -1473,7 +1473,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "6302f4bfadafe063398cab2ae6ba0871",
-"flutter_bootstrap.js": "7700f05b5adacce88c3f9416cbb1e15b"};
+"flutter_bootstrap.js": "1aa2f75abeda8d2d28d862c3005de932"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
