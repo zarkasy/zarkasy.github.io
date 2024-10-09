@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2024-10-08T07:49:01+07:00</lastmod>
+    <loc>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</loc>
+    <lastmod>2024-10-09T21:20:24+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/host-multiple-flutter-projects-in-github-pages/</loc>
-    <lastmod>2024-10-08T07:49:01+07:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2024-10-09T21:20:24+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/</loc>
+    <lastmod>2024-10-09T21:20:24+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/host-multiple-flutter-projects-in-github-pages/</loc>
     <lastmod>2024-10-08T07:49:01+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</loc>

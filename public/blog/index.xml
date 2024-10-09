@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Tue, 08 Oct 2024 07:49:01 +0700</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Oct 2024 21:20:24 +0700</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aplikasi Pembelajaran Anak Pra Sekolah</title>
+      <link>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</link>
+      <pubDate>Wed, 09 Oct 2024 21:20:24 +0700</pubDate>
+      
+      <guid>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</guid>
+      <description>Seharusnya kutulis pengumuman ini setahun yang lalu ketika pertama kali kupublish aplikasiku yang berjudul &amp;ldquo;Belajar membaca tanpa mengeja&amp;rdquo;. Namun mungkin dulu aku terlalu malu untuk mengumumkannya, karena kuanggap aplikasiku saat itu sangat minim fitur dan menu, benar saja cuma satu fitur yang ada yaitu menu untuk belajar membaca dengan metode tanpa mengeja, ya mungkin jelas sekarang mengapa nama aplikasiku demikian. Kubuat aplikasi ini karena terinspirasi dari buku bacaan anakku yang baru kubelikan dari toko buku yang berjudul ABACAGA, buku ini menawarkan cara baru dalam belajar membaca dimana tidak diperlukan untuk mengeja seperti yang kupelajari dulu sangat kecil.</description>
+    </item>
+    
     <item>
       <title>Host Multiple Flutter Projects in Github Pages</title>
       <link>/blog/posts/host-multiple-flutter-projects-in-github-pages/</link>
