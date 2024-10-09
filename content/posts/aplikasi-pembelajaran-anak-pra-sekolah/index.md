@@ -9,15 +9,15 @@ Seharusnya kutulis pengumuman ini setahun yang lalu ketika pertama kali kupublis
 
 Kubuat aplikasi ini karena terinspirasi dari buku bacaan anakku yang baru kubelikan dari toko buku yang berjudul ABACAGA, buku ini menawarkan cara baru dalam belajar membaca dimana tidak diperlukan untuk mengeja seperti yang kupelajari dulu sangat kecil. Setelah kubaca-baca buku tersebut aku menjadi tertarik juga dengan metode ini dan kulihat setelah kucoba ajarkan ke anakku sendiri ternyata cukup efektif. Melihat metode baru cara belajar membaca ini aku cukup tergelitik untuk membuat aplikasi yang juga mengajarkan cara membaca ke anak dengan metode ini, tentunya ditambahkan fitur-fitur interaktif dimana bacaan yang dilihat dapat di klik dan ada suara bacaan yang terdengar.
 
-![Bacaan pada fitur belajar baca](/blog/images/belajar_baca2.jpg)
+![Bacaan pada fitur belajar baca](/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/belajar_baca2.jpg)
 
 Dengan modal nekat dan coba-coba sekalian aku belajar untuk membuat aplikasi Android pikirku, kenapa tidak kubuat saja aplikasi pembelajaran anak, moga-moga bisa bermanfaat juga nantinya buat para orang tua, pikirku dulu. Juga ini menjadi pengalaman pertama aku merilis aplikasi ke [Play Store](https://play.google.com/) yang ternyata banyak lika-likunya juga yang harus dilalui untuk mempublish aplikasi disana. Saat pertama kali merilis aplikasi, aku sangat terbantu sekali oleh ayahku yang dulunya seorang kepala sekolah SD yang membantu membagikan link aplikasiku agar dicoba oleh para orang tua murid. Teringat sekali dulu selang beberapa hari aplikasiku dirilis, jumlah yang menginstall ada sekitar 50 an orang yang kuyakin semuanya berasal referensi ayahku.
 
-![Fitur kedua](/blog/images/puzzle_kata.PNG)
+![Fitur kedua](/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/puzzle_kata.PNG)
 
 Karena melihat ada yang menggunakan aplikasiku menambah semangatku untuk terus mengembagkan aplikasi pembelajaran anak ini, sehingga kemudian kurilis fitur kedua yaitu **game bermain Puzzle Kata**. Game ini mengajak anak untuk mengisikan huruf-huruf yang hilang dari gambar yang ditampilkan.
 
-![Tampilan game puzzle kata](/blog/images/puzzle_kata2.jpeg)
+![Tampilan game puzzle kata](/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/puzzle_kata2.jpeg)
 
 Berbagai menu pembelajaran dan game edukasi kubuat dirilis aplikasi selanjutnya sehingga sekarang sudah ada total delapan belas menu yang ada. Daftar menu yang ada didalam aplikasi untuk sekarang ini adalah sebagai berikut.
 
