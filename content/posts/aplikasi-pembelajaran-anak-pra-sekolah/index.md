@@ -1,7 +1,7 @@
 ---
 title: "Aplikasi Pembelajaran Anak Pra Sekolah"
 date: 2024-10-09T21:20:24+07:00
-draft: true
+draft: false
 ---
 
 Seharusnya kutulis pengumuman ini setahun yang lalu ketika pertama kali kupublish [aplikasiku](https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app) yang berjudul **"Belajar membaca tanpa mengeja"**. Namun mungkin dulu aku terlalu malu untuk mengumumkannya, karena kuanggap aplikasiku saat itu sangat minim fitur dan menu, benar saja cuma satu fitur yang ada yaitu menu untuk belajar membaca dengan metode tanpa mengeja, ya mungkin jelas sekarang mengapa nama aplikasiku demikian.
