@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</loc>
-    <lastmod>2024-10-09T21:20:24+07:00</lastmod>
-  </url><url>
     <loc>/blog/</loc>
-    <lastmod>2024-10-09T21:20:24+07:00</lastmod>
+    <lastmod>2024-10-14T20:52:41+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/image-path-location-on-hugo/</loc>
+    <lastmod>2024-10-14T20:52:41+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/</loc>
+    <lastmod>2024-10-14T20:52:41+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</loc>
     <lastmod>2024-10-09T21:20:24+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/host-multiple-flutter-projects-in-github-pages/</loc>

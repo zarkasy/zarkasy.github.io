@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Wed, 09 Oct 2024 21:20:24 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 14 Oct 2024 20:52:41 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Image Path Location on Hugo</title>
+      <link>/blog/posts/image-path-location-on-hugo/</link>
+      <pubDate>Mon, 14 Oct 2024 20:52:41 +0700</pubDate>
+      <guid>/blog/posts/image-path-location-on-hugo/</guid>
+      <description>If you are new to Hugo you will probably face a problem of how to put your image assets. I also faced this problem where I need to put image in my posts. Typically hugo folder structure are like this.
+Main Folder/ content/ static/ public/ ... You will need to pay attention to the three most important folders above. Content folder, like its name is where you put your posts, you can choose which document format to use, mine using Markdown because I&amp;rsquo;ve familiar with it.</description>
+    </item>
     <item>
       <title>Aplikasi Pembelajaran Anak Pra Sekolah</title>
       <link>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</link>
