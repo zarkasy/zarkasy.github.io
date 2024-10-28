@@ -73,7 +73,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/index.html": "42cb67113883db8e113cf983bb43a113",
 "blog/posts/menjaga-kewarasan-sebagai-pengemudi/index.html": "c645e84f7f91f734495cd8623ed9bd4c",
 "blog/posts/new-release-belajar-membaca-version-130/home.jpeg": "765e5a60f7731b55c8d59db7d48df5d2",
-"blog/posts/new-release-belajar-membaca-version-130/index.html": "404a882e77915fb38b8c2a46b6e80d98",
+"blog/posts/new-release-belajar-membaca-version-130/index.html": "4c19ad20eb5edc064de6d7b3c44245e3",
 "blog/posts/new-release-belajar-membaca-version-130/stage.jpeg": "597bb1a905110746d6a0955d9d9c3714",
 "blog/posts/new-release-belajar-membaca-version-130/level.jpeg": "94bb1fc29e9bd39ab870d11fec7df400",
 "blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/puzzle_kata2.jpeg": "98a613df76894d6cfb514c33406a5a58",
@@ -1478,7 +1478,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "6302f4bfadafe063398cab2ae6ba0871",
-"flutter_bootstrap.js": "2b7b0e3da3838a525423986967e2e026"};
+"flutter_bootstrap.js": "32030e21144115643d535bfc50e7c4e6"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
