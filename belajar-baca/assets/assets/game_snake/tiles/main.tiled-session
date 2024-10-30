@@ -1,0 +1,355 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "level4.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "level01.tmx": {
+            "scale": 3,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 88,
+                "y": 88.16666666666666
+            }
+        },
+        "level01.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level01.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        },
+        "level1.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 104.5,
+                "y": 184.25
+            }
+        },
+        "level1.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level1.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        },
+        "level2.tmx": {
+            "expandedObjectLayers": [
+                6,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 60,
+                "y": 58.25
+            }
+        },
+        "level2.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level2.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx": {
+            "expandedObjectLayers": [
+                6,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 100.5,
+                "y": 122.25
+            }
+        },
+        "level2a.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level2a.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        },
+        "level3.tmx": {
+            "expandedObjectLayers": [
+                3,
+                6,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 124,
+                "y": 144.75
+            }
+        },
+        "level3.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level3.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx": {
+            "expandedObjectLayers": [
+                6,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 104,
+                "y": 131.25
+            }
+        },
+        "level3a.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level3a.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        },
+        "level4.tmx": {
+            "expandedObjectLayers": [
+                3,
+                6,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 91,
+                "y": 132.25
+            }
+        },
+        "level4.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level4.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx": {
+            "expandedObjectLayers": [
+                6,
+                5
+            ],
+            "scale": 2,
+            "selectedLayer": 4,
+            "viewCenter": {
+                "x": 112,
+                "y": 104.25
+            }
+        },
+        "level4a.tmx#TilesetDesert": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetElement": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetField": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetFloor": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetFloorB": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetHouse": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetNature": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetReliefDetail": {
+            "scaleInDock": 1
+        },
+        "level4a.tmx#TilesetVillageAbandoned": {
+            "scaleInDock": 1
+        }
+    },
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
+    "map.width": 30,
+    "openFiles": [
+        "level1.tmx",
+        "level01.tmx",
+        "level2.tmx",
+        "level3.tmx",
+        "level4.tmx",
+        "level2a.tmx",
+        "level3a.tmx",
+        "level4a.tmx",
+        "stage.tmx"
+    ],
+    "project": "main.tiled-project",
+    "recentFiles": [
+        "level1.tmx",
+        "level01.tmx",
+        "level2.tmx",
+        "level3.tmx",
+        "level4a.tmx",
+        "level3a.tmx",
+        "level2a.tmx",
+        "level4.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
