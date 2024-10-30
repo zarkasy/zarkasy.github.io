@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Wed, 09 Oct 2024 21:20:24 +0700</lastBuildDate><atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Oct 2024 10:18:46 +0700</lastBuildDate><atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rilis terbaru Aplikasi Belajar Membaca Versi 1.3.0</title>
+      <link>/blog/posts/new-release-belajar-membaca-version-130/</link>
+      <pubDate>Mon, 28 Oct 2024 10:18:46 +0700</pubDate>
+      
+      <guid>/blog/posts/new-release-belajar-membaca-version-130/</guid>
+      <description>Senang sekali rasanya setelah hampir satu bulan bergelut dengan kodingan, akhirnya aplikasi Belajar Membaca Tanpa Mengeja memiliki versi terbaru yaitu 1.3.0. Apa aja sih yang ada di rilis kali ini.
+Game Snake Setelah merilis sebanyak 18 menu pembelajaran dan permainan dimana pada versi sebelumnya kami merilis menu belajar menghitung jumlah object, sepertinya sudah saatnya membuat menu permaianan sehingga anak-anak tidak merasa bosan dalam menggunakan aplikasi. Aku terpikir beberapa opsi, namun kenangan masa lalu disaat HP Nokia sedang berjaya membangkitkan ingatan tentang game Snake.</description>
+    </item>
+    
+    <item>
+      <title>Image Path Location on Hugo</title>
+      <link>/blog/posts/image-path-location-on-hugo/</link>
+      <pubDate>Mon, 14 Oct 2024 20:52:41 +0700</pubDate>
+      
+      <guid>/blog/posts/image-path-location-on-hugo/</guid>
+      <description>If you are new to Hugo you will probably face a problem of how to put your image assets. I also faced this problem where I need to put image in my posts. Typically hugo folder structure are like this.
+Main Folder/ content/ static/ public/ ... You will need to pay attention to the three most important folders above. Content folder, like its name is where you put your posts, you can choose which document format to use, mine using Markdown because I&amp;rsquo;ve familiar with it.</description>
+    </item>
+    
     <item>
       <title>Aplikasi Pembelajaran Anak Pra Sekolah</title>
       <link>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</link>
