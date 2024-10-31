@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="12" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="7" nextobjectid="9">
+ <tileset firstgid="1" name="TilesetReliefDetail" tilewidth="16" tileheight="16" tilecount="144" columns="12">
+  <image source="images/TilesetReliefDetail.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="145" name="TilesetVillageAbandoned" tilewidth="16" tileheight="16" tilecount="240" columns="20">
+  <image source="images/TilesetVillageAbandoned.png" width="320" height="192"/>
+ </tileset>
+ <tileset firstgid="385" name="TilesetDesert" tilewidth="16" tileheight="16" tilecount="240" columns="20">
+  <image source="images/TilesetDesert.png" width="320" height="192"/>
+ </tileset>
+ <tileset firstgid="625" name="TilesetElement" tilewidth="16" tileheight="16" tilecount="240" columns="16">
+  <image source="images/TilesetElement.png" width="256" height="240"/>
+ </tileset>
+ <tileset firstgid="865" name="TilesetField" tilewidth="16" tileheight="16" tilecount="75" columns="5">
+  <image source="images/TilesetField.png" width="80" height="240"/>
+ </tileset>
+ <tileset firstgid="940" name="TilesetFloor" tilewidth="16" tileheight="16" tilecount="572" columns="22">
+  <image source="images/TilesetFloor.png" width="352" height="417"/>
+ </tileset>
+ <tileset firstgid="1512" name="TilesetFloorB" tilewidth="16" tileheight="16" tilecount="77" columns="11">
+  <image source="images/TilesetFloorB.png" width="176" height="112"/>
+ </tileset>
+ <tileset firstgid="1589" name="TilesetHouse" tilewidth="16" tileheight="16" tilecount="759" columns="33">
+  <image source="images/TilesetHouse.png" width="528" height="368"/>
+ </tileset>
+ <tileset firstgid="2348" name="TilesetNature" tilewidth="16" tileheight="16" tilecount="504" columns="24">
+  <image source="images/TilesetNature.png" width="384" height="336"/>
+ </tileset>
+ <layer id="1" name="dasar" width="12" height="11">
+  <data encoding="csv">
+910,911,911,911,911,911,911,911,911,911,911,912,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+915,916,916,916,916,916,916,916,916,916,916,917,
+920,921,921,921,921,921,921,921,921,921,921,922
+</data>
+ </layer>
+ <layer id="2" name="pagar" width="12" height="11">
+  <data encoding="csv">
+1795,1831,1831,1831,1831,1831,1831,1831,1831,1831,1831,1796,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1798,0,0,0,0,0,0,0,0,0,916,1798,
+1828,1831,1831,1831,1831,1831,1831,1831,1831,1831,1831,1829
+</data>
+ </layer>
+ <layer id="4" name="rintang" width="12" height="11">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2733,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2733,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="rintangan">
+  <object id="5" x="64" y="64" width="16" height="16"/>
+  <object id="6" x="112" y="96" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="6" name="spawn">
+  <object id="8" x="32" y="32" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="3" name="batas">
+  <object id="1" x="0" y="0" width="16" height="176"/>
+  <object id="2" x="16" y="0" width="170" height="16"/>
+  <object id="3" x="176" y="16" width="16" height="160"/>
+  <object id="4" x="16" y="160" width="165" height="16"/>
+ </objectgroup>
+</map>
