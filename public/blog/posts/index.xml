@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Mon, 28 Oct 2024 10:18:46 +0700</lastBuildDate><atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Nov 2024 05:27:04 +0700</lastBuildDate><atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tentang Google Play Developer Payment Profile</title>
+      <link>/blog/posts/tentang-google-play-developer-payment-profile/</link>
+      <pubDate>Sun, 03 Nov 2024 05:27:04 +0700</pubDate>
+      
+      <guid>/blog/posts/tentang-google-play-developer-payment-profile/</guid>
+      <description>Kemarin menjadi milestone dari perjalananku dalam mengembangkan aplikasiku dimana aku mendapatkan notifikasi dari Google bahwa aku perlu mengupdate payment profile milikku. Payment profile atau profil pembayaran ini diperlukan jika kalian adalah developer yang memonetisasi aplikasi kalian di Play Store untuk menerima pembayaran dari pendapatan aplikasi kalian setelah batas pembayaran minimal terlampaui.
+Sebelumnya pada halaman Play Console punyaku terdapat notifikasi bahwa aku perlu mengupdate payment profileku, dengan tulisan warna merah. Sebenarnya cukup gugup aku dibuat setelah menerima pemberitahuan ini, bagaimana tidak karena hal ini berhubungan dengan pembaharuan informasi mengenai pajak.</description>
+    </item>
+    
+    <item>
+      <title>Improving Admob Banner Match Rate</title>
+      <link>/blog/posts/improving-admob-banner-match-rate/</link>
+      <pubDate>Fri, 01 Nov 2024 17:12:26 +0700</pubDate>
+      
+      <guid>/blog/posts/improving-admob-banner-match-rate/</guid>
+      <description>This is my experiences in using Admob services, as you might have know that I developed my App for quite time, and along the way after reached dozens of downloads, i immplemented Admob into my App. Some knowledge I gained using Admob services, especially the mistakes I&amp;rsquo;ve made when implemented the Ads.
+Interstitial Ad Much of my ads reveneu came from this type of ads, but you have to aware to not overdid your request of this ads.</description>
+    </item>
+    
     <item>
       <title>Rilis terbaru Aplikasi Belajar Membaca Versi 1.3.0</title>
       <link>/blog/posts/new-release-belajar-membaca-version-130/</link>
