@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Fri, 01 Nov 2024 17:12:26 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 03 Nov 2024 05:27:04 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tentang Google Play Developer Payment Profile</title>
+      <link>/blog/posts/tentang-google-play-developer-payment-profile/</link>
+      <pubDate>Sun, 03 Nov 2024 05:27:04 +0700</pubDate>
+      <guid>/blog/posts/tentang-google-play-developer-payment-profile/</guid>
+      <description>Kemarin menjadi milestone dari perjalananku dalam mengembangkan aplikasiku dimana aku mendapatkan notifikasi dari Google bahwa aku perlu mengupdate payment profile milikku. Payment profile atau profil pembayaran ini diperlukan jika kalian adalah developer yang memonetisasi aplikasi kalian di Play Store untuk menerima pembayaran dari pendapatan aplikasi kalian setelah batas pembayaran minimal terlampaui.
+Sebelumnya pada halaman Play Console punyaku terdapat notifikasi bahwa aku perlu mengupdate payment profileku, dengan tulisan warna merah. Sebenarnya cukup gugup aku dibuat setelah menerima pemberitahuan ini, bagaimana tidak karena hal ini berhubungan dengan pembaharuan informasi mengenai pajak.</description>
+    </item>
     <item>
       <title>Improving Admob Banner Match Rate</title>
       <link>/blog/posts/improving-admob-banner-match-rate/</link>
