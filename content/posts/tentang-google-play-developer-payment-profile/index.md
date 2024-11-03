@@ -19,5 +19,3 @@ Setelah meng-klik tombol **Update Payment**, akan muncul beberapa opsi negara ya
 Setelah itu kita akan diberi pilihan dua jenis form pajak, pilih **W-8Ben** jika kamu adalah individual developer dan bukan corporate. Setelah itu kita akan diminta untuk mengisi alamat, alamat pengiriman, dan salah satu pertanyaan terpenting adalah mengisi detail witholding rates. Withholding rates adalah penahanan sebagian pengahasilan kita oleh pemerintah Amerika Serikat jika negara kita berasal tidak memiliki perjanjian pajak dengan mereka, dan untungnya Indonesia memiliki perjanjian pajak dengan US. Untuk pertanyaan ini kamu bisa memilih jenis barang apa yang kamu jual, dan aku memilih opsi Service WHT dimana dengan opsi ini aku tidak dikenakan pajak sama-sekali di US, atau 0% witholding rates.
 
 Satu hal lagi yang kuingat adalah kalian perlu mengisikan nomor Nomor Pokok Wajib Pajak (NPWP) pada field **Foreign TIN**. Setelah mengisi semua baris isian pada form pajak ini aku mensubmitnya, dan cukup instant form pajakku langsung diterima.
-
-\_
