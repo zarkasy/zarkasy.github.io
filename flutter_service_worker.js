@@ -72,10 +72,13 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "blog/posts/host-multiple-flutter-projects-in-github-pages/index.html": "0011b6ee01b47b016a058bc1e74e4af1",
 "blog/posts/image-path-location-on-hugo/index.html": "0e0c19158660e0ebcc6f2441e183f4a2",
 "blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/index.html": "42cb67113883db8e113cf983bb43a113",
+"blog/posts/tentang-google-play-developer-payment-profile/payment_profile.png": "3b22105fbd8df6d01b9429549af742cf",
 "blog/posts/tentang-google-play-developer-payment-profile/images/payment_profile.png": "3b22105fbd8df6d01b9429549af742cf",
 "blog/posts/tentang-google-play-developer-payment-profile/images/tax_info.png": "ec39739778a4e95ec153db377277b28d",
 "blog/posts/tentang-google-play-developer-payment-profile/images/tax_info_detail.png": "c0a0717539502f680836dbaeb3fe52d9",
+"blog/posts/tentang-google-play-developer-payment-profile/tax_info.png": "ec39739778a4e95ec153db377277b28d",
 "blog/posts/tentang-google-play-developer-payment-profile/index.html": "b5decb543083af5eb1d4b1f7c75f325c",
+"blog/posts/tentang-google-play-developer-payment-profile/tax_info_detail.png": "c0a0717539502f680836dbaeb3fe52d9",
 "blog/posts/menjaga-kewarasan-sebagai-pengemudi/index.html": "c645e84f7f91f734495cd8623ed9bd4c",
 "blog/posts/new-release-belajar-membaca-version-130/home.jpeg": "765e5a60f7731b55c8d59db7d48df5d2",
 "blog/posts/new-release-belajar-membaca-version-130/index.html": "4c19ad20eb5edc064de6d7b3c44245e3",
@@ -1525,7 +1528,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "6302f4bfadafe063398cab2ae6ba0871",
-"flutter_bootstrap.js": "78c97f688abddc39d44fd2248791aaa1"};
+"flutter_bootstrap.js": "fe5149f8c024c14104045cf29a0d572b"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
