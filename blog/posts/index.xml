@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Sun, 03 Nov 2024 05:27:04 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2024 20:55:39 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mengenal Flutter Integration Tests</title>
+      <link>/blog/posts/mengenal-flutter-integration-tests/</link>
+      <pubDate>Tue, 05 Nov 2024 20:55:39 +0700</pubDate>
+      <guid>/blog/posts/mengenal-flutter-integration-tests/</guid>
+      <description>Salah satu aspek penting dalam pengembangan aplikasi adalah testing/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-release aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk testing, begitu juga di Flutter. Disini aku akan menulis tentang Integration Testing di Flutter.
+Integration Testing adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini confidence kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir.</description>
+    </item>
     <item>
       <title>Tentang Google Play Developer Payment Profile</title>
       <link>/blog/posts/tentang-google-play-developer-payment-profile/</link>
