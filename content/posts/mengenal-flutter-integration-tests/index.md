@@ -1,7 +1,7 @@
 ---
 title: "Mengenal Flutter Integration Tests"
 date: 2024-11-05T20:55:39+07:00
-draft: true
+draft: false
 ---
 
 Salah satu aspek penting dalam pengembangan aplikasi adalah _testing_/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-_release_ aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk _testing_, begitu juga di _Flutter_. Disini aku akan menulis tentang _Integration Testing_ di _Flutter_.
