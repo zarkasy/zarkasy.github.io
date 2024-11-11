@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Tue, 05 Nov 2024 20:55:39 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 10 Nov 2024 20:10:14 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Knowing Flame Engine Flutter</title>
+      <link>/blog/posts/mengenal-flame-engine-flutter/</link>
+      <pubDate>Sun, 10 Nov 2024 20:10:14 +0700</pubDate>
+      <guid>/blog/posts/mengenal-flame-engine-flutter/</guid>
+      <description>I cannot say that I am a game developer, but accidently while developing my App I stumbled upon a piece of library called Flame Engine. Flame engine is a game engine built on top of Flutter. According to Wikipedia, Game Engine is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.
+Initally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries.</description>
+    </item>
     <item>
       <title>Mengenal Flutter Integration Tests</title>
       <link>/blog/posts/mengenal-flutter-integration-tests/</link>

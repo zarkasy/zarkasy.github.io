@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Knowing Flame Engine Flutter | Blog Aplikasi Hebat</title>
+<meta name="keywords" content="">
+<meta name="description" content="I cannot say that I am a game developer, but accidently while developing my App I stumbled upon a piece of library called Flame Engine. Flame engine is a game engine built on top of Flutter. According to Wikipedia, Game Engine is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.
+Initally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries.">
+<meta name="author" content="">
+<link rel="canonical" href="/blog/posts/mengenal-flame-engine-flutter/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/blog/posts/mengenal-flame-engine-flutter/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+
+<meta property="og:title" content="Knowing Flame Engine Flutter" />
+<meta property="og:description" content="I cannot say that I am a game developer, but accidently while developing my App I stumbled upon a piece of library called Flame Engine. Flame engine is a game engine built on top of Flutter. According to Wikipedia, Game Engine is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.
+Initally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/posts/mengenal-flame-engine-flutter/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-11-10T20:10:14+07:00" />
+<meta property="article:modified_time" content="2024-11-10T20:10:14+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Knowing Flame Engine Flutter"/>
+<meta name="twitter:description" content="I cannot say that I am a game developer, but accidently while developing my App I stumbled upon a piece of library called Flame Engine. Flame engine is a game engine built on top of Flutter. According to Wikipedia, Game Engine is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.
+Initally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Knowing Flame Engine Flutter",
+      "item": "/blog/posts/mengenal-flame-engine-flutter/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Knowing Flame Engine Flutter",
+  "name": "Knowing Flame Engine Flutter",
+  "description": "I cannot say that I am a game developer, but accidently while developing my App I stumbled upon a piece of library called Flame Engine. Flame engine is a game engine built on top of Flutter. According to Wikipedia, Game Engine is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.\nInitally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries.",
+  "keywords": [
+    
+  ],
+  "articleBody": "I cannot say that I am a game developer, but accidently while developing my App I stumbled upon a piece of library called Flame Engine. Flame engine is a game engine built on top of Flutter. According to Wikipedia, Game Engine is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.\nInitally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries. But only using clicks and drag feels a bit boring, and I need to level up my game because I want to create a game that a little bit more complex and more appealing to children. Hence the first of my game called whack a mole was created using Flame Engine.\nSo in here I want to share my thought about Flame Engine, what is it and how to understand this library.\nFlame Engine is a Widget If you already know Flutter you may have heard that in Flutter everything is a Widget, so true for Flame Engine, the main component that connecting it to Flutter is called GameWidget which is also a Widget.\nclass GameWidget\u003cT extends Game\u003e extends StatefulWidget { /// Renders the provided [game] instance. GameWidget({ required T this.game, this.textDirection, this.loadingBuilder, this.errorBuilder, this.backgroundBuilder, this.overlayBuilderMap, this.initialActiveOverlays, this.focusNode, this.autofocus = true, this.mouseCursor, this.addRepaintBoundary = true, super.key, }) : gameFactory = null { _initializeGame(game!); } // omitted } If you look it up the source code of game widget, you’ll see that it is actualy a StatefulWidget. So what are the consequences of this, this means that with Flame Engine, you can treat is like any other widgets of Flutter, you can put it inside a container, or you can put it deep inside some other widget like Row, Stack, or Column.\nUsually for to create game with Flame you need to utilise four clasess, they are:\nGameWidget class as game container. FlameGame class as parent of game components. World class as place to puts your game objects such as your characters, your backgrounds, hence the name is World. Component class to represent the object within the world. class Home extends StatelessWidget{ @override void build(){ return GameWidget( world : FlameGame( children : [ World(children : [Player(), Background()] ) ])); } } Above is rough picture of how you compose Flame classes to create a game. You adding up the smallest object of your game such as you player, backgrounds, enemies, and other objects into the World class, and the Word class will be loaded by the FlameGame class, and finally FlameGame class mounted by GameWidget as ordinary Flutter Widget.\nThe layout system in Flame The layout system in Flame are a bit different that what Flutter have, but it have similarities. In Flutter for layouting we have several classes such as Row, Column, Stack, GridView, but in Flame we have non of that. Flame using coordinate system to layout its components. So everything needs to have position and size, it’s a bit similar to Stack class in Flutter. To give you a picture of how we put our components in Flame is like this.\nclass MyWorld extends World{ @override void onLoad(){ // adding background final background = Background(); background.position = Vector(0, 0); background.size = Vector2(900, 600); add(background); // adding Player final player = Player(); player.position = Vector2(10, 10); player.size = Vector2(50, 50); add(player); } } We need to specify both position and size variable in Flame’s component. Using this coordinate systems will give us flexibility in layouting our components and when we need to move our components around, because we only need to update the position variable.\nAnimations in Flame As game engine, Flame provide several classes that focues on giving us abilites to create animations. A few important class are:\nSpriteAnimationComponent : is class to create animations from multiple sprite images. SpriteAnimationGroupComponent : is class to group several animations into a map, which we can change what animations to display according which key we select. For example we have Player component, and this player have walking animations, running animations, attacking animations, and idle animations. All of these animations can be contained using this class and called anytime using the key we’ve specified. enum Movement{ walking, running, idling, attacking } class Player extends SpriteAnimationGroupComponent\u003cMovement\u003e{ @override void onLoad(){ animations = { Movement.walking: walkingAnimations, Movement.running: runningAnimations, Movement.idling: idlingAnimations, Movement.attacking: attackingAnimations, } current = Movement.running; } } Above snippets displaying how we declare group animations in flame using SpriteAnimationGroupComponent. The current variable is used to specify which state we want to call.\n",
+  "wordCount" : "795",
+  "inLanguage": "en",
+  "datePublished": "2024-11-10T20:10:14+07:00",
+  "dateModified": "2024-11-10T20:10:14+07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/blog/posts/mengenal-flame-engine-flutter/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog Aplikasi Hebat",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZEXBPVEMZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZEXBPVEMZ');
+</script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/blog/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/posts" title="All posts">
+                    <span>All posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Knowing Flame Engine Flutter
+    </h1>
+    <div class="post-meta"><span title='2024-11-10 20:10:14 +0700 +0700'>November 10, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>I cannot say that I am a game developer, but accidently while developing my <a href="https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app">App</a> I stumbled upon a piece of library called <a href="https://flame-engine.org/">Flame Engine</a>. Flame engine is a game engine built on top of <a href="https://flutter.dev/">Flutter</a>. According to Wikipedia, <a href="https://en.wikipedia.org/wiki/Game_engine">Game Engine</a> is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.</p>
+<p>Initally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries. But only using clicks and drag feels a bit boring, and I need to level up my game because I want to create a game that a little bit more complex and more appealing to children. Hence the first of my game called whack a mole was created using Flame Engine.</p>
+<p>So in here I want to share my thought about Flame Engine, what is it and how to understand this library.</p>
+<h1 id="flame-engine-is-a-widget">Flame Engine is a Widget<a hidden class="anchor" aria-hidden="true" href="#flame-engine-is-a-widget">#</a></h1>
+<p>If you already know Flutter you may have heard that in Flutter everything is a Widget, so true for Flame Engine, the main component that connecting it to Flutter is called <em>GameWidget</em> which is also a Widget.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">GameWidget</span><span style="color:#f92672">&lt;</span>T <span style="color:#66d9ef">extends</span> Game<span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">extends</span> StatefulWidget {
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/// Renders the provided [game] instance.
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  GameWidget({
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">required</span> T <span style="color:#66d9ef">this</span>.game,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.textDirection,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.loadingBuilder,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.errorBuilder,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.backgroundBuilder,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.overlayBuilderMap,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.initialActiveOverlays,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.focusNode,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.autofocus <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.mouseCursor,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">this</span>.addRepaintBoundary <span style="color:#f92672">=</span> <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">super</span>.key,
+</span></span><span style="display:flex;"><span>  }) <span style="color:#f92672">:</span> gameFactory <span style="color:#f92672">=</span> <span style="color:#66d9ef">null</span> {
+</span></span><span style="display:flex;"><span>    _initializeGame(game<span style="color:#f92672">!</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">// omitted
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div><p>If you look it up the source code of game widget, you&rsquo;ll see that it is actualy a StatefulWidget. So what are the consequences of this, this means that with Flame Engine, you can treat is like any other widgets of Flutter, you can put it inside a container, or you can put it deep inside some other widget like Row, Stack, or Column.</p>
+<p>Usually for to create game with Flame you need to utilise four clasess, they are:</p>
+<ol>
+<li>GameWidget class as game container.</li>
+<li>FlameGame class as parent of game components.</li>
+<li>World class as place to puts your game objects such as your characters, your backgrounds, hence the name is World.</li>
+<li>Component class to represent the object within the world.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Home</span> <span style="color:#66d9ef">extends</span> StatelessWidget{
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> build(){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> GameWidget(
+</span></span><span style="display:flex;"><span>      world <span style="color:#f92672">:</span> FlameGame( children <span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      [ World(children <span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>        [Player(), Background()]
+</span></span><span style="display:flex;"><span>        )
+</span></span><span style="display:flex;"><span>      ]));
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Above is rough picture of how you compose Flame classes to create a game. You adding up the smallest object of your game such as you player, backgrounds, enemies, and other objects into the World class, and the Word class will be loaded by the FlameGame class, and finally FlameGame class mounted by GameWidget as ordinary Flutter Widget.</p>
+<h1 id="the-layout-system-in-flame">The layout system in Flame<a hidden class="anchor" aria-hidden="true" href="#the-layout-system-in-flame">#</a></h1>
+<p>The layout system in Flame are a bit different that what Flutter have, but it have similarities. In Flutter for layouting we have several classes such as Row, Column, Stack, GridView, but in Flame we have non of that. Flame using coordinate system to layout its components. So everything needs to have position and size, it&rsquo;s a bit similar to Stack class in Flutter. To give you a picture of how we put our components in Flame is like this.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyWorld</span> <span style="color:#66d9ef">extends</span> World{
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> onLoad(){
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// adding background
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">final</span> background <span style="color:#f92672">=</span> Background();
+</span></span><span style="display:flex;"><span>    background.position <span style="color:#f92672">=</span> Vector(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>    background.size <span style="color:#f92672">=</span> Vector2(<span style="color:#ae81ff">900</span>, <span style="color:#ae81ff">600</span>);
+</span></span><span style="display:flex;"><span>    add(background);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#75715e">// adding Player
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">final</span> player <span style="color:#f92672">=</span> Player();
+</span></span><span style="display:flex;"><span>    player.position <span style="color:#f92672">=</span> Vector2(<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">10</span>);
+</span></span><span style="display:flex;"><span>    player.size <span style="color:#f92672">=</span> Vector2(<span style="color:#ae81ff">50</span>, <span style="color:#ae81ff">50</span>);
+</span></span><span style="display:flex;"><span>    add(player);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>We need to specify both position and size variable in Flame&rsquo;s component. Using this coordinate systems will give us flexibility in layouting our components and when we need to move our components around, because we only need to update the position variable.</p>
+<h1 id="animations-in-flame">Animations in Flame<a hidden class="anchor" aria-hidden="true" href="#animations-in-flame">#</a></h1>
+<p>As game engine, Flame provide several classes that focues on giving us abilites to create animations. A few important class are:</p>
+<ol>
+<li><em>SpriteAnimationComponent</em> : is class to create animations from multiple sprite images.</li>
+<li><em>SpriteAnimationGroupComponent</em> : is class to group several animations into a map, which we can change what animations to display according which key we select. For example we have Player component, and this player have walking animations, running animations, attacking animations, and idle animations. All of these animations can be contained using this class and called anytime using the key we&rsquo;ve specified.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span>enum Movement{
+</span></span><span style="display:flex;"><span>  walking,
+</span></span><span style="display:flex;"><span>  running,
+</span></span><span style="display:flex;"><span>  idling,
+</span></span><span style="display:flex;"><span>  attacking
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Player</span> <span style="color:#66d9ef">extends</span> SpriteAnimationGroupComponent<span style="color:#f92672">&lt;</span>Movement<span style="color:#f92672">&gt;</span>{
+</span></span><span style="display:flex;"><span>  <span style="color:#960050;background-color:#1e0010">@</span>override
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">void</span> onLoad(){
+</span></span><span style="display:flex;"><span>    animations <span style="color:#f92672">=</span> {
+</span></span><span style="display:flex;"><span>      Movement.walking: walkingAnimations,
+</span></span><span style="display:flex;"><span>      Movement.running: runningAnimations,
+</span></span><span style="display:flex;"><span>      Movement.idling: idlingAnimations,
+</span></span><span style="display:flex;"><span>      Movement.attacking: attackingAnimations,
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    current <span style="color:#f92672">=</span> Movement.running;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Above snippets displaying how we declare group animations in flame using SpriteAnimationGroupComponent. The <em>current</em> variable is used to specify which state we want to call.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>@AplikasiHebat</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
