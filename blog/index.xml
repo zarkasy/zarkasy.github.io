@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Sun, 10 Nov 2024 20:10:14 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 18 Nov 2024 15:29:48 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rilis terbaru Belajar Membaca v1.4.0</title>
+      <link>/blog/posts/new-release-belajar-membaca-v140/</link>
+      <pubDate>Mon, 18 Nov 2024 15:29:48 +0700</pubDate>
+      <guid>/blog/posts/new-release-belajar-membaca-v140/</guid>
+      <description>Sangat senang sekali setelah hampir dua minggu pengembangan akhirnya versi terbaru dari Aplikasi belajar membaca tanpa mengeja telah dirilis kembali di Google Play. Kami dari Aplikasi Hebat memang terus menerus berkomitmen untuk terus mengembangkan dan menambah jumlah menu yang terdapat didalam aplikasi. Didalam rilis terbaru ini apa aja sih yang baru?
+Permainan Connect Dots Permainan pembelajaran terbaru yang kami buat berjudul Connect Dots atau hubungkan titik dalam bahasa Indonesia. Permainan ini bertujuan untuk mengajarkan anak-anak urutan alphabet dengan cara yang fun dan menarik.</description>
+    </item>
     <item>
       <title>Knowing Flame Engine Flutter</title>
       <link>/blog/posts/mengenal-flame-engine-flutter/</link>
