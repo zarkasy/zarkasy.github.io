@@ -1,7 +1,7 @@
 ---
 title: "Rilis terbaru Belajar Membaca v1.4.0"
 date: 2024-11-18T15:29:48+07:00
-draft: true
+draft: false
 ---
 
 Sangat senang sekali setelah hampir dua minggu pengembangan akhirnya versi terbaru dari [Aplikasi belajar membaca tanpa mengeja](https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&pcampaignid=web_share) telah dirilis kembali di Google Play. Kami dari Aplikasi Hebat memang terus menerus berkomitmen untuk terus mengembangkan dan menambah jumlah menu yang terdapat didalam aplikasi. Didalam rilis terbaru ini apa aja sih yang baru?
