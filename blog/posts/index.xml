@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Mon, 18 Nov 2024 15:29:48 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 19 Nov 2024 14:12:19 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Ignoring Testing Got Me Bit in the Ass</title>
+      <link>/blog/posts/how-ignoring-testing-got-me-bit-in-the-ass/</link>
+      <pubDate>Tue, 19 Nov 2024 14:12:19 +0700</pubDate>
+      <guid>/blog/posts/how-ignoring-testing-got-me-bit-in-the-ass/</guid>
+      <description>This is a story about the journey of my App of which began with only one menu and then growing into now of twenty menus. This is the story of ignoring testing causing harm in the latter stage of my App.
+One year ago I began the developement of my first fiture, the menu called belajar membaca tanpa mengeja, thus it became the name of my App also. Because only one fiture existed on my App, and honestly it also really simple one, thus for testing I did it manually.</description>
+    </item>
     <item>
       <title>Rilis terbaru Belajar Membaca v1.4.0</title>
       <link>/blog/posts/new-release-belajar-membaca-v140/</link>
