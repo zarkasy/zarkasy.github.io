@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "66416285908",
+    "project_id": "belajarmembaca-59700",
+    "storage_bucket": "belajarmembaca-59700.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66416285908:android:a2f6ecfe1f3c6723f04341",
+        "android_client_info": {
+          "package_name": "com.aplikasihebat.homepage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66416285908-73rf6u8gvvtrr81g3sk11ro1hf2s6p3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYW8XOlijCXXHIrjRZ-JYj9BW3Z109XgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66416285908-73rf6u8gvvtrr81g3sk11ro1hf2s6p3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

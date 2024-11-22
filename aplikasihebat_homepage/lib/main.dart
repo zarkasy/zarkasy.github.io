@@ -4,27 +4,42 @@ import 'package:aplikasihebat_homepage/components/page_template.dart';
 import 'package:aplikasihebat_homepage/components/tentang_content.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:firebase_analytics/firebase_analytics.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
+}
+
+void logKonten(String konten) async {
+  await FirebaseAnalytics.instance
+      .logSelectContent(contentType: "Page", itemId: konten);
 }
 
 final GoRouter _router = GoRouter(routes: <RouteBase>[
   GoRoute(
     path: '/',
     builder: (context, state) {
+      logKonten("HOME");
       return PageTemplate(HomeContent());
     },
   ),
   GoRoute(
     path: '/about',
     builder: (context, state) {
+      logKonten("ABOUT");
       return PageTemplate(TentangContent());
     },
   ),
   GoRoute(
     path: '/contact',
     builder: (context, state) {
+      logKonten("CONTACT");
       return PageTemplate(KontakContent());
     },
   ),
