@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
 const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
-"main.dart.js": "1ab08cb935da2828e59170e9d7411ee5",
+"main.dart.js": "d63fa5c67a06a6d55c7ab277c3e57c3e",
 "blog/belajar-membaca-tanpa-mengeja/privacy-policy.txt": "c40963c54ecf4235b2622addd474277a",
 "blog/belajar-membaca-tanpa-mengeja/privacy.txt": "9bea71758de7c261b090cbb69a95c7fb",
 "blog/belajar-membaca-tanpa-mengeja/privacy": "9bea71758de7c261b090cbb69a95c7fb",
@@ -131,7 +131,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "e986ebe42ef785b27164c36a9abc7818",
 "assets/assets/images/googleplay.png": "468ef7f576ce6cfef78231938349ab0b",
 "assets/assets/images/logo.png": "17290c0ad0562d2e492ca5d8e3be8e4a",
-"assets/NOTICES": "1eb1313b7f49abee0d98f4808ea4c2cb",
+"assets/NOTICES": "cba41621a7b44bd6c2a65cfbaaae1d44",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "assets/AssetManifest.json": "1dcb14687ef025bbfbf05525f3b6d1bd",
 "assets/AssetManifest.bin.json": "7da7ceb9e51749d78bbe3bdcfd2a325e",
@@ -1537,7 +1537,7 @@ const RESOURCES = {"flutter.js": "f31737fb005cd3a3c6bd9355efd33061",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "version.json": "6302f4bfadafe063398cab2ae6ba0871",
-"flutter_bootstrap.js": "e94cd480a53b82584e6dce7ef28f3ec1"};
+"flutter_bootstrap.js": "468975205d95b63acb512e326a2e1c8b"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
