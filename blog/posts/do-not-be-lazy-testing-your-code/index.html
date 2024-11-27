@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Do not be lazy testing your Code | Blog Aplikasi Hebat</title>
+<meta name="keywords" content="">
+<meta name="description" content="In software development, testing is one of important process for assuring quality of software. Testing can be done manually but it will be energy and time consuming, or it can be done automatically, but usually developers are lazy, including me. A few days ago i wrote a post about a mistake I made because I didn&rsquo;t do testing for my App. The result although not very fatal, but still I didn&rsquo;t deliver a good software for my users, especially that my App already used by five thousands children monthly.">
+<meta name="author" content="">
+<link rel="canonical" href="/blog/posts/do-not-be-lazy-testing-your-code/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css" integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/blog/posts/do-not-be-lazy-testing-your-code/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+
+<meta property="og:title" content="Do not be lazy testing your Code" />
+<meta property="og:description" content="In software development, testing is one of important process for assuring quality of software. Testing can be done manually but it will be energy and time consuming, or it can be done automatically, but usually developers are lazy, including me. A few days ago i wrote a post about a mistake I made because I didn&rsquo;t do testing for my App. The result although not very fatal, but still I didn&rsquo;t deliver a good software for my users, especially that my App already used by five thousands children monthly." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/posts/do-not-be-lazy-testing-your-code/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-11-27T13:47:16+07:00" />
+<meta property="article:modified_time" content="2024-11-27T13:47:16+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Do not be lazy testing your Code"/>
+<meta name="twitter:description" content="In software development, testing is one of important process for assuring quality of software. Testing can be done manually but it will be energy and time consuming, or it can be done automatically, but usually developers are lazy, including me. A few days ago i wrote a post about a mistake I made because I didn&rsquo;t do testing for my App. The result although not very fatal, but still I didn&rsquo;t deliver a good software for my users, especially that my App already used by five thousands children monthly."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Do not be lazy testing your Code",
+      "item": "/blog/posts/do-not-be-lazy-testing-your-code/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Do not be lazy testing your Code",
+  "name": "Do not be lazy testing your Code",
+  "description": "In software development, testing is one of important process for assuring quality of software. Testing can be done manually but it will be energy and time consuming, or it can be done automatically, but usually developers are lazy, including me. A few days ago i wrote a post about a mistake I made because I didn\u0026rsquo;t do testing for my App. The result although not very fatal, but still I didn\u0026rsquo;t deliver a good software for my users, especially that my App already used by five thousands children monthly.",
+  "keywords": [
+    
+  ],
+  "articleBody": "In software development, testing is one of important process for assuring quality of software. Testing can be done manually but it will be energy and time consuming, or it can be done automatically, but usually developers are lazy, including me. A few days ago i wrote a post about a mistake I made because I didn’t do testing for my App. The result although not very fatal, but still I didn’t deliver a good software for my users, especially that my App already used by five thousands children monthly.\nNow after I learnt about my mistakes, finally I wrote several testings for my App. As my app grew in it’s features, I began feel tired to do manual testing. Initially when I finished adding a feature, I only tested it manually, usually by trying the new feature, checking the process to make sure that no error popped up. But right now I have twenty games or menus in my App, and after I wrote the tests, suddenly the errors that I didn’t know before showed up.\nFrom this experince I learnt few things, and to give you a context, I am talking about testing for Flutter application. In flutter, there are three type of test we can do.\nUnit testing Widget testing Integration testing I will briefly explain what are they, Unit testing is for testing a function or class behaviour, widget testing is for testing widget behaviour, we can view the user interface in here, and the last, integration testing if for testing the overall process of how your app running, we can look the user interface moving from one process to the next depending of how we wrote the test. The confidence degree goes up from unit testing to integration testing. For my App I only do Integration testing for a reason, that is because the resources that I have is very limited that I want to make sure that my App runs properly and smoothly.\nNow I know what to do in the future when I add new feature to my App. I think they are:\nAdd assertion for critical functions or methods to make sure the flow is as expected. This example below is what I meant, by adding assertion to critical place, I think I can reduce the number of unit testing that I need to do, because with assertion, the flow of my program can be guaranteed as I expected, if there were an error, it would get stopped by AssertionError. int getIndexOfLetterInAlphabets(String letter){ assert(letter.length == 1); return alphabet.indexOf(letter); } Only after I am sure that my new feature is complete, I will began to write my integration test. I know that there is some paradigm in developing software named Test Driven Development, but after assesed my situation, I think TDD is not suitable for me if I need to write a test everytime I’ve wrote a function. After I wrote 23 tests for my App, I think I can mentioned some of benefits I got from this automatic testing.\nRepeatable. Effective. Comprehensive in sense of with one command I can cover all functionalities test. Uncover unkown error that hidden when testing done manually. Increase confidence when releasing my App. So for my reminder in the future, do not be lazy to do testing.\n",
+  "wordCount" : "550",
+  "inLanguage": "en",
+  "datePublished": "2024-11-27T13:47:16+07:00",
+  "dateModified": "2024-11-27T13:47:16+07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/blog/posts/do-not-be-lazy-testing-your-code/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog Aplikasi Hebat",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZEXBPVEMZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZEXBPVEMZ');
+</script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/blog/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/posts" title="All posts">
+                    <span>All posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Do not be lazy testing your Code
+    </h1>
+    <div class="post-meta"><span title='2024-11-27 13:47:16 +0700 +0700'>November 27, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>In software development, testing is one of important process for assuring quality of software. Testing can be done manually but it will be energy and time consuming, or it can be done automatically, but usually developers are lazy, including me. A few days ago i wrote a <a href="https://aplikasihebat.com/blog/posts/how-ignoring-testing-got-me-bit-in-the-ass/">post</a> about a mistake I made because I didn&rsquo;t do testing for my <a href="https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app">App</a>. The result although not very fatal, but still I didn&rsquo;t deliver a good software for my users, especially that my App already used by five thousands children monthly.</p>
+<p><img loading="lazy" src="/blog/posts/do-not-be-lazy-testing-your-code/testing.PNG" alt="testing"  />
+</p>
+<p>Now after I learnt about my mistakes, finally I wrote several testings for my App. As my app grew in it&rsquo;s features, I began feel tired to do manual testing. Initially when I finished adding a feature, I only tested it manually, usually by trying the new feature, checking the process to make sure that no error popped up. But right now I have twenty games or menus in my App, and after I wrote the tests, suddenly the errors that I didn&rsquo;t know before showed up.</p>
+<p>From this experince I learnt few things, and to give you a context, I am talking about testing for Flutter application. In flutter, there are three type of test we can do.</p>
+<ol>
+<li>Unit testing</li>
+<li>Widget testing</li>
+<li>Integration testing</li>
+</ol>
+<p>I will briefly explain what are they, Unit testing is for testing a function or class behaviour, widget testing is for testing widget behaviour, we can view the user interface in here, and the last, integration testing if for testing the overall process of how your app running, we can look the user interface moving from one process to the next depending of how we wrote the test. The confidence degree goes up from unit testing to integration testing. For my App I only do Integration testing for a reason, that is because the resources that I have is very limited that I want to make sure that my App runs properly and smoothly.</p>
+<p>Now I know what to do in the future when I add new feature to my App. I think they are:</p>
+<ol>
+<li>Add assertion for critical functions or methods to make sure the flow is as expected. This example below is what I meant, by adding assertion to critical place, I think I can reduce the number of unit testing that I need to do, because with assertion, the flow of my program can be guaranteed as I expected, if there were an error, it would get stopped by AssertionError.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> getIndexOfLetterInAlphabets(<span style="color:#66d9ef">String</span> letter){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">assert</span>(letter.length <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> alphabet.indexOf(letter);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><ol start="2">
+<li>Only after I am sure that my new feature is complete, I will began to write my integration test. I know that there is some paradigm in developing software named Test Driven Development, but after assesed my situation, I think TDD is not suitable for me if I need to write a test everytime I&rsquo;ve wrote a function.</li>
+</ol>
+<p>After I wrote 23 tests for my App, I think I can mentioned some of benefits I got from this automatic testing.</p>
+<ol>
+<li>Repeatable.</li>
+<li>Effective.</li>
+<li>Comprehensive in sense of with one command I can cover all functionalities test.</li>
+<li>Uncover unkown error that hidden when testing done manually.</li>
+<li>Increase confidence when releasing my App.</li>
+</ol>
+<p>So for my reminder in the future, do not be lazy to do testing.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>@AplikasiHebat</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Sat, 23 Nov 2024 14:03:19 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 27 Nov 2024 13:47:16 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do not be lazy testing your Code</title>
+      <link>/blog/posts/do-not-be-lazy-testing-your-code/</link>
+      <pubDate>Wed, 27 Nov 2024 13:47:16 +0700</pubDate>
+      <guid>/blog/posts/do-not-be-lazy-testing-your-code/</guid>
+      <description>In software development, testing is one of important process for assuring quality of software. Testing can be done manually but it will be energy and time consuming, or it can be done automatically, but usually developers are lazy, including me. A few days ago i wrote a post about a mistake I made because I didn&amp;rsquo;t do testing for my App. The result although not very fatal, but still I didn&amp;rsquo;t deliver a good software for my users, especially that my App already used by five thousands children monthly.</description>
+    </item>
     <item>
       <title>Membentuk kebiasaan baik tidak cukup hanya dengan tekad</title>
       <link>/blog/posts/membentuk-kebiasaan-baik-tidak-cukup-hanya-dengan-tekad/</link>
