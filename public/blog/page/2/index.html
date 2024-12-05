@@ -2,25 +2,25 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.133.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.133.1"><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Blog Zarkasy</title>
+<meta name="robots" content="index, follow">
+<title>Blog Aplikasi Hebat</title>
 
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="/blog/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+<link rel="alternate" type="application/rss+xml" href="/blog/index.xml">
+<link rel="alternate" hreflang="en" href="/blog/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,6 +58,30 @@
 
     </style>
 </noscript>
+  
+
+<meta property="og:title" content="Blog Aplikasi Hebat" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/blog/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog Aplikasi Hebat"/>
+<meta name="twitter:description" content=""/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Blog Aplikasi Hebat",
+  "url": "/blog/",
+  "description": "",
+  "thumbnailUrl": "/blog/favicon.ico",
+  "sameAs": [
+      
+  ]
+}
+</script>
 </head>
 
 <body class="list" id="top">
@@ -83,7 +107,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Blog Zarkasy (Alt + H)">Blog Zarkasy</a>
+            <a href="/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -109,22 +133,22 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="Home">
+                <a href="/blog/" title="Home">
                     <span class="active">Home</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts" title="All posts">
+                <a href="/blog/posts" title="All posts">
                     <span>All posts</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about" title="About">
+                <a href="/blog/about" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags" title="Tags">
+                <a href="/blog/tags" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -135,54 +159,81 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Catatan Tentang Pyinstaller
+    <h2 class="entry-hint-parent">How Ignoring Testing Got Me Bit in the Ass
     </h2>
   </header>
   <div class="entry-content">
-    <p>Tentang Pyinstaller Pyinstaller adalah sebuah aplikasi yang ditulis dengan bahasa pemogramman python untuk membuat/memaketkan software yang telah kita tulis dalam bahas python juga ke bentuk exe. Dengan aplikasi ini kita bisa melakukan bundle terhadap aplikasi-aplikasi web yang dibuat dengan framework Django atau Flask, begitupun juga aplikasi desktop dengan GUI tkninter atau yang lainnya menjadi satu bundle file exe atau bentuk satu folder.
-Auto-py-to-exe Jika untuk menggunakan pyinstaller kita harus menuliskan script spesifikasi bundle kita, maka ada library yang mempermudah dalam hal bundling file exe kita yaitu auto-py-to-exe....</p>
+    <p>This is a story about the journey of my App of which began with only one menu and then growing into now of twenty menus. This is the story of ignoring testing causing harm in the latter stage of my App.
+One year ago I began the developement of my first fiture, the menu called belajar membaca tanpa mengeja, thus it became the name of my App also. Because only one fiture existed on my App, and honestly it also really simple one, thus for testing I did it manually....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-05-18 06:30:46 +0700 +07'>May 18, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to Catatan Tentang Pyinstaller" href="http://localhost:1313/posts/catatan_tentang_pyinstaller/"></a>
+  <footer class="entry-footer"><span title='2024-11-19 14:12:19 +0700 +07'>November 19, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to How Ignoring Testing Got Me Bit in the Ass" href="/blog/posts/how-ignoring-testing-got-me-bit-in-the-ass/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Menjaga Kewarasan Sebagai Pengemudi
+    <h2 class="entry-hint-parent">Rilis terbaru Belajar Membaca v1.4.0
     </h2>
   </header>
   <div class="entry-content">
-    <p>Tatakrama saat berkendara. Menurutku tatakrama atau manner ga hanya dibutuhkan saat berinteraksi antar personal saja, tapi juga saat kita berkendara dimana disana tejadi interaksi lewat kendaraan yang kita kendarai di public space atau fasilitas umum. Namanya saja fasilitas umum bukan fasilitas mbah atau fasilitas keluarga apalagi fasilitas pribadi, namanya jalan umum ya pastinya dibangun oleh negara dari pajak masyarakatnya untuk digunakan secara bersama-sama. Eh tapi sering ga nemu orang yang merasa jalan itu milik mbahnya?...</p>
+    <p>Sangat senang sekali setelah hampir dua minggu pengembangan akhirnya versi terbaru dari Aplikasi belajar membaca tanpa mengeja telah dirilis kembali di Google Play. Kami dari Aplikasi Hebat memang terus menerus berkomitmen untuk terus mengembangkan dan menambah jumlah menu yang terdapat didalam aplikasi. Didalam rilis terbaru ini apa aja sih yang baru?
+Permainan Connect Dots Permainan pembelajaran terbaru yang kami buat berjudul Connect Dots atau hubungkan titik dalam bahasa Indonesia. Permainan ini bertujuan untuk mengajarkan anak-anak urutan alphabet dengan cara yang fun dan menarik....</p>
   </div>
-  <footer class="entry-footer"><span title='2023-04-23 07:59:49 +0700 +07'>April 23, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to Menjaga Kewarasan Sebagai Pengemudi" href="http://localhost:1313/posts/menjaga-kewarasan-sebagai-pengemudi/"></a>
+  <footer class="entry-footer"><span title='2024-11-18 15:29:48 +0700 +07'>November 18, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Rilis terbaru Belajar Membaca v1.4.0" href="/blog/posts/new-release-belajar-membaca-v140/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Antara Impian, Syukur, dan Ikhtiar
+    <h2 class="entry-hint-parent">Knowing Flame Engine Flutter
     </h2>
   </header>
   <div class="entry-content">
-    <p>Ketidakpuasan dengan keadaan saat ini. Apa yang kamu lakukan jika kamu merasa stuck di posisi sekarang? Apa yang kamu lakukan jika apa yang kamu rasakan sudah berlangsung selama beberapa tahun? Mungkin banyak orang yang mengalami fase-fase sulit dalam hidupnya yang dirasakan tidak hanya sebentar. Perjuangan yang tak pernah tau kapan selesainya. Ada ga pernah kamu merasa bahwa kamu tidak memiliki harapan di masa depan di tempatmu sekarang?
-Hewan ternak dan hewan liar....</p>
+    <p>I cannot say that I am a game developer, but accidently while developing my App I stumbled upon a piece of library called Flame Engine. Flame engine is a game engine built on top of Flutter. According to Wikipedia, Game Engine is a software framework primarily designed for the development of video games and generally includes relevant libraries and support programs such as a level editor.
+Initally I was only using Flutter as my tools for developing games for my app, for example you can see some of my games only need click and drag as types of interactions needed to play the games, of course animations and audioplayer are supported by Flutter or third party libraries....</p>
   </div>
-  <footer class="entry-footer"><span title='2023-03-03 08:18:25 +0700 +07'>March 3, 2023</span></footer>
-  <a class="entry-link" aria-label="post link to Antara Impian, Syukur, dan Ikhtiar" href="http://localhost:1313/posts/antara-impian-syukur-dan-ikhtiar/"></a>
+  <footer class="entry-footer"><span title='2024-11-10 20:10:14 +0700 +07'>November 10, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Knowing Flame Engine Flutter" href="/blog/posts/mengenal-flame-engine-flutter/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mengenal Flutter Integration Tests
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Salah satu aspek penting dalam pengembangan aplikasi adalah testing/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-release aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk testing, begitu juga di Flutter. Disini aku akan menulis tentang Integration Testing di Flutter.
+Integration Testing adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini confidence kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-05 20:55:39 +0700 +07'>November 5, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Mengenal Flutter Integration Tests" href="/blog/posts/mengenal-flutter-integration-tests/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Tentang Google Play Developer Payment Profile
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Kemarin menjadi milestone dari perjalananku dalam mengembangkan aplikasiku dimana aku mendapatkan notifikasi dari Google bahwa aku perlu mengupdate payment profile milikku. Payment profile atau profil pembayaran ini diperlukan jika kalian adalah developer yang memonetisasi aplikasi kalian di Play Store untuk menerima pembayaran dari pendapatan aplikasi kalian setelah batas pembayaran minimal terlampaui.
+Sebelumnya pada halaman Play Console punyaku terdapat notifikasi bahwa aku perlu mengupdate payment profileku, dengan tulisan warna merah. Sebenarnya cukup gugup aku dibuat setelah menerima pemberitahuan ini, bagaimana tidak karena hal ini berhubungan dengan pembaharuan informasi mengenai pajak....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-11-03 05:27:04 +0700 +07'>November 3, 2024</span></footer>
+  <a class="entry-link" aria-label="post link to Tentang Google Play Developer Payment Profile" href="/blog/posts/tentang-google-play-developer-payment-profile/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/">
+    <a class="prev" href="/blog/">
       «&nbsp;Prev&nbsp;
     </a>
-    <a class="next" href="http://localhost:1313/page/3/">Next&nbsp;&nbsp;»
+    <a class="next" href="/blog/page/3/">Next&nbsp;&nbsp;»
     </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-        <span>@ Zarkasy</span> · 
+        <span>@AplikasiHebat</span> · 
 
     <span>
         Powered by

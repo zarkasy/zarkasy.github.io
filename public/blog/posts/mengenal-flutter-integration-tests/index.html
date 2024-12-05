@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Mengenal Flutter Integration Tests | Blog Aplikasi Hebat</title>
+<meta name="keywords" content="">
+<meta name="description" content="Salah satu aspek penting dalam pengembangan aplikasi adalah testing/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-release aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk testing, begitu juga di Flutter. Disini aku akan menulis tentang Integration Testing di Flutter.
+Integration Testing adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini confidence kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir.">
+<meta name="author" content="">
+<link rel="canonical" href="/blog/posts/mengenal-flutter-integration-tests/">
+<link crossorigin="anonymous" href="/blog/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/blog/posts/mengenal-flutter-integration-tests/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+  
+
+<meta property="og:title" content="Mengenal Flutter Integration Tests" />
+<meta property="og:description" content="Salah satu aspek penting dalam pengembangan aplikasi adalah testing/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-release aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk testing, begitu juga di Flutter. Disini aku akan menulis tentang Integration Testing di Flutter.
+Integration Testing adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini confidence kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blog/posts/mengenal-flutter-integration-tests/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-11-05T20:55:39+07:00" />
+<meta property="article:modified_time" content="2024-11-05T20:55:39+07:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mengenal Flutter Integration Tests"/>
+<meta name="twitter:description" content="Salah satu aspek penting dalam pengembangan aplikasi adalah testing/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-release aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk testing, begitu juga di Flutter. Disini aku akan menulis tentang Integration Testing di Flutter.
+Integration Testing adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini confidence kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Mengenal Flutter Integration Tests",
+      "item": "/blog/posts/mengenal-flutter-integration-tests/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Mengenal Flutter Integration Tests",
+  "name": "Mengenal Flutter Integration Tests",
+  "description": "Salah satu aspek penting dalam pengembangan aplikasi adalah testing/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-release aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk testing, begitu juga di Flutter. Disini aku akan menulis tentang Integration Testing di Flutter.\nIntegration Testing adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini confidence kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Salah satu aspek penting dalam pengembangan aplikasi adalah testing/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-release aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk testing, begitu juga di Flutter. Disini aku akan menulis tentang Integration Testing di Flutter.\nIntegration Testing adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini confidence kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir. Sedikit cerita sebelumnya, aplikasiku yang berjudul Belajar membaca tanpa mengeja yang juga dikembangkan dengan Flutter saat ini berada pada titik dimana aplikasi ini menjadi terlalu besar untuk dites secara manual. Saat ini aplikasi tersebut sudah memiliki sembilan belas menu pembelajaran dan permaianan, dan dengan update yang terus kulakukan akan sangat melelahkan jika tidak ada testing secara otomatis yang kubuat. Karena itu Integration Test di Flutter menjadi opsi yang sangat tepat untuk permasalahan ini.\nSkenario Integration Testing dalam aplikasiku Baru-baru ini aku merubah alur request review didalam aplikasiku, jika sebelumnya permintaan review akan muncul diawal aplikasi dibuka, sekarang skenarionya menjadi agak rumit. Skenarionya adalah seperti ini:\nAplikasi harus sudah digunakan minimal 5 kali, dan Aplikasi harus sudah digunakan minimal 5 menit, dan Aplikasi belum pernah dimunculkan dialog permintaan review. Terlihat sederhana dari kondisi yang kutetapkan diatas, tapi perlu diingat bahwa aksi request review ini sangat “mahal”, karena dibatasi kuota oleh Google, bayangkan jika salah dalam implementasi maka akibatnya bisa jadi aplikasi kita tidak ada yang memberi penilaian dan review. Untuk itu testing secara teliti sangat diperlukan untuk alur-alur penting dalam aplikasi.\nCara Integration Testing Untuk melakukan testing ini ada beberapa step yang perlu dilakukan yaitu:\nMenambahkan integration_test dan flutter_test package sebagai dependencies. flutter pub add 'dev:integration_test:{\"sdk\":\"flutter\"}' Membuat folder integration test dalam aplikasi folder_aplikasi/ lib/ main.dart integration_test/ app_test.dart Menuliskan klausa test pada file testing kita. Pada kasus ini nama file testing kita adalah app_test.dart. void main() async { IntegrationTestWidgetsFlutterBinding.ensureInitialized(); group( 'In app review test', () { testWidgets( \"Test dibuka kurang dari lima kali tidak mentrigger in app review\", (tester) async { await Firebase.initializeApp(); await tester.pumpWidget(MyApp()); await tester.pump(Duration(seconds: 4)); // test belajar membaca }); testWidgets( \"Test dibuka lima kali tapi durasi belum mencukupi tidak membuka in app review\", (tester) async { await Firebase.initializeApp(); SharedPreferences prefs = await SharedPreferences.getInstance(); await tester.pumpWidget(MyApp()); prefs.setInt(jumlahUserMembukaAppKey, 5); await tester.tap(find.widgetWithImage(Container, const AssetImage(\"assets/images/logo_menu/belajar_alphabets.png\"))); await tester.pumpAndSettle(); await tester.pump(Duration(seconds: 2)); await tester.tap(find.widgetWithIcon(Container, Icons.home)); await tester.pumpAndSettle(); }); testWidgets(\"Test dibuka lima kali dan durasi mencukupi\", (tester) async { await Firebase.initializeApp(); SharedPreferences prefs = await SharedPreferences.getInstance(); await tester.pumpWidget(MyApp()); await prefs.setInt(jumlahUserMembukaAppKey, 5); await prefs.setString(userStartTimeUsingApp, DateTime.now().subtract(const Duration(minutes: 6)).toString()); // test belajar membaca await tester.tap(find.widgetWithImage(Container, const AssetImage(\"assets/images/logo_menu/belajar_alphabets.png\"))); await tester.pumpAndSettle(); await tester.pump(Duration(seconds: 2)); await tester.tap(find.widgetWithIcon(Container, Icons.home)); await tester.pumpAndSettle(); await tester.pump(Duration(seconds: 2)); bool hasRequestedInAppReview = await checkAppHasRequestedInAppReview(); expect(hasRequestedInAppReview, true, reason: \"In app review has requested\"); }); testWidgets(\"Test dibuka sepuluh kali dan durasi mencukupi\", (tester) async { await Firebase.initializeApp(); SharedPreferences prefs = await SharedPreferences.getInstance(); await tester.pumpWidget(MyApp()); await prefs.setInt(jumlahUserMembukaAppKey, 5); await prefs.setString(userStartTimeUsingApp, DateTime.now().subtract(const Duration(minutes: 6)).toString()); // test belajar membaca await tester.tap(find.widgetWithImage(Container, const AssetImage(\"assets/images/logo_menu/belajar_alphabets.png\"))); await tester.pumpAndSettle(); await tester.pump(Duration(seconds: 2)); await tester.tap(find.widgetWithIcon(Container, Icons.home)); await tester.pumpAndSettle(); await tester.pump(Duration(seconds: 2)); bool hasRequestedInAppReview = prefs.getBool(appHasRequestedInAppReview)!; expect(hasRequestedInAppReview, true, reason: \"In app review has requested\"); }); testWidgets(\"Test dibuka sepuluh kali sudah pernah request in app\", (tester) async { await Firebase.initializeApp(); SharedPreferences prefs = await SharedPreferences.getInstance(); await tester.pumpWidget(MyApp()); await prefs.setInt(jumlahUserMembukaAppKey, 5); await prefs.setString(userStartTimeUsingApp, DateTime.now().subtract(const Duration(minutes: 6)).toString()); await prefs.setBool(appHasRequestedInAppReview, true); // test belajar membaca await tester.tap(find.widgetWithImage(Container, const AssetImage(\"assets/images/logo_menu/belajar_alphabets.png\"))); await tester.pumpAndSettle(); await tester.pump(Duration(seconds: 2)); await tester.tap(find.widgetWithIcon(Container, Icons.home)); await tester.pumpAndSettle(); await tester.pump(Duration(seconds: 2)); }); }, ); } Pada snippet kode diatas ada beberapa point penting yang bisa dilihat yaitu:\nFungsi group bertujuan untuk menggabungkan beberapa test sejenis menjadi satu-kesatuan. Fungsi testWidgets berfungsi untuk mensimulasikan alur User Interface pada aplikasi kita. Bisa dilihat pada test bagian “await tester.pumpWidget(MyApp())” yang akan terjadi adalah device simulator kita akan membuka aplikasi kita. Fungsi tester.tap berfungsi untuk menjalankan aksi pada User Interface, dalam kasus ini mensimulasikan tap pada salah satu bagian di aplikasi. Fungsi expect bersungsi untuk menguji asumsi dari jalannya aplikasi kita, pada testing diatas salah satu ekspektasi yang kuharap adalah ketika aplikasi telah dibuka sebanyak lima kali maka aplikasi akan menyimpan informasi bahwa telah dilakukan in app review, sehingga pada pembukaan aplikasi selanjutnya tidak akan dilakukan permintaan review lagi ke user. Sekian semoga dapat dimengerti.\n",
+  "wordCount" : "698",
+  "inLanguage": "en",
+  "datePublished": "2024-11-05T20:55:39+07:00",
+  "dateModified": "2024-11-05T20:55:39+07:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/blog/posts/mengenal-flutter-integration-tests/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Blog Aplikasi Hebat",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/blog/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZEXBPVEMZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZEXBPVEMZ');
+</script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/blog/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/posts" title="All posts">
+                    <span>All posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/blog/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Mengenal Flutter Integration Tests
+    </h1>
+    <div class="post-meta"><span title='2024-11-05 20:55:39 +0700 +07'>November 5, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Salah satu aspek penting dalam pengembangan aplikasi adalah <em>testing</em>/pengetesan. Semakin banyak pengetesan dilakukan maka tingkat kepercayaan kita semakin tinggi saat akan me-<em>release</em> aplikasi tersebut. Hampir disemua bahasa pemrograman menyediakan library untuk <em>testing</em>, begitu juga di <em>Flutter</em>. Disini aku akan menulis tentang <em>Integration Testing</em> di <em>Flutter</em>.</p>
+<p><em>Integration Testing</em> adalah pengetesan secara menyeluruh alur aplikasi kita dari awal hingga akhir, dengan pengetesan ini <em>confidence</em> kita besar terhadap aplikasi kita karena kita yakin bahwa alur aplikasi kita berjalan dari awal hingga akhir. Sedikit cerita sebelumnya, <a href="https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app">aplikasiku</a> yang berjudul <em>Belajar membaca tanpa mengeja</em> yang juga dikembangkan dengan <em>Flutter</em> saat ini berada pada titik dimana aplikasi ini menjadi terlalu besar untuk dites secara manual. Saat ini aplikasi tersebut sudah memiliki sembilan belas menu pembelajaran dan permaianan, dan dengan update yang terus kulakukan akan sangat melelahkan jika tidak ada testing secara otomatis yang kubuat. Karena itu <em>Integration Test</em> di <em>Flutter</em> menjadi opsi yang sangat tepat untuk permasalahan ini.</p>
+<h1 id="skenario-integration-testing-dalam-aplikasiku">Skenario Integration Testing dalam aplikasiku<a hidden class="anchor" aria-hidden="true" href="#skenario-integration-testing-dalam-aplikasiku">#</a></h1>
+<p>Baru-baru ini aku merubah alur request review didalam aplikasiku, jika sebelumnya permintaan review akan muncul diawal aplikasi dibuka, sekarang skenarionya menjadi agak rumit. Skenarionya adalah seperti ini:</p>
+<ol>
+<li>Aplikasi harus sudah digunakan minimal 5 kali, dan</li>
+<li>Aplikasi harus sudah digunakan minimal 5 menit, dan</li>
+<li>Aplikasi belum pernah dimunculkan dialog permintaan review.</li>
+</ol>
+<p>Terlihat sederhana dari kondisi yang kutetapkan diatas, tapi perlu diingat bahwa aksi request review ini sangat &ldquo;<em>mahal</em>&rdquo;, karena dibatasi kuota oleh Google, bayangkan jika salah dalam implementasi maka akibatnya bisa jadi aplikasi kita tidak ada yang memberi penilaian dan review. Untuk itu testing secara teliti sangat diperlukan untuk alur-alur penting dalam aplikasi.</p>
+<h1 id="cara-integration-testing">Cara Integration Testing<a hidden class="anchor" aria-hidden="true" href="#cara-integration-testing">#</a></h1>
+<p>Untuk melakukan testing ini ada beberapa step yang perlu dilakukan yaitu:</p>
+<ol>
+<li>Menambahkan <em>integration_test</em> dan <em>flutter_test</em> package sebagai dependencies.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>flutter pub add &#39;dev:integration_test:{&#34;sdk&#34;:&#34;flutter&#34;}&#39;
+</span></span></code></pre></div><ol start="2">
+<li>Membuat folder integration test dalam aplikasi</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>folder_aplikasi/
+</span></span><span style="display:flex;"><span>  lib/
+</span></span><span style="display:flex;"><span>    main.dart
+</span></span><span style="display:flex;"><span>  integration_test/
+</span></span><span style="display:flex;"><span>    app_test.dart
+</span></span></code></pre></div><ol start="3">
+<li>Menuliskan klausa test pada file testing kita. Pada kasus ini nama file testing kita adalah <em>app_test.dart</em>.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-dart" data-lang="dart"><span style="display:flex;"><span><span style="color:#66d9ef">void</span> main() <span style="color:#66d9ef">async</span> {
+</span></span><span style="display:flex;"><span>  IntegrationTestWidgetsFlutterBinding.ensureInitialized();
+</span></span><span style="display:flex;"><span>  group(
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#39;In app review test&#39;</span>,
+</span></span><span style="display:flex;"><span>    () {
+</span></span><span style="display:flex;"><span>      testWidgets(
+</span></span><span style="display:flex;"><span>          <span style="color:#e6db74">&#34;Test dibuka kurang dari lima kali tidak mentrigger in app review&#34;</span>,
+</span></span><span style="display:flex;"><span>          (tester) <span style="color:#66d9ef">async</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> Firebase.initializeApp();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpWidget(MyApp());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">4</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// test belajar membaca
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      });
+</span></span><span style="display:flex;"><span>      testWidgets(
+</span></span><span style="display:flex;"><span>          <span style="color:#e6db74">&#34;Test dibuka lima kali tapi durasi belum mencukupi tidak membuka in app review&#34;</span>,
+</span></span><span style="display:flex;"><span>          (tester) <span style="color:#66d9ef">async</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> Firebase.initializeApp();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        SharedPreferences prefs <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> SharedPreferences.getInstance();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpWidget(MyApp());
+</span></span><span style="display:flex;"><span>        prefs.setInt(jumlahUserMembukaAppKey, <span style="color:#ae81ff">5</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithImage(Container,
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">const</span> AssetImage(<span style="color:#e6db74">&#34;assets/images/logo_menu/belajar_alphabets.png&#34;</span>)));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithIcon(Container, Icons.home));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>      });
+</span></span><span style="display:flex;"><span>      testWidgets(<span style="color:#e6db74">&#34;Test dibuka lima kali dan durasi mencukupi&#34;</span>, (tester) <span style="color:#66d9ef">async</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> Firebase.initializeApp();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        SharedPreferences prefs <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> SharedPreferences.getInstance();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpWidget(MyApp());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> prefs.setInt(jumlahUserMembukaAppKey, <span style="color:#ae81ff">5</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> prefs.setString(userStartTimeUsingApp,
+</span></span><span style="display:flex;"><span>            DateTime.now().subtract(<span style="color:#66d9ef">const</span> Duration(minutes: <span style="color:#ae81ff">6</span>)).toString());
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// test belajar membaca
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithImage(Container,
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">const</span> AssetImage(<span style="color:#e6db74">&#34;assets/images/logo_menu/belajar_alphabets.png&#34;</span>)));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithIcon(Container, Icons.home));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> hasRequestedInAppReview <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> checkAppHasRequestedInAppReview();
+</span></span><span style="display:flex;"><span>        expect(hasRequestedInAppReview, <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>            reason: <span style="color:#e6db74">&#34;In app review has requested&#34;</span>);
+</span></span><span style="display:flex;"><span>      });
+</span></span><span style="display:flex;"><span>      testWidgets(<span style="color:#e6db74">&#34;Test dibuka sepuluh kali dan durasi mencukupi&#34;</span>,
+</span></span><span style="display:flex;"><span>          (tester) <span style="color:#66d9ef">async</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> Firebase.initializeApp();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        SharedPreferences prefs <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> SharedPreferences.getInstance();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpWidget(MyApp());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> prefs.setInt(jumlahUserMembukaAppKey, <span style="color:#ae81ff">5</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> prefs.setString(userStartTimeUsingApp,
+</span></span><span style="display:flex;"><span>            DateTime.now().subtract(<span style="color:#66d9ef">const</span> Duration(minutes: <span style="color:#ae81ff">6</span>)).toString());
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// test belajar membaca
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithImage(Container,
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">const</span> AssetImage(<span style="color:#e6db74">&#34;assets/images/logo_menu/belajar_alphabets.png&#34;</span>)));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithIcon(Container, Icons.home));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">bool</span> hasRequestedInAppReview <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>            prefs.getBool(appHasRequestedInAppReview)<span style="color:#f92672">!</span>;
+</span></span><span style="display:flex;"><span>        expect(hasRequestedInAppReview, <span style="color:#66d9ef">true</span>,
+</span></span><span style="display:flex;"><span>            reason: <span style="color:#e6db74">&#34;In app review has requested&#34;</span>);
+</span></span><span style="display:flex;"><span>      });
+</span></span><span style="display:flex;"><span>      testWidgets(<span style="color:#e6db74">&#34;Test dibuka sepuluh kali sudah pernah request in app&#34;</span>,
+</span></span><span style="display:flex;"><span>          (tester) <span style="color:#66d9ef">async</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> Firebase.initializeApp();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        SharedPreferences prefs <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> SharedPreferences.getInstance();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpWidget(MyApp());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> prefs.setInt(jumlahUserMembukaAppKey, <span style="color:#ae81ff">5</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> prefs.setString(userStartTimeUsingApp,
+</span></span><span style="display:flex;"><span>            DateTime.now().subtract(<span style="color:#66d9ef">const</span> Duration(minutes: <span style="color:#ae81ff">6</span>)).toString());
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> prefs.setBool(appHasRequestedInAppReview, <span style="color:#66d9ef">true</span>);
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// test belajar membaca
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithImage(Container,
+</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">const</span> AssetImage(<span style="color:#e6db74">&#34;assets/images/logo_menu/belajar_alphabets.png&#34;</span>)));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.tap(find.widgetWithIcon(Container, Icons.home));
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pumpAndSettle();
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">await</span> tester.pump(Duration(seconds: <span style="color:#ae81ff">2</span>));
+</span></span><span style="display:flex;"><span>      });
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>  );
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Pada snippet kode diatas ada beberapa point penting yang bisa dilihat yaitu:</p>
+<ol>
+<li>Fungsi <em>group</em> bertujuan untuk menggabungkan beberapa test sejenis menjadi satu-kesatuan.</li>
+<li>Fungsi <em>testWidgets</em> berfungsi untuk mensimulasikan alur User Interface pada aplikasi kita. Bisa dilihat pada test bagian &ldquo;<em>await tester.pumpWidget(MyApp())</em>&rdquo; yang akan terjadi adalah device simulator kita akan membuka aplikasi kita.</li>
+<li>Fungsi <em>tester.tap</em> berfungsi untuk menjalankan aksi pada User Interface, dalam kasus ini mensimulasikan tap pada salah satu bagian di aplikasi.</li>
+<li>Fungsi <em>expect</em> bersungsi untuk menguji asumsi dari jalannya aplikasi kita, pada testing diatas salah satu ekspektasi yang kuharap adalah ketika aplikasi telah dibuka sebanyak lima kali maka aplikasi akan menyimpan informasi bahwa telah dilakukan in app review, sehingga pada pembukaan aplikasi selanjutnya tidak akan dilakukan permintaan review lagi ke user.</li>
+</ol>
+<p>Sekian semoga dapat dimengerti.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>@AplikasiHebat</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
