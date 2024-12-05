@@ -73,6 +73,12 @@ jobs:
           source: "public/blog/app-ads.txt"
           target: "public/app-ads.txt"
 
+      - name: Copy file robot-ads.txt
+        uses: canastro/copy-file-action@master
+        with:
+          source: "public/blog/robot.txt"
+          target: "public/robot.txt"
+
       #Step 6 - Clean and don't fail
       # - name: Copy Belajar Baca App to public
       #   uses: andstor/copycat-action@v3
