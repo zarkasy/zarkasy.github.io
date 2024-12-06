@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Wed, 04 Dec 2024 10:32:10 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 05 Dec 2024 14:09:04 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What to do when Admob Match Rate goes down.</title>
+      <link>/blog/posts/whet-to-do-when-admob-match-rate-goes-down/</link>
+      <pubDate>Thu, 05 Dec 2024 14:09:04 +0700</pubDate>
+      <guid>/blog/posts/whet-to-do-when-admob-match-rate-goes-down/</guid>
+      <description>When I started implementing Admob as a way to get income for my App, I only got a meager amount of money, now even though the situations are still the same, but it&amp;rsquo;s improving :). What I&amp;rsquo;ve learnt that the income we get from admob varies on where your App mainly published, or who uses your app. If you are publishing your app in USA or Europe, highy chance you&amp;rsquo;ll get better profits that if in Asia or Africa.</description>
+    </item>
     <item>
       <title>Rilis Aplikasi Membaca tanpa Mengeja v1.6.0</title>
       <link>/blog/posts/rilis-aplikasi-membaca-tanpa-mengeja-v160/</link>
