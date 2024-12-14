@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Thu, 12 Dec 2024 14:41:53 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 14 Dec 2024 23:23:15 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Using Admob Banner Ad was a Mistake</title>
+      <link>/blog/posts/why-using-banner-ad-admob-was-a-mistake/</link>
+      <pubDate>Sat, 14 Dec 2024 23:23:15 +0700</pubDate>
+      <guid>/blog/posts/why-using-banner-ad-admob-was-a-mistake/</guid>
+      <description>It&amp;rsquo;s been a while since I published my App into Play Store, and since then I&amp;rsquo;ve been implemented Admob for one of my source of income. There are two types of Ads I used in my App, first is Interstitial Ad, and second is Banner Ad. Interstitial Ad is the first format I implemented, and I&amp;rsquo;ve experenced some issues with it, for example when I miss implemented it by made my app making request to Admob server too frequently, and my account got limited by Admob.</description>
+    </item>
     <item>
       <title>Rilis Terbaru Aplikasi Belajar Membaca V1.7.1</title>
       <link>/blog/posts/rilis-terbaru-aplikasi-belajar-membaca-v171/</link>
