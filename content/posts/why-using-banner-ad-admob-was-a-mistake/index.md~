@@ -1,7 +1,7 @@
 ---
 title: "Why Using Admob Banner Ad was a Mistake"
 date: 2024-12-14T23:23:15+07:00
-draft: true
+draft: false
 ---
 It's been a while since I published my [App](https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&pcampaignid=web_share) into Play Store, and since then I've been implemented Admob for one of my source of income. There are two types of Ads I used in my App, first is Interstitial Ad, and second is Banner Ad. Interstitial Ad is the first format I implemented, and I've experenced some issues with it, for example when I miss implemented it by made my app making request to Admob server too frequently, and my account got limited by Admob. But after that I can resolve the issue by giving some interval when making ad request. Honestly I like this Ad format because not only it has higher e-cpm also my users like it. What is the reason I can say that my users prefered only interstitial ad compared to the combinations of both.
 
@@ -15,7 +15,7 @@ Other than above reason, why I dont want to implement Banner Ad anymore is becau
 
 ![banner ad ecpm](/blog/posts/why-using-banner-ad-admob-was-a-mistake/banner_ad_ecpm.PNG)
 
-![inter_ad_ecpm](/blog/posts/why-using-banner-ad-admob-was-a-mistake/binter_ad_ecpm.PNG)
+![inter_ad_ecpm](/blog/posts/why-using-banner-ad-admob-was-a-mistake/inter_ad_ecpm.PNG)
 
 After I implemented Banner Ad, for a while my Ad reveneu keep increasing, but after some time it got reached a point where my reveneu become stagnant and now tend to decreasing. Moreover the user loss for my App keep getting bigger and bigger, even though my App installations also get higher, but using this data I come to a conclusion that my users not very much like the current experiences that they got from my App. As you can see also from pictures above that Banner Ads's ecpm sometimes hit zero compared to Interstitial ecpm that went quite steady.
 

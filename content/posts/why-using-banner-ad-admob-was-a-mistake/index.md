@@ -1,7 +1,7 @@
 ---
 title: "Why Using Admob Banner Ad was a Mistake"
 date: 2024-12-14T23:23:15+07:00
-draft: true
+draft: false
 ---
 It's been a while since I published my [App](https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&pcampaignid=web_share) into Play Store, and since then I've been implemented Admob for one of my source of income. There are two types of Ads I used in my App, first is Interstitial Ad, and second is Banner Ad. Interstitial Ad is the first format I implemented, and I've experenced some issues with it, for example when I miss implemented it by made my app making request to Admob server too frequently, and my account got limited by Admob. But after that I can resolve the issue by giving some interval when making ad request. Honestly I like this Ad format because not only it has higher e-cpm also my users like it. What is the reason I can say that my users prefered only interstitial ad compared to the combinations of both.
 
