@@ -1,7 +1,7 @@
 ---
 title: "What I wished to know before shipping my Application"
 date: 2024-12-18T20:49:44+07:00
-draft: true
+draft: false
 ---
 
 I used to think that when you have a good product, you will never need to do marketing, and I used to think when you create a product, everybody need to use your product. That was two mistakes I've made when developing my [App](https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&pcampaignid=web_share), I am so naive to have that tought, also some part because I was inexperienced in doing business in general.
