@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Wed, 18 Dec 2024 20:49:44 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2025 10:51:31 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rilis Terbaru Baca Tanpa Mengeja v181</title>
+      <link>/blog/posts/rilis-terbaru-baca-tanpa-eja-v-181/</link>
+      <pubDate>Thu, 09 Jan 2025 10:51:31 +0700</pubDate>
+      <guid>/blog/posts/rilis-terbaru-baca-tanpa-eja-v-181/</guid>
+      <description>Setelah dua empat puluh hari semenjak tanggal 16 Desemberr kami merilis versi terakhir dari aplikasi Belajar Membaca Tanpa Mengeja, akhirnya hari ini kami merilis kembali versi terbaru yaitu v1.8.1 dengan menambahkan permainan Golf.
+Pembuatan fitur terbaru ini membutuhkan waktu yang lebih lama karena beberapa hal, pertama jenis permainan ini berbeda dari permainan-permainan yang sudah ada pada aplikasi dimana game ini berbasis fisika dimana didalamnya bisa terlihat bahwa bola golf akan bergerak seperti pada dunia nyata, ada unsur grafitasi dan gesekan pada game ini.</description>
+    </item>
     <item>
       <title>What I wished to know before shipping my Application</title>
       <link>/blog/posts/what-i-wished-to-know-before-shipping-my-application/</link>
