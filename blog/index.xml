@@ -7,8 +7,15 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Thu, 09 Jan 2025 10:51:31 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2025 16:38:44 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 100 percents Crash Free App and my Ignorance</title>
+      <link>/blog/posts/my-ignorance-about-crashlytics/</link>
+      <pubDate>Sat, 11 Jan 2025 16:38:44 +0700</pubDate>
+      <guid>/blog/posts/my-ignorance-about-crashlytics/</guid>
+      <description>A couple days ago I implemented Crashlytics into my App and it made me a little bit panick. Currentyly my App has been publised for one year and few months in Google Play. I&amp;rsquo;ve released alot of updates beginning with only one fiture then now growing into twenty one educational menus or games. During these time I didn&amp;rsquo;t felt the need to implement crashlytics lib into my app because of my ignorance.</description>
+    </item>
     <item>
       <title>Rilis Terbaru Baca Tanpa Mengeja v181</title>
       <link>/blog/posts/rilis-terbaru-baca-tanpa-eja-v-181/</link>
