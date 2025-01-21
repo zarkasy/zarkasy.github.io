@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Sat, 11 Jan 2025 16:38:44 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 08:41:42 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>X</title>
+      <link>/blog/posts/rilis-versi-190-aplikasi-baca-tanpa-eja/</link>
+      <pubDate>Tue, 21 Jan 2025 08:41:42 +0700</pubDate>
+      <guid>/blog/posts/rilis-versi-190-aplikasi-baca-tanpa-eja/</guid>
+      <description>Pada hari ini kami merilis lagi sedikit update untuk aplikasi Belajar membaca tanpa mengeja. Update tersebut adalah penambahan level dan variasi permainan pada level tersebut. Pada level 1-20 tantangan yang ada didalam game adalah hanya memasukkan bola golf dalam lubang, namun pada variasi baru ini kami menambahkan pohon dan semak sebagai rintangan dalam menyelesaikan permainan.
+Selain update diatas kami juga memperbaiki error-error yang disebabkan bugs dalam aplikasi, namun untuk hal ini sepertinya kami tidak perlu menjelaskan secara detail apa saja yang diperbaiki, pastinya perbaikan-perbaikan tersebut kami harapkan dapat meningkatkan kualitas aplikasi dan membuatnya lebih nyaman digunakan oleh anak-anak.</description>
+    </item>
     <item>
       <title>My 100 percents Crash Free App and my Ignorance</title>
       <link>/blog/posts/my-ignorance-about-crashlytics/</link>
