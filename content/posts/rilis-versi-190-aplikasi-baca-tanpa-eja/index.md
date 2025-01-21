@@ -1,12 +1,12 @@
 ---
-title: "X"
+title: "Rilis versi 1.9.0 Aplikasi Belajar Membaca Tanpa Mengeja"
 date: 2025-01-21T08:41:42+07:00
 draft: false
 ---
 
 ![tambah level](/blog/posts/rilis-versi-190-aplikasi-baca-tanpa-eja/new_map.jpeg)
 
-Pada hari ini kami merilis lagi sedikit update untuk aplikasi Belajar membaca tanpa mengeja. Update tersebut adalah penambahan level dan variasi permainan pada level tersebut. Pada level 1-20 tantangan yang ada didalam game adalah hanya memasukkan bola golf dalam lubang, namun pada variasi baru ini kami menambahkan pohon dan semak sebagai rintangan dalam menyelesaikan permainan.
+Pada hari ini kami merilis lagi sedikit update untuk aplikasi [Belajar membaca tanpa mengeja](https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&pcampaignid=web_share). Update tersebut adalah penambahan level dan variasi permainan pada level tersebut. Pada level 1-20 tantangan yang ada didalam game adalah hanya memasukkan bola golf dalam lubang, namun pada variasi baru ini kami menambahkan pohon dan semak sebagai rintangan dalam menyelesaikan permainan.
 
 ![map baru](/blog/posts/rilis-versi-190-aplikasi-baca-tanpa-eja/new_level.jpeg)
 
