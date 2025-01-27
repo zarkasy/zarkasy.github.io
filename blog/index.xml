@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Tue, 21 Jan 2025 08:41:42 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2025 06:33:39 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rilis V.10.0 Aplikas Baca Tanpa Eja</title>
+      <link>/blog/posts/rilis-v1.10.0-aplikasi-baca-tanpa-eja/</link>
+      <pubDate>Tue, 28 Jan 2025 06:33:39 +0700</pubDate>
+      <guid>/blog/posts/rilis-v1.10.0-aplikasi-baca-tanpa-eja/</guid>
+      <description>Pada hari ini kami merilis kembali versi terbaru dari Aplikasi Belajar Membaca Tanpa Mengeja versi 1.10.0. Pada rilis kali ini ada dua perubahan utama yaitu yang pertama pada permainan golf dimana ditambahkan versi 41-60.
+Pada versi ini kami menambahkan unsur kolam pada permainan golf. Unsur kolam ini akan menjadi tantangan baru bagi anak-anak dalam menyelesaikan permainan ini. Jika bola masuk kedalam kolam maka posisi bola akan ter-reset ke posisi awal. Permainan golf ini diharap selain dapat memberikan kesenangan bagi anak-anak dalam memainkannya, juga secara tidak langsung mengajarkan tentang prinsip gravitasi.</description>
+    </item>
     <item>
       <title>Rilis versi 1.9.0 Aplikasi Belajar Membaca Tanpa Mengeja</title>
       <link>/blog/posts/rilis-versi-190-aplikasi-baca-tanpa-eja/</link>
