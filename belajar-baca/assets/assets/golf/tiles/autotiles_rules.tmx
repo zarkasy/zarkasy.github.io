@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="30" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="140">
+ <properties>
+  <property name="MatchOutsideMap" type="bool" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="all2" tilewidth="16" tileheight="16" tilecount="210" columns="14">
+  <image source="images/all2.png" width="224" height="244"/>
+  <tile id="0">
+   <objectgroup draworder="index" id="4">
+    <object id="3" name="ground" x="0" y="0" width="16" height="16">
+     <properties>
+      <property name="ground" value=""/>
+     </properties>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="1">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="ground" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="2">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="ground" x="0" y="0" width="16" height="16"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index" id="3">
+    <object id="2" name="ground" x="0" y="0">
+     <polyline points="0,0 16.0073,8.05808"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="4">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="ground" x="-0.0362976" y="8.05808">
+     <polyline points="0,0 15.971,7.87659"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="5">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="ground" x="0.108893" y="15.971">
+     <polyline points="0,0 15.8258,-7.91289"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="6">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="ground" x="16.0073" y="0.0725953">
+     <polyline points="0,0 -16.1887,7.94918"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="7">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="ground" x="0" y="0">
+     <polyline points="0,0 16,16"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="31">
+   <objectgroup draworder="index" id="3">
+    <object id="2" name="hole" x="0" y="0">
+     <polyline points="0,0 3.91304,2.95652 3.95652,15.913"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="32">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="hole" x="12" y="15.913">
+     <polyline points="0,0 -0.0434783,-12.8696 4.08696,-15.913"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="42">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="gro" x="16" y="0">
+     <polyline points="0,0 -16,16"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="45">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="hole" x="4.04348" y="0">
+     <polyline points="0,0 -0.0434783,10.8261 2.86957,13.9565 11.913,13.9565"/>
+    </object>
+   </objectgroup>
+  </tile>
+  <tile id="46">
+   <objectgroup draworder="index" id="2">
+    <object id="1" name="hole" x="0.0434783" y="13.9565">
+     <polyline points="0,0 8.82609,-0.0434783 11.8261,-3 11.913,-13.9565"/>
+    </object>
+   </objectgroup>
+  </tile>
+ </tileset>
+ <tileset firstgid="211" name="prototype" tilewidth="16" tileheight="16" tilecount="128" columns="16">
+  <image source="images/prototype.png" width="256" height="128"/>
+ </tileset>
+ <tileset firstgid="339" source=":/automap-tiles.tsx"/>
+ <layer id="1" name="input_Level" width="30" height="25">
+  <data encoding="csv">
+0,341,0,0,0,342,0,0,0,342,0,0,0,342,0,0,0,341,0,0,0,341,0,0,0,0,0,0,0,0,
+341,211,341,0,341,211,342,0,342,211,341,0,341,211,341,0,342,211,341,0,342,211,341,0,0,0,0,0,0,0,
+0,341,0,0,0,341,0,0,0,341,0,0,0,341,0,0,0,342,0,0,0,341,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,342,0,0,0,342,0,0,0,342,0,0,0,342,0,0,0,341,0,0,0,341,0,0,0,262,263,264,0,0,
+341,213,341,0,0,212,341,0,341,214,341,0,341,215,0,0,341,211,342,0,341,211,342,0,0,278,279,280,0,0,
+341,211,341,0,341,211,341,0,341,211,341,0,341,211,341,0,0,342,0,0,0,341,0,0,0,0,0,0,0,0,
+0,341,0,0,0,341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,342,0,0,0,341,0,0,0,275,0,0,0,276,0,0,0,0,
+0,342,0,0,0,342,0,0,0,0,0,0,341,211,341,0,341,211,341,0,341,211,341,0,341,211,341,0,0,0,
+341,228,0,0,0,227,341,0,0,0,0,0,0,341,0,0,0,342,0,0,0,341,0,0,0,341,0,0,0,0,
+0,211,0,0,0,211,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,342,342,0,0,0,278,0,0,0,279,0,0,0,280,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,342,259,260,342,0,341,211,341,0,341,211,341,0,341,211,341,0,
+0,229,0,0,0,0,0,0,0,342,342,0,0,342,275,276,342,0,0,341,0,0,0,341,0,0,0,341,0,0,
+0,0,0,0,0,0,0,0,341,217,218,341,0,0,341,341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,341,233,234,341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+341,291,292,293,294,341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+341,307,308,309,310,341,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,341,341,341,341,0,0,0,219,220,221,222,223,224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,235,236,237,238,239,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,251,252,253,254,255,256,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="output_Pool_Object">
+  <object id="133" x="22.875" y="284.25">
+   <polygon points="0,0 13.5,13.5 35.625,14 49.375,0.75 34.625,18.375 9.125,17.75"/>
+  </object>
+  <object id="136" x="148.25" y="340.125">
+   <polygon points="0,0 18.125,7.25 35.625,7.125 50.625,2.875 44.75,9.125 10.875,9.25"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="output_Ground_Object">
+  <object id="1" type="collide" x="80" y="16" width="16" height="16"/>
+  <object id="2" type="collide" x="144" y="16" width="16" height="16"/>
+  <object id="3" type="collide" x="208" y="16" width="16" height="16"/>
+  <object id="6" type="collide" x="272" y="16" width="16" height="16"/>
+  <object id="7" type="collide" x="336" y="16" width="16" height="16"/>
+  <object id="8" type="collide" x="336" y="80" width="16" height="16"/>
+  <object id="9" type="collide" x="272" y="80" width="16" height="16"/>
+  <object id="10" type="collide" x="272" y="144" width="16" height="16"/>
+  <object id="35" x="16.2609" y="87.913">
+   <polygon points="0,0 15.5217,-7.69565 15.5652,5.3913"/>
+  </object>
+  <object id="36" x="80.3478" y="95.7826">
+   <polygon points="0,0 15.3913,-7.6087 15.3913,0.608696"/>
+  </object>
+  <object id="37" x="144.261" y="80.2609">
+   <polygon points="0,0 15.4348,7.73913 1.17391,11.7826"/>
+  </object>
+  <object id="38" x="208.188" y="88.1875">
+   <polygon points="0,0 15.5938,7.71875 0.15625,11.6875"/>
+  </object>
+  <object id="40" x="80" y="176">
+   <polygon points="0,0 16,0 16,-16"/>
+  </object>
+  <object id="41" x="16.3043" y="160.609">
+   <polygon points="0,0 15.1739,15.0435 15.3043,15.2174 0.0434783,15"/>
+  </object>
+  <object id="42" x="80.25" y="175.75">
+   <polygon points="0,0 15.5938,-15.4688 15.3125,-0.09375"/>
+  </object>
+  <object id="112" x="208" y="144" width="16" height="16"/>
+  <object id="113" x="336" y="144" width="16" height="16"/>
+  <object id="114" x="400" y="144" width="16" height="16"/>
+  <object id="117" x="304" y="208" width="16" height="16"/>
+  <object id="118" x="368" y="208" width="16" height="16"/>
+  <object id="119" x="432" y="208" width="16" height="16"/>
+  <object id="135" x="223.273" y="304.182">
+   <polygon points="0,0 -6.55265,4.35712 -8.73687,24.6489 -24.1477,38.9651 -6.4313,44.3182"/>
+  </object>
+  <object id="137" x="128.5" y="304.375">
+   <polygon points="0,0 7.875,3.5 8,19.875 18.5,35.625 7.25,38.25"/>
+  </object>
+  <object id="138" x="16.4375" y="272.375">
+   <polygon points="0,0 4.8125,2.5625 6.25,11.1875 0.375,15.5625"/>
+  </object>
+  <object id="139" x="79.8125" y="272.188">
+   <polygon points="0,0 -5.1875,2.5 -7.25,12.625 -3.8125,15"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="output_Hole_Object">
+  <object id="49" x="147.959" y="266.969">
+   <polygon points="0,0 2.95556,2.95556 2.95556,4.88889 -4.02222,5 -4.02222,0"/>
+  </object>
+  <object id="53" name="finish" x="150.984" y="269.953">
+   <polygon points="0,0 8.95313,0 8.9375,2 -0.09375,2.01563"/>
+  </object>
+  <object id="55" x="171.793" y="266.993">
+   <polygon points="0,0 -2.95556,2.95556 -2.95556,4.88889 4.02222,5 4.02222,0"/>
+  </object>
+  <object id="56" name="finish" x="160.062" y="269.938">
+   <polygon points="0,0 8.95313,0 8.9375,2 -0.09375,2.01563"/>
+  </object>
+  <object id="60" x="144.188" y="240.125">
+   <polygon points="0,0 3.7217,3.9065 3.78125,15.75"/>
+  </object>
+  <object id="61" x="175.906" y="240.063">
+   <polygon points="0,0 -3.90625,3.9375 -3.96875,15.875"/>
+  </object>
+  <object id="62" x="171.959" y="256.013">
+   <polygon points="0,0 3.8,3.6 -0.0444444,10.8889"/>
+  </object>
+  <object id="63" x="147.866" y="256.056">
+   <polygon points="0,0 -3.8,3.6 0.0444444,10.8889"/>
+  </object>
+ </objectgroup>
+ <layer id="2" name="output_Level" width="30" height="25" opacity="0.59">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,33,34,0,0,
+0,16,0,0,0,3,0,0,0,1,0,0,0,2,0,0,0,29,0,0,0,15,0,0,0,46,47,48,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60,61,62,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74,75,76,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,88,89,90,0,0,
+0,7,0,0,0,6,0,0,0,4,0,0,0,5,0,0,0,31,0,0,0,17,0,0,0,102,103,104,0,0,
+0,21,0,0,0,20,0,0,0,18,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,9,10,0,0,2,0,0,0,30,0,0,0,2,0,0,0,2,0,0,0,0,
+0,8,0,0,0,43,0,0,0,23,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,16,0,0,0,16,0,0,0,37,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,51,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,65,66,0,0,0,85,86,0,0,0,2,0,0,0,2,0,0,0,2,0,0,
+0,230,0,0,0,0,0,0,0,79,80,0,0,0,99,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,93,94,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,107,108,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,11,12,13,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,25,26,27,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,113,114,115,116,117,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,127,128,129,130,131,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,141,142,143,144,145,146,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="7" name="output_Bushes_Object">
+  <object id="110" x="227" y="211.5" width="26.5" height="28.5"/>
+  <object id="120" x="405.818" y="30.5455">
+   <polygon points="0,0 18,-28.7273 34,-0.181818"/>
+  </object>
+  <object id="121" x="405.909" y="31.6465">
+   <polygon points="0,0 34,-0.919192 38.9091,31.6202 -3.81818,32.1717"/>
+  </object>
+  <object id="123" x="401.909" y="64.5526">
+   <polygon points="0,0 42.8182,-0.643514 37.5455,15.5363 5.54545,15.7201"/>
+  </object>
+  <object id="124" x="408" y="80.9165">
+   <polygon points="0,0 31.0909,-0.280098 21,9.71007 11.1818,10.0835"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="9" name="output_Bushes_Leaf_Object" class="bushes">
+  <object id="125" name="juniper" x="400" y="0" width="51" height="94.5"/>
+  <object id="126" name="bushes" x="224" y="208" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="5" name="output_Spawn_Object">
+  <object id="64" x="18.4545" y="226.545" width="11.1818" height="11.0909"/>
+ </objectgroup>
+</map>
