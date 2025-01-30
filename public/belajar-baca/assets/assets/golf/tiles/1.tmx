@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="64" height="36" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="2092">
+ <tileset firstgid="1" name="prototype" tilewidth="16" tileheight="16" tilecount="128" columns="16">
+  <image source="images/prototype.png" width="256" height="128"/>
+  <tile id="0" type="ground"/>
+  <tile id="1" type="ground"/>
+  <tile id="2" type="ground"/>
+  <tile id="3" type="ground"/>
+  <tile id="4" type="ground"/>
+ </tileset>
+ <tileset firstgid="129" name="all2" tilewidth="16" tileheight="16" tilecount="210" columns="14">
+  <image source="images/all2.png" width="224" height="244"/>
+ </tileset>
+ <layer id="1" name="Level" width="64" height="36">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,137,138,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,152,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,165,166,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,179,180,0,0,0,0,0,
+0,0,0,0,0,20,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,207,208,0,0,0,0,0,
+129,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,221,222,130,130,130,130,131,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,235,236,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+157,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,159
+</data>
+ </layer>
+ <objectgroup id="2" name="Ground_Object">
+  <object id="1915" type="collide" x="1008" y="480" width="16" height="16"/>
+  <object id="1916" type="collide" x="0" y="480" width="16" height="16"/>
+  <object id="1917" type="collide" x="16" y="480" width="16" height="16"/>
+  <object id="1918" type="collide" x="32" y="480" width="16" height="16"/>
+  <object id="1919" type="collide" x="48" y="480" width="16" height="16"/>
+  <object id="1920" type="collide" x="64" y="480" width="16" height="16"/>
+  <object id="1921" type="collide" x="80" y="480" width="16" height="16"/>
+  <object id="1922" type="collide" x="96" y="480" width="16" height="16"/>
+  <object id="1923" type="collide" x="112" y="480" width="16" height="16"/>
+  <object id="1924" type="collide" x="128" y="480" width="16" height="16"/>
+  <object id="1925" type="collide" x="144" y="480" width="16" height="16"/>
+  <object id="1926" type="collide" x="160" y="480" width="16" height="16"/>
+  <object id="1927" type="collide" x="176" y="480" width="16" height="16"/>
+  <object id="1928" type="collide" x="192" y="480" width="16" height="16"/>
+  <object id="1929" type="collide" x="208" y="480" width="16" height="16"/>
+  <object id="1930" type="collide" x="224" y="480" width="16" height="16"/>
+  <object id="1931" type="collide" x="240" y="480" width="16" height="16"/>
+  <object id="1932" type="collide" x="256" y="480" width="16" height="16"/>
+  <object id="1933" type="collide" x="272" y="480" width="16" height="16"/>
+  <object id="1934" type="collide" x="288" y="480" width="16" height="16"/>
+  <object id="1935" type="collide" x="304" y="480" width="16" height="16"/>
+  <object id="1936" type="collide" x="320" y="480" width="16" height="16"/>
+  <object id="1937" type="collide" x="336" y="480" width="16" height="16"/>
+  <object id="1938" type="collide" x="352" y="480" width="16" height="16"/>
+  <object id="1939" type="collide" x="368" y="480" width="16" height="16"/>
+  <object id="1940" type="collide" x="384" y="480" width="16" height="16"/>
+  <object id="1941" type="collide" x="400" y="480" width="16" height="16"/>
+  <object id="1942" type="collide" x="416" y="480" width="16" height="16"/>
+  <object id="1943" type="collide" x="432" y="480" width="16" height="16"/>
+  <object id="1944" type="collide" x="448" y="480" width="16" height="16"/>
+  <object id="1945" type="collide" x="464" y="480" width="16" height="16"/>
+  <object id="1946" type="collide" x="480" y="480" width="16" height="16"/>
+  <object id="1947" type="collide" x="496" y="480" width="16" height="16"/>
+  <object id="1948" type="collide" x="512" y="480" width="16" height="16"/>
+  <object id="1949" type="collide" x="528" y="480" width="16" height="16"/>
+  <object id="1950" type="collide" x="544" y="480" width="16" height="16"/>
+  <object id="1951" type="collide" x="560" y="480" width="16" height="16"/>
+  <object id="1952" type="collide" x="576" y="480" width="16" height="16"/>
+  <object id="1953" type="collide" x="592" y="480" width="16" height="16"/>
+  <object id="1954" type="collide" x="608" y="480" width="16" height="16"/>
+  <object id="1955" type="collide" x="624" y="480" width="16" height="16"/>
+  <object id="1956" type="collide" x="640" y="480" width="16" height="16"/>
+  <object id="1957" type="collide" x="656" y="480" width="16" height="16"/>
+  <object id="1958" type="collide" x="672" y="480" width="16" height="16"/>
+  <object id="1959" type="collide" x="688" y="480" width="16" height="16"/>
+  <object id="1960" type="collide" x="704" y="480" width="16" height="16"/>
+  <object id="1961" type="collide" x="720" y="480" width="16" height="16"/>
+  <object id="1962" type="collide" x="736" y="480" width="16" height="16"/>
+  <object id="1963" type="collide" x="752" y="480" width="16" height="16"/>
+  <object id="1964" type="collide" x="768" y="480" width="16" height="16"/>
+  <object id="1965" type="collide" x="784" y="480" width="16" height="16"/>
+  <object id="1966" type="collide" x="800" y="480" width="16" height="16"/>
+  <object id="1967" type="collide" x="816" y="480" width="16" height="16"/>
+  <object id="1968" type="collide" x="832" y="480" width="16" height="16"/>
+  <object id="1969" type="collide" x="848" y="480" width="16" height="16"/>
+  <object id="1970" type="collide" x="864" y="480" width="16" height="16"/>
+  <object id="1971" type="collide" x="880" y="480" width="16" height="16"/>
+  <object id="1972" type="collide" x="896" y="480" width="16" height="16"/>
+  <object id="1973" type="collide" x="944" y="480" width="16" height="16"/>
+  <object id="1974" type="collide" x="960" y="480" width="16" height="16"/>
+  <object id="1975" type="collide" x="976" y="480" width="16" height="16"/>
+  <object id="1976" type="collide" x="992" y="480" width="16" height="16"/>
+  <object id="1977" type="collide" x="0" y="560" width="16" height="16"/>
+  <object id="1978" type="collide" x="0" y="496" width="16" height="16"/>
+  <object id="1979" type="collide" x="0" y="512" width="16" height="16"/>
+  <object id="1980" type="collide" x="0" y="528" width="16" height="16"/>
+  <object id="1981" type="collide" x="0" y="544" width="16" height="16"/>
+  <object id="1982" type="collide" x="1008" y="560" width="16" height="16"/>
+  <object id="1983" type="collide" x="1008" y="496" width="16" height="16"/>
+  <object id="1984" type="collide" x="1008" y="512" width="16" height="16"/>
+  <object id="1985" type="collide" x="1008" y="528" width="16" height="16"/>
+  <object id="1986" type="collide" x="1008" y="544" width="16" height="16"/>
+  <object id="1987" type="collide" x="16" y="560" width="16" height="16"/>
+  <object id="1988" type="collide" x="32" y="560" width="16" height="16"/>
+  <object id="1989" type="collide" x="48" y="560" width="16" height="16"/>
+  <object id="1990" type="collide" x="64" y="560" width="16" height="16"/>
+  <object id="1991" type="collide" x="80" y="560" width="16" height="16"/>
+  <object id="1992" type="collide" x="96" y="560" width="16" height="16"/>
+  <object id="1993" type="collide" x="112" y="560" width="16" height="16"/>
+  <object id="1994" type="collide" x="128" y="560" width="16" height="16"/>
+  <object id="1995" type="collide" x="144" y="560" width="16" height="16"/>
+  <object id="1996" type="collide" x="160" y="560" width="16" height="16"/>
+  <object id="1997" type="collide" x="176" y="560" width="16" height="16"/>
+  <object id="1998" type="collide" x="192" y="560" width="16" height="16"/>
+  <object id="1999" type="collide" x="208" y="560" width="16" height="16"/>
+  <object id="2000" type="collide" x="224" y="560" width="16" height="16"/>
+  <object id="2001" type="collide" x="240" y="560" width="16" height="16"/>
+  <object id="2002" type="collide" x="256" y="560" width="16" height="16"/>
+  <object id="2003" type="collide" x="272" y="560" width="16" height="16"/>
+  <object id="2004" type="collide" x="288" y="560" width="16" height="16"/>
+  <object id="2005" type="collide" x="304" y="560" width="16" height="16"/>
+  <object id="2006" type="collide" x="320" y="560" width="16" height="16"/>
+  <object id="2007" type="collide" x="336" y="560" width="16" height="16"/>
+  <object id="2008" type="collide" x="352" y="560" width="16" height="16"/>
+  <object id="2009" type="collide" x="368" y="560" width="16" height="16"/>
+  <object id="2010" type="collide" x="384" y="560" width="16" height="16"/>
+  <object id="2011" type="collide" x="400" y="560" width="16" height="16"/>
+  <object id="2012" type="collide" x="416" y="560" width="16" height="16"/>
+  <object id="2013" type="collide" x="432" y="560" width="16" height="16"/>
+  <object id="2014" type="collide" x="448" y="560" width="16" height="16"/>
+  <object id="2015" type="collide" x="464" y="560" width="16" height="16"/>
+  <object id="2016" type="collide" x="480" y="560" width="16" height="16"/>
+  <object id="2017" type="collide" x="496" y="560" width="16" height="16"/>
+  <object id="2018" type="collide" x="512" y="560" width="16" height="16"/>
+  <object id="2019" type="collide" x="528" y="560" width="16" height="16"/>
+  <object id="2020" type="collide" x="544" y="560" width="16" height="16"/>
+  <object id="2021" type="collide" x="560" y="560" width="16" height="16"/>
+  <object id="2022" type="collide" x="576" y="560" width="16" height="16"/>
+  <object id="2023" type="collide" x="592" y="560" width="16" height="16"/>
+  <object id="2024" type="collide" x="608" y="560" width="16" height="16"/>
+  <object id="2025" type="collide" x="624" y="560" width="16" height="16"/>
+  <object id="2026" type="collide" x="640" y="560" width="16" height="16"/>
+  <object id="2027" type="collide" x="656" y="560" width="16" height="16"/>
+  <object id="2028" type="collide" x="672" y="560" width="16" height="16"/>
+  <object id="2029" type="collide" x="688" y="560" width="16" height="16"/>
+  <object id="2030" type="collide" x="704" y="560" width="16" height="16"/>
+  <object id="2031" type="collide" x="720" y="560" width="16" height="16"/>
+  <object id="2032" type="collide" x="736" y="560" width="16" height="16"/>
+  <object id="2033" type="collide" x="752" y="560" width="16" height="16"/>
+  <object id="2034" type="collide" x="768" y="560" width="16" height="16"/>
+  <object id="2035" type="collide" x="784" y="560" width="16" height="16"/>
+  <object id="2036" type="collide" x="800" y="560" width="16" height="16"/>
+  <object id="2037" type="collide" x="816" y="560" width="16" height="16"/>
+  <object id="2038" type="collide" x="832" y="560" width="16" height="16"/>
+  <object id="2039" type="collide" x="848" y="560" width="16" height="16"/>
+  <object id="2040" type="collide" x="864" y="560" width="16" height="16"/>
+  <object id="2041" type="collide" x="880" y="560" width="16" height="16"/>
+  <object id="2042" type="collide" x="896" y="560" width="16" height="16"/>
+  <object id="2043" type="collide" x="912" y="560" width="16" height="16"/>
+  <object id="2044" type="collide" x="928" y="560" width="16" height="16"/>
+  <object id="2045" type="collide" x="944" y="560" width="16" height="16"/>
+  <object id="2046" type="collide" x="960" y="560" width="16" height="16"/>
+  <object id="2047" type="collide" x="976" y="560" width="16" height="16"/>
+  <object id="2048" type="collide" x="992" y="560" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="3" name="Hole_Object">
+  <object id="2084" x="915.959" y="506.969">
+   <polygon points="0,0 2.95556,2.95556 2.95556,4.88889 -4.02222,5 -4.02222,0"/>
+  </object>
+  <object id="2085" name="finish" x="918.984" y="509.953">
+   <polygon points="0,0 8.95313,0 8.9375,2 -0.09375,2.01563"/>
+  </object>
+  <object id="2086" x="939.793" y="506.993">
+   <polygon points="0,0 -2.95556,2.95556 -2.95556,4.88889 4.02222,5 4.02222,0"/>
+  </object>
+  <object id="2087" name="finish" x="928.062" y="509.938">
+   <polygon points="0,0 8.95313,0 8.9375,2 -0.09375,2.01563"/>
+  </object>
+  <object id="2088" x="912.188" y="480.125">
+   <polygon points="0,0 3.7217,3.9065 3.78125,15.75"/>
+  </object>
+  <object id="2089" x="943.906" y="480.063">
+   <polygon points="0,0 -3.90625,3.9375 -3.96875,15.875"/>
+  </object>
+  <object id="2090" x="939.959" y="496.013">
+   <polygon points="0,0 3.8,3.6 -0.0444444,10.8889"/>
+  </object>
+  <object id="2091" x="915.866" y="496.056">
+   <polygon points="0,0 -3.8,3.6 0.0444444,10.8889"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Spawn_Object">
+  <object id="2069" x="82.4545" y="450.545" width="11.1818" height="11.0909"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="64" height="36" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="9268">
+ <tileset firstgid="1" name="prototype" tilewidth="16" tileheight="16" tilecount="128" columns="16">
+  <image source="images/prototype.png" width="256" height="128"/>
+  <tile id="0" type="ground"/>
+  <tile id="1" type="ground"/>
+  <tile id="2" type="ground"/>
+  <tile id="3" type="ground"/>
+  <tile id="4" type="ground"/>
+ </tileset>
+ <tileset firstgid="129" name="all2" tilewidth="16" tileheight="16" tilecount="210" columns="14">
+  <image source="images/all2.png" width="224" height="244"/>
+ </tileset>
+ <layer id="1" name="Level" width="64" height="36">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,161,162,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,174,175,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,137,138,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,188,189,190,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,151,152,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,202,203,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,165,166,0,0,0,
+0,0,0,0,0,20,0,0,0,0,0,0,0,0,216,217,218,0,0,0,171,130,130,130,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,179,180,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,230,231,232,0,171,130,144,144,144,144,144,130,130,130,241,242,243,244,245,246,130,130,130,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,193,194,0,0,0,
+129,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,130,144,144,144,144,144,144,144,144,144,144,255,256,257,258,259,260,144,144,144,144,130,130,130,130,136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,207,208,0,0,0,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,269,270,271,272,273,274,144,144,144,144,144,144,144,144,144,130,130,241,242,243,244,245,246,130,130,130,130,130,130,130,130,221,222,130,130,131,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,255,256,257,258,259,260,144,144,144,144,144,144,144,144,235,236,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,269,270,271,272,273,274,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+143,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,144,145,
+157,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,158,159
+</data>
+ </layer>
+ <objectgroup id="8" name="Pool_Object">
+  <object id="9244" x="468.25" y="420.125">
+   <polygon points="0,0 18.125,7.25 35.625,7.125 50.625,2.875 44.75,9.125 10.875,9.25"/>
+  </object>
+  <object id="9244" x="468.25" y="420.125">
+   <polygon points="0,0 18.125,7.25 35.625,7.125 50.625,2.875 44.75,9.125 10.875,9.25"/>
+  </object>
+  <object id="9248" x="740.25" y="452.125">
+   <polygon points="0,0 18.125,7.25 35.625,7.125 50.625,2.875 44.75,9.125 10.875,9.25"/>
+  </object>
+  <object id="9248" x="740.25" y="452.125">
+   <polygon points="0,0 18.125,7.25 35.625,7.125 50.625,2.875 44.75,9.125 10.875,9.25"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Bushes_Leaf_Object">
+  <object id="9259" name="juniper" x="224" y="304" width="51" height="94.5"/>
+ </objectgroup>
+ <objectgroup id="6" name="Bushes_Object">
+  <object id="9255" x="229.818" y="334.546">
+   <polygon points="0,0 18,-28.7273 34,-0.181818"/>
+  </object>
+  <object id="9256" x="229.909" y="335.647">
+   <polygon points="0,0 34,-0.919192 38.9091,31.6202 -3.81818,32.1717"/>
+  </object>
+  <object id="9257" x="225.909" y="368.553">
+   <polygon points="0,0 42.8182,-0.643514 37.5455,15.5363 5.54545,15.7201"/>
+  </object>
+  <object id="9258" x="232" y="384.916">
+   <polygon points="0,0 31.0909,-0.280098 21,9.71007 11.1818,10.0835"/>
+  </object>
+  <object id="9255" x="229.818" y="334.546">
+   <polygon points="0,0 18,-28.7273 34,-0.181818"/>
+  </object>
+  <object id="9256" x="229.909" y="335.647">
+   <polygon points="0,0 34,-0.919192 38.9091,31.6202 -3.81818,32.1717"/>
+  </object>
+  <object id="9257" x="225.909" y="368.553">
+   <polygon points="0,0 42.8182,-0.643514 37.5455,15.5363 5.54545,15.7201"/>
+  </object>
+  <object id="9258" x="232" y="384.916">
+   <polygon points="0,0 31.0909,-0.280098 21,9.71007 11.1818,10.0835"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="Ground_Object">
+  <object id="9061" type="collide" x="1008" y="416" width="16" height="16"/>
+  <object id="9062" type="collide" x="0" y="400" width="16" height="16"/>
+  <object id="9063" type="collide" x="336" y="368" width="16" height="16"/>
+  <object id="9064" type="collide" x="352" y="368" width="16" height="16"/>
+  <object id="9065" type="collide" x="368" y="368" width="16" height="16"/>
+  <object id="9066" type="collide" x="304" y="384" width="16" height="16"/>
+  <object id="9067" type="collide" x="400" y="384" width="16" height="16"/>
+  <object id="9068" type="collide" x="416" y="384" width="16" height="16"/>
+  <object id="9069" type="collide" x="432" y="384" width="16" height="16"/>
+  <object id="9070" type="collide" x="544" y="384" width="16" height="16"/>
+  <object id="9071" type="collide" x="560" y="384" width="16" height="16"/>
+  <object id="9072" type="collide" x="576" y="384" width="16" height="16"/>
+  <object id="9073" type="collide" x="16" y="400" width="16" height="16"/>
+  <object id="9074" type="collide" x="32" y="400" width="16" height="16"/>
+  <object id="9075" type="collide" x="48" y="400" width="16" height="16"/>
+  <object id="9076" type="collide" x="64" y="400" width="16" height="16"/>
+  <object id="9077" type="collide" x="80" y="400" width="16" height="16"/>
+  <object id="9078" type="collide" x="96" y="400" width="16" height="16"/>
+  <object id="9079" type="collide" x="112" y="400" width="16" height="16"/>
+  <object id="9080" type="collide" x="128" y="400" width="16" height="16"/>
+  <object id="9081" type="collide" x="144" y="400" width="16" height="16"/>
+  <object id="9082" type="collide" x="160" y="400" width="16" height="16"/>
+  <object id="9083" type="collide" x="176" y="400" width="16" height="16"/>
+  <object id="9084" type="collide" x="192" y="400" width="16" height="16"/>
+  <object id="9085" type="collide" x="208" y="400" width="16" height="16"/>
+  <object id="9086" type="collide" x="224" y="400" width="16" height="16"/>
+  <object id="9087" type="collide" x="240" y="400" width="16" height="16"/>
+  <object id="9088" type="collide" x="256" y="400" width="16" height="16"/>
+  <object id="9089" type="collide" x="272" y="400" width="16" height="16"/>
+  <object id="9090" type="collide" x="608" y="400" width="16" height="16"/>
+  <object id="9091" type="collide" x="624" y="400" width="16" height="16"/>
+  <object id="9092" type="collide" x="640" y="400" width="16" height="16"/>
+  <object id="9093" type="collide" x="656" y="400" width="16" height="16"/>
+  <object id="9094" type="collide" x="688" y="416" width="16" height="16"/>
+  <object id="9095" type="collide" x="704" y="416" width="16" height="16"/>
+  <object id="9096" type="collide" x="816" y="416" width="16" height="16"/>
+  <object id="9097" type="collide" x="832" y="416" width="16" height="16"/>
+  <object id="9098" type="collide" x="848" y="416" width="16" height="16"/>
+  <object id="9099" type="collide" x="864" y="416" width="16" height="16"/>
+  <object id="9100" type="collide" x="880" y="416" width="16" height="16"/>
+  <object id="9101" type="collide" x="896" y="416" width="16" height="16"/>
+  <object id="9102" type="collide" x="912" y="416" width="16" height="16"/>
+  <object id="9103" type="collide" x="928" y="416" width="16" height="16"/>
+  <object id="9104" type="collide" x="976" y="416" width="16" height="16"/>
+  <object id="9105" type="collide" x="992" y="416" width="16" height="16"/>
+  <object id="9106" type="collide" x="0" y="560" width="16" height="16"/>
+  <object id="9107" type="collide" x="0" y="416" width="16" height="16"/>
+  <object id="9108" type="collide" x="0" y="432" width="16" height="16"/>
+  <object id="9109" type="collide" x="0" y="448" width="16" height="16"/>
+  <object id="9110" type="collide" x="0" y="464" width="16" height="16"/>
+  <object id="9111" type="collide" x="0" y="480" width="16" height="16"/>
+  <object id="9112" type="collide" x="0" y="496" width="16" height="16"/>
+  <object id="9113" type="collide" x="0" y="512" width="16" height="16"/>
+  <object id="9114" type="collide" x="0" y="528" width="16" height="16"/>
+  <object id="9115" type="collide" x="0" y="544" width="16" height="16"/>
+  <object id="9116" type="collide" x="1008" y="560" width="16" height="16"/>
+  <object id="9117" type="collide" x="1008" y="432" width="16" height="16"/>
+  <object id="9118" type="collide" x="1008" y="448" width="16" height="16"/>
+  <object id="9119" type="collide" x="1008" y="464" width="16" height="16"/>
+  <object id="9120" type="collide" x="1008" y="480" width="16" height="16"/>
+  <object id="9121" type="collide" x="1008" y="496" width="16" height="16"/>
+  <object id="9122" type="collide" x="1008" y="512" width="16" height="16"/>
+  <object id="9123" type="collide" x="1008" y="528" width="16" height="16"/>
+  <object id="9124" type="collide" x="1008" y="544" width="16" height="16"/>
+  <object id="9125" x="336" y="368" width="16" height="16"/>
+  <object id="9126" x="352" y="368" width="16" height="16"/>
+  <object id="9127" x="368" y="368" width="16" height="16"/>
+  <object id="9128" x="304" y="384" width="16" height="16"/>
+  <object id="9129" x="400" y="384" width="16" height="16"/>
+  <object id="9130" x="416" y="384" width="16" height="16"/>
+  <object id="9131" x="432" y="384" width="16" height="16"/>
+  <object id="9132" x="544" y="384" width="16" height="16"/>
+  <object id="9133" x="560" y="384" width="16" height="16"/>
+  <object id="9134" x="576" y="384" width="16" height="16"/>
+  <object id="9135" x="16" y="400" width="16" height="16"/>
+  <object id="9136" x="32" y="400" width="16" height="16"/>
+  <object id="9137" x="48" y="400" width="16" height="16"/>
+  <object id="9138" x="64" y="400" width="16" height="16"/>
+  <object id="9139" x="80" y="400" width="16" height="16"/>
+  <object id="9140" x="96" y="400" width="16" height="16"/>
+  <object id="9141" x="112" y="400" width="16" height="16"/>
+  <object id="9142" x="128" y="400" width="16" height="16"/>
+  <object id="9143" x="144" y="400" width="16" height="16"/>
+  <object id="9144" x="160" y="400" width="16" height="16"/>
+  <object id="9145" x="176" y="400" width="16" height="16"/>
+  <object id="9146" x="192" y="400" width="16" height="16"/>
+  <object id="9147" x="208" y="400" width="16" height="16"/>
+  <object id="9148" x="224" y="400" width="16" height="16"/>
+  <object id="9149" x="240" y="400" width="16" height="16"/>
+  <object id="9150" x="256" y="400" width="16" height="16"/>
+  <object id="9151" x="272" y="400" width="16" height="16"/>
+  <object id="9152" x="608" y="400" width="16" height="16"/>
+  <object id="9153" x="624" y="400" width="16" height="16"/>
+  <object id="9154" x="640" y="400" width="16" height="16"/>
+  <object id="9155" x="656" y="400" width="16" height="16"/>
+  <object id="9156" x="688" y="416" width="16" height="16"/>
+  <object id="9157" x="704" y="416" width="16" height="16"/>
+  <object id="9158" x="816" y="416" width="16" height="16"/>
+  <object id="9159" x="832" y="416" width="16" height="16"/>
+  <object id="9160" x="848" y="416" width="16" height="16"/>
+  <object id="9161" x="864" y="416" width="16" height="16"/>
+  <object id="9162" x="880" y="416" width="16" height="16"/>
+  <object id="9163" x="896" y="416" width="16" height="16"/>
+  <object id="9164" x="912" y="416" width="16" height="16"/>
+  <object id="9165" x="928" y="416" width="16" height="16"/>
+  <object id="9166" x="976" y="416" width="16" height="16"/>
+  <object id="9167" x="992" y="416" width="16" height="16"/>
+  <object id="9168" type="collide" x="16" y="560" width="16" height="16"/>
+  <object id="9169" type="collide" x="32" y="560" width="16" height="16"/>
+  <object id="9170" type="collide" x="48" y="560" width="16" height="16"/>
+  <object id="9171" type="collide" x="64" y="560" width="16" height="16"/>
+  <object id="9172" type="collide" x="80" y="560" width="16" height="16"/>
+  <object id="9173" type="collide" x="96" y="560" width="16" height="16"/>
+  <object id="9174" type="collide" x="112" y="560" width="16" height="16"/>
+  <object id="9175" type="collide" x="128" y="560" width="16" height="16"/>
+  <object id="9176" type="collide" x="144" y="560" width="16" height="16"/>
+  <object id="9177" type="collide" x="160" y="560" width="16" height="16"/>
+  <object id="9178" type="collide" x="176" y="560" width="16" height="16"/>
+  <object id="9179" type="collide" x="192" y="560" width="16" height="16"/>
+  <object id="9180" type="collide" x="208" y="560" width="16" height="16"/>
+  <object id="9181" type="collide" x="224" y="560" width="16" height="16"/>
+  <object id="9182" type="collide" x="240" y="560" width="16" height="16"/>
+  <object id="9183" type="collide" x="256" y="560" width="16" height="16"/>
+  <object id="9184" type="collide" x="272" y="560" width="16" height="16"/>
+  <object id="9185" type="collide" x="288" y="560" width="16" height="16"/>
+  <object id="9186" type="collide" x="304" y="560" width="16" height="16"/>
+  <object id="9187" type="collide" x="320" y="560" width="16" height="16"/>
+  <object id="9188" type="collide" x="336" y="560" width="16" height="16"/>
+  <object id="9189" type="collide" x="352" y="560" width="16" height="16"/>
+  <object id="9190" type="collide" x="368" y="560" width="16" height="16"/>
+  <object id="9191" type="collide" x="384" y="560" width="16" height="16"/>
+  <object id="9192" type="collide" x="400" y="560" width="16" height="16"/>
+  <object id="9193" type="collide" x="416" y="560" width="16" height="16"/>
+  <object id="9194" type="collide" x="432" y="560" width="16" height="16"/>
+  <object id="9195" type="collide" x="448" y="560" width="16" height="16"/>
+  <object id="9196" type="collide" x="464" y="560" width="16" height="16"/>
+  <object id="9197" type="collide" x="480" y="560" width="16" height="16"/>
+  <object id="9198" type="collide" x="496" y="560" width="16" height="16"/>
+  <object id="9199" type="collide" x="512" y="560" width="16" height="16"/>
+  <object id="9200" type="collide" x="528" y="560" width="16" height="16"/>
+  <object id="9201" type="collide" x="544" y="560" width="16" height="16"/>
+  <object id="9202" type="collide" x="560" y="560" width="16" height="16"/>
+  <object id="9203" type="collide" x="576" y="560" width="16" height="16"/>
+  <object id="9204" type="collide" x="592" y="560" width="16" height="16"/>
+  <object id="9205" type="collide" x="608" y="560" width="16" height="16"/>
+  <object id="9206" type="collide" x="624" y="560" width="16" height="16"/>
+  <object id="9207" type="collide" x="640" y="560" width="16" height="16"/>
+  <object id="9208" type="collide" x="656" y="560" width="16" height="16"/>
+  <object id="9209" type="collide" x="672" y="560" width="16" height="16"/>
+  <object id="9210" type="collide" x="688" y="560" width="16" height="16"/>
+  <object id="9211" type="collide" x="704" y="560" width="16" height="16"/>
+  <object id="9212" type="collide" x="720" y="560" width="16" height="16"/>
+  <object id="9213" type="collide" x="736" y="560" width="16" height="16"/>
+  <object id="9214" type="collide" x="752" y="560" width="16" height="16"/>
+  <object id="9215" type="collide" x="768" y="560" width="16" height="16"/>
+  <object id="9216" type="collide" x="784" y="560" width="16" height="16"/>
+  <object id="9217" type="collide" x="800" y="560" width="16" height="16"/>
+  <object id="9218" type="collide" x="816" y="560" width="16" height="16"/>
+  <object id="9219" type="collide" x="832" y="560" width="16" height="16"/>
+  <object id="9220" type="collide" x="848" y="560" width="16" height="16"/>
+  <object id="9221" type="collide" x="864" y="560" width="16" height="16"/>
+  <object id="9222" type="collide" x="880" y="560" width="16" height="16"/>
+  <object id="9223" type="collide" x="896" y="560" width="16" height="16"/>
+  <object id="9224" type="collide" x="912" y="560" width="16" height="16"/>
+  <object id="9225" type="collide" x="928" y="560" width="16" height="16"/>
+  <object id="9226" type="collide" x="944" y="560" width="16" height="16"/>
+  <object id="9227" type="collide" x="960" y="560" width="16" height="16"/>
+  <object id="9228" type="collide" x="976" y="560" width="16" height="16"/>
+  <object id="9229" type="collide" x="992" y="560" width="16" height="16"/>
+  <object id="9230" x="384.304" y="368.609">
+   <polygon points="0,0 15.1739,15.0435 15.3043,15.2174 0.0434783,15"/>
+  </object>
+  <object id="9231" x="592.304" y="384.609">
+   <polygon points="0,0 15.1739,15.0435 15.3043,15.2174 0.0434783,15"/>
+  </object>
+  <object id="9232" x="672.304" y="400.609">
+   <polygon points="0,0 15.1739,15.0435 15.3043,15.2174 0.0434783,15"/>
+  </object>
+  <object id="9233" x="320.25" y="383.75">
+   <polygon points="0,0 15.5938,-15.4688 15.3125,-0.09375"/>
+  </object>
+  <object id="9234" x="288.25" y="399.75">
+   <polygon points="0,0 15.5938,-15.4688 15.3125,-0.09375"/>
+  </object>
+  <object id="9245" x="543.273" y="384.182">
+   <polygon points="0,0 -6.55265,4.35712 -8.73687,24.6489 -24.1477,38.9651 -6.4313,44.3182"/>
+  </object>
+  <object id="9246" x="448.5" y="384.375">
+   <polygon points="0,0 7.875,3.5 8,19.875 18.5,35.625 7.25,38.25"/>
+  </object>
+  <object id="9249" x="815.273" y="416.182">
+   <polygon points="0,0 -6.55265,4.35712 -8.73687,24.6489 -24.1477,38.9651 -6.4313,44.3182"/>
+  </object>
+  <object id="9250" x="720.5" y="416.375">
+   <polygon points="0,0 7.875,3.5 8,19.875 18.5,35.625 7.25,38.25"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Hole_Object">
+  <object id="9260" x="947.959" y="442.969">
+   <polygon points="0,0 2.95556,2.95556 2.95556,4.88889 -4.02222,5 -4.02222,0"/>
+  </object>
+  <object id="9261" name="finish" x="950.984" y="445.953">
+   <polygon points="0,0 8.95313,0 8.9375,2 -0.09375,2.01563"/>
+  </object>
+  <object id="9262" x="971.793" y="442.993">
+   <polygon points="0,0 -2.95556,2.95556 -2.95556,4.88889 4.02222,5 4.02222,0"/>
+  </object>
+  <object id="9263" name="finish" x="960.062" y="445.938">
+   <polygon points="0,0 8.95313,0 8.9375,2 -0.09375,2.01563"/>
+  </object>
+  <object id="9264" x="944.188" y="416.125">
+   <polygon points="0,0 3.7217,3.9065 3.78125,15.75"/>
+  </object>
+  <object id="9265" x="975.906" y="416.063">
+   <polygon points="0,0 -3.90625,3.9375 -3.96875,15.875"/>
+  </object>
+  <object id="9266" x="971.959" y="432.013">
+   <polygon points="0,0 3.8,3.6 -0.0444444,10.8889"/>
+  </object>
+  <object id="9267" x="947.866" y="432.056">
+   <polygon points="0,0 -3.8,3.6 0.0444444,10.8889"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Spawn_Object">
+  <object id="9242" x="82.4545" y="370.545" width="11.1818" height="11.0909"/>
+ </objectgroup>
+</map>

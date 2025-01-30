@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "E:/PROJECTS/baca_app/assets/maze_pemadam/tiles/map.tmx",
+    "activeFile": "level11.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -16,8 +16,8 @@
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 396,
-                "y": 141
+                "x": 544,
+                "y": 385
             }
         },
         "E:/PROJECTS/baca_app/assets/maze_pemadam/tiles/bg.tmx#TilesetField": {
@@ -27,8 +27,8 @@
             "scale": 1.2547916666666665,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 240.67740328739833,
-                "y": 160.58442636559852
+                "x": 239.8804582434003,
+                "y": 159.78748132160052
             }
         },
         "E:/PROJECTS/baca_app/assets/maze_pemadam/tiles/map.tmx#TilesetField": {
@@ -48,15 +48,15 @@
         },
         "level1.tmx": {
             "expandedObjectLayers": [
-                3,
+                4,
                 2,
-                4
+                3
             ],
             "scale": 0.6273958333333333,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 481.35480657479667,
-                "y": 319.57496264320105
+                "x": 929.237921301677,
+                "y": 419.9900381869501
             }
         },
         "level1.tmx#jeruk": {
@@ -64,15 +64,15 @@
         },
         "level10.tmx": {
             "expandedObjectLayers": [
-                3,
+                4,
                 2,
-                4
+                3
             ],
             "scale": 0.8197,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 479.44369891423696,
-                "y": 320.2391118701964
+                "x": 823.4720019519337,
+                "y": 397.09649871904367
             }
         },
         "level10.tmx#kol": {
@@ -82,8 +82,8 @@
             "scale": 0.8582,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 640.8762526217665,
-                "y": 533.0925192262875
+                "x": 477.74411559077146,
+                "y": 319.8555115357726
             }
         },
         "level11.tmx#anggur": {
@@ -91,15 +91,15 @@
         },
         "level2.tmx": {
             "expandedObjectLayers": [
-                3,
+                4,
                 2,
-                4
+                3
             ],
             "scale": 0.6273958333333333,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 481.35480657479667,
-                "y": 321.16885273119703
+                "x": 929.237921301677,
+                "y": 421.58392827494606
             }
         },
         "level2.tmx#semangka": {
@@ -107,14 +107,14 @@
         },
         "level3.tmx": {
             "expandedObjectLayers": [
-                3,
-                2
+                2,
+                3
             ],
             "scale": 0.6273958333333333,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 481.35480657479667,
-                "y": 321.16885273119703
+                "x": 929.237921301677,
+                "y": 421.58392827494606
             }
         },
         "level3.tmx#alpukat": {
@@ -125,14 +125,14 @@
         },
         "level4.tmx": {
             "expandedObjectLayers": [
-                2,
-                4
+                4,
+                2
             ],
             "scale": 0.7405,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 479.4058068872383,
-                "y": 320.7292370020256
+                "x": 860.2295746117486,
+                "y": 405.8068872383524
             }
         },
         "level4.tmx#apel": {
@@ -143,15 +143,15 @@
         },
         "level5.tmx": {
             "expandedObjectLayers": [
-                3,
+                4,
                 2,
-                4
+                3
             ],
             "scale": 1,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 480,
-                "y": 320.5
+                "x": 762,
+                "y": 383.5
             }
         },
         "level5.tmx#apel": {
@@ -168,14 +168,14 @@
         },
         "level6.tmx": {
             "expandedObjectLayers": [
-                3,
-                4
+                4,
+                3
             ],
             "scale": 0.7786,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 479.06498844079124,
-                "y": 320.4469560750065
+                "x": 842.5378885178527,
+                "y": 401.36141792961723
             }
         },
         "level6.tmx#jeruk": {
@@ -186,15 +186,15 @@
         },
         "level7.tmx": {
             "expandedObjectLayers": [
-                3,
+                4,
                 2,
-                4
+                3
             ],
             "scale": 0.9311979166666666,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 478.95296157503213,
-                "y": 320.55484087476924
+                "x": 781.7886906426534,
+                "y": 388.20963141115277
             }
         },
         "level7.tmx#alpukat": {
@@ -205,15 +205,15 @@
         },
         "level8.tmx": {
             "expandedObjectLayers": [
-                3,
+                4,
                 2,
-                4
+                3
             ],
             "scale": 0.8583,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 478.8535477105907,
-                "y": 320.9833391588022
+                "x": 808.5750902947689,
+                "y": 394.3842479319586
             }
         },
         "level8.tmx#pisang": {
@@ -221,15 +221,15 @@
         },
         "level9.tmx": {
             "expandedObjectLayers": [
-                3,
+                4,
                 2,
-                4
+                3
             ],
             "scale": 0.8312,
             "selectedLayer": 3,
             "viewCenter": {
-                "x": 478.82579403272376,
-                "y": 320.6207892204042
+                "x": 819.2974013474494,
+                "y": 396.4148219441771
             }
         },
         "level9.tmx#kiwi": {
@@ -248,9 +248,7 @@
         "level8.tmx",
         "level9.tmx",
         "level10.tmx",
-        "level11.tmx",
-        "E:/PROJECTS/baca_app/assets/maze_pemadam/tiles/bg.tmx",
-        "E:/PROJECTS/baca_app/assets/maze_pemadam/tiles/map.tmx"
+        "level11.tmx"
     ],
     "project": "main.tiled-project",
     "recentFiles": [
