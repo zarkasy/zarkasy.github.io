@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Tue, 28 Jan 2025 06:33:39 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2025 09:47:52 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Confusing Google Play Console Review</title>
+      <link>/blog/posts/confusing-google-play-console-review/</link>
+      <pubDate>Tue, 11 Feb 2025 09:47:52 +0700</pubDate>
+      <guid>/blog/posts/confusing-google-play-console-review/</guid>
+      <description>So basically this is the first post that differ from previous posts where usually I posted about updates for my App. I am a little bit frustated by the review process in Google Play Console, it&amp;rsquo;s too obscure to understand what is wrong.
+So at 28 January 2025 I released my latest update into play store. I never have problems with my updates before, or when I have, its very clear what errors I&amp;rsquo;ve made and I can fix it immideately, but this case was different, I got no updates whatsoever about my App, I left hanging for about twenty more days before I remove my update and rethink again what I done wrong.</description>
+    </item>
     <item>
       <title>Rilis V.10.0 Aplikas Baca Tanpa Eja</title>
       <link>/blog/posts/rilis-v1.10.0-aplikasi-baca-tanpa-eja/</link>
