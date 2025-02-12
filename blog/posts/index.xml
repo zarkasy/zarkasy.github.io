@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Tue, 11 Feb 2025 09:47:52 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 08:08:37 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons About Google Play App Review Process</title>
+      <link>/blog/posts/lessons-about-google-play-app-review-process/</link>
+      <pubDate>Wed, 12 Feb 2025 08:08:37 +0700</pubDate>
+      <guid>/blog/posts/lessons-about-google-play-app-review-process/</guid>
+      <description>Yesterday I wrote about my little bit frustation about Google Play App Review proces, altough I admin the tittle was a little bit confusing. Also yesterday evening I got notification that my last updates has been approved, thanks God.
+I got a suspicion about which part of my app violated the terms of Google Play. In the v1.10.0 updates I changed the Home UI a little, first I changed the Premium button&amp;rsquo;s text from Remove Ads into Premium.</description>
+    </item>
     <item>
       <title>Confusing Google Play Console Review</title>
       <link>/blog/posts/confusing-google-play-console-review/</link>
