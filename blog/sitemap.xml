@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2025-02-12T08:08:37+07:00</lastmod>
+    <loc>/blog/posts/a-new-journey/</loc>
+    <lastmod>2025-02-13T08:34:50+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/lessons-about-google-play-app-review-process/</loc>
-    <lastmod>2025-02-12T08:08:37+07:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2025-02-13T08:34:50+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/</loc>
+    <lastmod>2025-02-13T08:34:50+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/lessons-about-google-play-app-review-process/</loc>
     <lastmod>2025-02-12T08:08:37+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/confusing-google-play-console-review/</loc>
