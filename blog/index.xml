@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Thu, 13 Feb 2025 08:34:50 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 08:05:26 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flutter 3.29.0 Nightmares</title>
+      <link>/blog/posts/flutter-329-nightmares/</link>
+      <pubDate>Wed, 19 Feb 2025 08:05:26 +0700</pubDate>
+      <guid>/blog/posts/flutter-329-nightmares/</guid>
+      <description>Yesterday was a cloudy day, I sat in front of my computer writing some codes trying to fix some bugs in my App. According to Crashlitycs, my app only has 68% crash free sessions, the culprit was audioplayers constantly crashed when loading certain audio files.
+When I openend my terminal and began stroking some letters to fire a command, I got a flash of information that a new Flutter version was available, so without thinking much I run flutter upgrade to change the version into 3.</description>
+    </item>
     <item>
       <title>A New Journey</title>
       <link>/blog/posts/a-new-journey/</link>
