@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Wed, 19 Feb 2025 08:05:26 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 16:17:17 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rilis V1.14.0 Pong Game</title>
+      <link>/blog/posts/rilis-v1.14.0-pong-game/</link>
+      <pubDate>Wed, 07 May 2025 16:17:17 +0700</pubDate>
+      <guid>/blog/posts/rilis-v1.14.0-pong-game/</guid>
+      <description>Hai parents, senang sekali rasanya kali ini kami mengumumkan rilis terbaru dari aplikasi kami yaitu Belajar Membaca Tanpa Mengeja versi 1.14.0. Pada rilis ini ada tambahan satu fitur penting yaitu permainan terbaru yang bernama Pong. Tentunya parents pasti familiar dengan game lama ini, nah, kami juga ingin mengenalkan game ini kepada anak-anak sehingga mereka juga merasakan pengalaman yang kita asakan dulu ketika bermain game ini.
+Mungkin parents bertanya-tanya kapan lagi ditambah fitur pembelajaran?</description>
+    </item>
     <item>
       <title>Flutter 3.29.0 Nightmares</title>
       <link>/blog/posts/flutter-329-nightmares/</link>
