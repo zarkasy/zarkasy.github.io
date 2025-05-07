@@ -2,114 +2,150 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
+    <loc>//localhost:1313///blog/</loc>
+    <lastmod>2025-02-19T08:05:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/flutter-329-nightmares/</loc>
+    <lastmod>2025-02-19T08:05:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/</loc>
+    <lastmod>2025-02-19T08:05:26+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/a-new-journey/</loc>
+    <lastmod>2025-02-13T08:34:50+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/lessons-about-google-play-app-review-process/</loc>
+    <lastmod>2025-02-12T08:08:37+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/confusing-google-play-console-review/</loc>
+    <lastmod>2025-02-11T09:47:52+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/rilis-v1.10.0-aplikasi-baca-tanpa-eja/</loc>
+    <lastmod>2025-01-28T06:33:39+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/rilis-versi-190-aplikasi-baca-tanpa-eja/</loc>
+    <lastmod>2025-01-21T08:41:42+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/my-ignorance-about-crashlytics/</loc>
+    <lastmod>2025-01-11T16:38:44+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/rilis-terbaru-baca-tanpa-eja-v-181/</loc>
+    <lastmod>2025-01-09T10:51:31+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/what-i-wished-to-know-before-shipping-my-application/</loc>
+    <lastmod>2024-12-18T20:49:44+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/why-using-banner-ad-admob-was-a-mistake/</loc>
+    <lastmod>2024-12-14T23:23:15+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/rilis-terbaru-aplikasi-belajar-membaca-v171/</loc>
+    <lastmod>2024-12-12T14:41:53+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/whet-to-do-when-admob-match-rate-goes-down/</loc>
+    <lastmod>2024-12-05T14:09:04+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313///blog/posts/rilis-aplikasi-membaca-tanpa-mengeja-v160/</loc>
     <lastmod>2024-12-04T10:32:10+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/</loc>
-    <lastmod>2024-12-04T10:32:10+07:00</lastmod>
-  </url><url>
-    <loc>/blog/posts/rilis-aplikasi-membaca-tanpa-mengeja-v160/</loc>
-    <lastmod>2024-12-04T10:32:10+07:00</lastmod>
-  </url><url>
-    <loc>/blog/posts/pemberitahuan-rilis-terbaru-v150-aplikasi-baca/</loc>
+    <loc>//localhost:1313///blog/posts/pemberitahuan-rilis-terbaru-v150-aplikasi-baca/</loc>
     <lastmod>2024-11-30T15:06:30+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/do-not-be-lazy-testing-your-code/</loc>
+    <loc>//localhost:1313///blog/posts/do-not-be-lazy-testing-your-code/</loc>
     <lastmod>2024-11-27T13:47:16+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/membentuk-kebiasaan-baik-tidak-cukup-hanya-dengan-tekad/</loc>
+    <loc>//localhost:1313///blog/posts/membentuk-kebiasaan-baik-tidak-cukup-hanya-dengan-tekad/</loc>
     <lastmod>2024-11-23T14:03:19+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/paranoia-amerika-terhadap-china/</loc>
+    <loc>//localhost:1313///blog/posts/paranoia-amerika-terhadap-china/</loc>
     <lastmod>2024-11-22T20:58:41+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/how-ignoring-testing-got-me-bit-in-the-ass/</loc>
+    <loc>//localhost:1313///blog/posts/how-ignoring-testing-got-me-bit-in-the-ass/</loc>
     <lastmod>2024-11-19T14:12:19+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/new-release-belajar-membaca-v140/</loc>
+    <loc>//localhost:1313///blog/posts/new-release-belajar-membaca-v140/</loc>
     <lastmod>2024-11-18T15:29:48+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/mengenal-flame-engine-flutter/</loc>
+    <loc>//localhost:1313///blog/posts/mengenal-flame-engine-flutter/</loc>
     <lastmod>2024-11-10T20:10:14+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/mengenal-flutter-integration-tests/</loc>
+    <loc>//localhost:1313///blog/posts/mengenal-flutter-integration-tests/</loc>
     <lastmod>2024-11-05T20:55:39+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/tentang-google-play-developer-payment-profile/</loc>
+    <loc>//localhost:1313///blog/posts/tentang-google-play-developer-payment-profile/</loc>
     <lastmod>2024-11-03T05:27:04+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/improving-admob-banner-match-rate/</loc>
+    <loc>//localhost:1313///blog/posts/improving-admob-banner-match-rate/</loc>
     <lastmod>2024-11-01T17:12:26+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/new-release-belajar-membaca-version-130/</loc>
+    <loc>//localhost:1313///blog/posts/new-release-belajar-membaca-version-130/</loc>
     <lastmod>2024-10-28T10:18:46+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/image-path-location-on-hugo/</loc>
+    <loc>//localhost:1313///blog/posts/image-path-location-on-hugo/</loc>
     <lastmod>2024-10-14T20:52:41+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</loc>
+    <loc>//localhost:1313///blog/posts/aplikasi-pembelajaran-anak-pra-sekolah/</loc>
     <lastmod>2024-10-09T21:20:24+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/host-multiple-flutter-projects-in-github-pages/</loc>
+    <loc>//localhost:1313///blog/posts/host-multiple-flutter-projects-in-github-pages/</loc>
     <lastmod>2024-10-08T07:49:01+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</loc>
+    <loc>//localhost:1313///blog/posts/memperbaiki-error-akses-gambar-asset-pada-hugo/</loc>
     <lastmod>2024-10-04T19:35:37+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/bugs-in-audioplayers-package/</loc>
+    <loc>//localhost:1313///blog/posts/bugs-in-audioplayers-package/</loc>
     <lastmod>2024-09-30T09:15:37+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</loc>
+    <loc>//localhost:1313///blog/posts/cara-deploy-flutter-web-dan-hugo-di-github-pages/</loc>
     <lastmod>2024-09-06T21:31:27+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/pengalaman-kena-limit-ad-serving-admob/</loc>
+    <loc>//localhost:1313///blog/posts/pengalaman-kena-limit-ad-serving-admob/</loc>
     <lastmod>2024-08-29T12:57:47+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/pengalaman-update-app-google-play-ditolak/</loc>
+    <loc>//localhost:1313///blog/posts/pengalaman-update-app-google-play-ditolak/</loc>
     <lastmod>2024-06-04T16:15:34+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/three_days_holidays_recap/</loc>
+    <loc>//localhost:1313///blog/posts/three_days_holidays_recap/</loc>
     <lastmod>2024-05-27T16:29:20+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/catatan_tentang_pyinstaller/</loc>
+    <loc>//localhost:1313///blog/posts/catatan_tentang_pyinstaller/</loc>
     <lastmod>2024-05-18T06:30:46+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/menjaga-kewarasan-sebagai-pengemudi/</loc>
+    <loc>//localhost:1313///blog/posts/menjaga-kewarasan-sebagai-pengemudi/</loc>
     <lastmod>2023-04-23T07:59:49+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/antara-impian-syukur-dan-ikhtiar/</loc>
+    <loc>//localhost:1313///blog/posts/antara-impian-syukur-dan-ikhtiar/</loc>
     <lastmod>2023-03-03T08:18:25+07:00</lastmod>
   </url><url>
-    <loc>/blog/tags/pikiran/</loc>
+    <loc>//localhost:1313///blog/tags/pikiran/</loc>
     <lastmod>2023-03-03T08:18:25+07:00</lastmod>
   </url><url>
-    <loc>/blog/tags/</loc>
+    <loc>//localhost:1313///blog/tags/</loc>
     <lastmod>2023-03-03T08:18:25+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/django_plus_vue_dan_vite/</loc>
+    <loc>//localhost:1313///blog/posts/django_plus_vue_dan_vite/</loc>
     <lastmod>2022-09-14T21:13:52+07:00</lastmod>
   </url><url>
-    <loc>/blog/tags/mrt/</loc>
+    <loc>//localhost:1313///blog/tags/mrt/</loc>
     <lastmod>2022-09-11T20:00:48+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/pengalaman-transjakarta/</loc>
+    <loc>//localhost:1313///blog/posts/pengalaman-transjakarta/</loc>
     <lastmod>2022-09-11T20:00:48+07:00</lastmod>
   </url><url>
-    <loc>/blog/tags/transjakarta/</loc>
+    <loc>//localhost:1313///blog/tags/transjakarta/</loc>
     <lastmod>2022-09-11T20:00:48+07:00</lastmod>
   </url><url>
-    <loc>/blog/tags/blog/</loc>
+    <loc>//localhost:1313///blog/tags/blog/</loc>
     <lastmod>2022-09-10T23:09:40+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/blog-gratisan-dengan-github-pages/</loc>
+    <loc>//localhost:1313///blog/posts/blog-gratisan-dengan-github-pages/</loc>
     <lastmod>2022-09-10T23:09:40+07:00</lastmod>
   </url><url>
-    <loc>/blog/tags/gratis/</loc>
+    <loc>//localhost:1313///blog/tags/gratis/</loc>
     <lastmod>2022-09-10T23:09:40+07:00</lastmod>
   </url><url>
-    <loc>/blog/posts/first-post/</loc>
+    <loc>//localhost:1313///blog/posts/first-post/</loc>
     <lastmod>2022-09-06T18:56:59+07:00</lastmod>
   </url><url>
-    <loc>/blog/categories/</loc>
+    <loc>//localhost:1313///blog/categories/</loc>
   </url>
 </urlset>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="///blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=//blog/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>My 100 percents Crash Free App and my Ignorance | Blog Aplikasi Hebat</title>
+<meta name="keywords" content="">
+<meta name="description" content="A couple days ago I implemented Crashlytics into my App and it made me a little bit panick. Currentyly my App has been publised for one year and few months in Google Play. I&rsquo;ve released alot of updates beginning with only one fiture then now growing into twenty one educational menus or games. During these time I didn&rsquo;t felt the need to implement crashlytics lib into my app because of my ignorance.">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313///blog/posts/my-ignorance-about-crashlytics/">
+<link crossorigin="anonymous" href="///blog/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313///blog/posts/my-ignorance-about-crashlytics/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZEXBPVEMZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZEXBPVEMZ');
+</script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/blog/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/blog/posts" title="All posts">
+                    <span>All posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/blog/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/blog/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      My 100 percents Crash Free App and my Ignorance
+    </h1>
+    <div class="post-meta"><span title='2025-01-11 16:38:44 +0700 +07'>January 11, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>A couple days ago I implemented <a href="https://firebase.google.com/docs/crashlytics">Crashlytics</a> into my <a href="https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&amp;pcampaignid=web_share">App</a> and it made me a little bit panick. Currentyly my App has been publised for one year and few months in Google Play. I&rsquo;ve released alot of updates beginning with only one fiture then now growing into twenty one educational menus or games. During these time I didn&rsquo;t felt the need to implement crashlytics lib into my app because of my ignorance.</p>
+<p><img loading="lazy" src="/blog/posts/my-ignorance-about-crashlytics/crash.PNG" alt="crash"  />
+</p>
+<p>In version 1.7.2 I not yet implement crashlytics, and I&rsquo;ve always got information from Play Developer Dashboard that my latest relase was Healthy and 100% Crash Free. Starting from this version and going backward I&rsquo;ve always a peace of mind because every release was a healthy release. I&rsquo;ve always tested my App before release and also double check it using App bundle explorer in Play Developer Console. Usually before release, if I create an internal testing, Google will automatically test my App using ten devices to find if my App have problems of not, it will catch if there is a fatal error and I will be notified, also my App cannot be published until I fix it. So using this flow and looking at the &ldquo;Healthy release, 100% Crash free&rdquo; title I always felt confidence with my App.</p>
+<p>In 1.8.0 I added a feature and also implemented Crashlytics sdk, also there were some chances I made. After releasing this version, I monitored how my app behave and I became panicked when I saw the number of many crashes happened in my App. How come my App went from crash free to crashes alot? I began to investigate what was the errors.</p>
+<p><img loading="lazy" src="/blog/posts/my-ignorance-about-crashlytics/crash_detail.PNG" alt="crash detail"  />
+</p>
+<p>After an investigation I found I&rsquo;ve misplaced a function where it should executed asynchronously, where I placed it to run syncrhonously, but not only this, I saw alot of errors that causes alot of crashes. But after a fix and relases the updates, I still couldn&rsquo;t get the crash free app.</p>
+<p><img loading="lazy" src="/blog/posts/my-ignorance-about-crashlytics/crash2.PNG" alt="crash info"  />
+</p>
+<p>Now the status of my release changed into <strong>Need Investigations</strong>. There are some categories that we should understand for the status, they are:</p>
+<ol>
+<li>Successful release: The release is stable ( &lt; 1% crashing sessions) and adoption is greater than 10% of daily active users (DAU)*</li>
+<li>Needs investigation (yellow): 1% of sessions (100 crashes per 10k sessions) crashed today and yesterday</li>
+<li>Needs investigation (red): 10% of sessions (1k crashes per 10k sessions) crashed today and yesterday</li>
+</ol>
+<p>But after I rechecked again my code and released not even one but four consecutive patches I&rsquo;ve come to a conclusion that the <strong>crash</strong> here doesn&rsquo;t mean your app crashed in you user&rsquo;s device, bit it throws exception that either caught by exception handler of handled by your framework that not necessarily causing your app to stop. After I realize this, I stop worrying about my not crash free app and start focusing on fix bugs I can fix because there are bugs that caused not by my code but by library I use.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>@AplikasiHebat</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

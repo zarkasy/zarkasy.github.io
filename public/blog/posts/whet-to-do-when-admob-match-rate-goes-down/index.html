@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="///blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=//blog/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>What to do when Admob Match Rate goes down. | Blog Aplikasi Hebat</title>
+<meta name="keywords" content="">
+<meta name="description" content="When I started implementing Admob as a way to get income for my App, I only got a meager amount of money, now even though the situations are still the same, but it&rsquo;s improving :). What I&rsquo;ve learnt that the income we get from admob varies on where your App mainly published, or who uses your app. If you are publishing your app in USA or Europe, highy chance you&rsquo;ll get better profits that if in Asia or Africa.">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313///blog/posts/whet-to-do-when-admob-match-rate-goes-down/">
+<link crossorigin="anonymous" href="///blog/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/blog/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/blog/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313///blog/posts/whet-to-do-when-admob-match-rate-goes-down/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KZEXBPVEMZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KZEXBPVEMZ');
+</script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/blog/" accesskey="h" title="Blog Aplikasi Hebat (Alt + H)">Blog Aplikasi Hebat</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/blog/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/blog/posts" title="All posts">
+                    <span>All posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/blog/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/blog/tags" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      What to do when Admob Match Rate goes down.
+    </h1>
+    <div class="post-meta"><span title='2024-12-05 14:09:04 +0700 +07'>December 5, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>When I started implementing Admob as a way to get income for my <a href="https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&amp;pcampaignid=web_share">App</a>, I only got a meager amount of money, now even though the situations are still the same, but it&rsquo;s improving :). What I&rsquo;ve learnt that the income we get from admob varies on where your App mainly published, or who uses your app. If you are publishing your app in USA or Europe, highy chance you&rsquo;ll get better profits that if in Asia or Africa. I think that because the Advertisers in those regions pays higher to Google than in the developing countries. This can be your considerations when deciding which country to publish your app.</p>
+<p>This lessons will become one of my deciding factors in releasing my next Application. Altough I think there&rsquo;s pros and cons when publishing our Apps locally vs globally. What comes to my mind is when publishing App locally, you have deeper knowledge about people behaviour there, about the locality and cultures. I think they are important factor when creating an Application, because creating an App is not only for the sake of creating Apps or getting money, but it&rsquo;s more of giving solutions to people. For example, my <a href="https://play.google.com/store/apps/details?id=com.aplikasihebat.baca_app&amp;pcampaignid=web_share">App</a> which is an educatinal app for children would not be accepted if I published it in regioun like USA or Europe, because not only I am using Bahasa Indonesia as the language, but also the menus was made according the local cultures, like the songs used in one of it&rsquo;s menus. So, I think when developing an App, do not think for profit first, but think what we offering to our users, and I knew many supposedly an International App which maybe has better UI but only gets less that a thousands downloads.</p>
+<p>The pros when publishing App globally obviously the chance to get more users are higher if our Apps are really good and really answers the user&rsquo;s problems. But when they&rsquo;re not, do not be dicouraged when your App not succed, you can try again. What I noticed about Apps that succeded globally are usually utilites or Gaming apps. For example Apps like PDF reader, Barcode readers, file explorers, video editors, music players get many downloads, because it is a common problem for many of us.</p>
+<h1 id="mistakes-i-learned-using-admob">Mistakes I Learned using Admob<a hidden class="anchor" aria-hidden="true" href="#mistakes-i-learned-using-admob">#</a></h1>
+<p>There are many types of Ad provided by Admob such as, Banner Ads, Interstitial, Rewarded, App Open, and Native. I want to discuss three here, the Banner, Interstitial and Native, because I&rsquo;ve tried it and I know how they performed.</p>
+<p>For App Open I&rsquo;ve never implemented it because I feel that my App is only made to mine Ads and I do not want to do that. In the beginning I only implemented Interstitial Ad, and it performed well. Right now the Interstitial Ad contributes to 80 percent income from Admob. But you need to be careful when implementing this type of Ad, I onced got my Ad request limited because miss implementations. What I learned was to give enough intervals between each ad request, what I do is three to four minutes is safe periods to make Ad request. You can implement it directly inside your App or you can set request Cap using Admob settings.</p>
+<p>Second, Banner Ad, I used to hesitated in implementing this type of Ad, I was afraid that my user would dislike my App because this banner Ad, so for Interstitial Ad is only showed in between app flow, but banner Ad will keep showing througout your App. But it turns out my concern was not true, after I applied this banner Ad into my App, I did&rsquo;nt see negative reviews towards my App, and also this type of Ad contribute to 20% of my Ad reveneu.</p>
+<p>Last is native Ad, this is honestly the poorest performing type of Ad that i&rsquo;ve tried, so I do not use it anymore.</p>
+<p>One last not about Admob, usually when you change your Ad implementations, for example, in the last release, I added more banner Ad to some of my App menus, before I only applied it into three of menus, now I think 17 of them have Banner Ad. So the consequences are Ad requests from my App jumping very high, this will lead to your match rate going down, in my case, my match rate went from 40% to 15%, but do not worry, once google finish evaluating you ad request quality, if they comfirm that the requests are not from bots, your mathing rate will heal up, like mine.</p>
+<p>So that is my experience in using Admob, I think if you want to get more revenue from your App, you have to make your users buy your app, even better if you can make them pay subscription, but that would be very hard, and I felt that also.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>@AplikasiHebat</span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
