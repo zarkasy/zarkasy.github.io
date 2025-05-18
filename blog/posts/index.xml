@@ -7,8 +7,17 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Wed, 07 May 2025 16:17:17 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 13:04:05 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rilis V1.15.0 Astro Jump</title>
+      <link>/blog/posts/rilis-v1.15.0-astro-jump/</link>
+      <pubDate>Sun, 18 May 2025 13:04:05 +0700</pubDate>
+      <guid>/blog/posts/rilis-v1.15.0-astro-jump/</guid>
+      <description>Senang sekali kami mengumumkan versi terbaru dari aplikasi Belajar membaca tanpa mengeja versi 1.15.0. Pada versi ini kami menambahkan game Astro jump.
+Game ini tersinpirasi game Flappy Bird yang pernah viral pada tahun 2013 silam. Misi dari astronot ini adalah menjelajahi luar angkasa dan menghindari rintangan batu-batu asteroid yang menghalanginya.
+Semoga anak-anak semakin senang bermain dan belajar bersama kami yah. Sampai jumpa lagi di update selanjutnya.</description>
+    </item>
     <item>
       <title>Rilis V1.14.0 Pong Game</title>
       <link>/blog/posts/rilis-v1.14.0-pong-game/</link>
