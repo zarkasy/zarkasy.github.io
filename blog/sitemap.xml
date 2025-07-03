@@ -3,10 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/blog/</loc>
-    <lastmod>2025-06-17T08:37:04+07:00</lastmod>
+    <lastmod>2025-07-03T09:01:19+07:00</lastmod>
+  </url><url>
+    <loc>/blog/posts/notes-about-flutter-impeller-performances/</loc>
+    <lastmod>2025-07-03T09:01:19+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/</loc>
-    <lastmod>2025-06-17T08:37:04+07:00</lastmod>
+    <lastmod>2025-07-03T09:01:19+07:00</lastmod>
   </url><url>
     <loc>/blog/posts/rilis-v1.17.0-aplikasi-belajar-membaca/</loc>
     <lastmod>2025-06-17T08:37:04+07:00</lastmod>

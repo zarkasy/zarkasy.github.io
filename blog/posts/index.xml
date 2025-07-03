@@ -7,8 +7,17 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Tue, 17 Jun 2025 08:37:04 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 09:01:19 +0700</lastBuildDate>
     <atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes About Flutter Impeller Performances</title>
+      <link>/blog/posts/notes-about-flutter-impeller-performances/</link>
+      <pubDate>Thu, 03 Jul 2025 09:01:19 +0700</pubDate>
+      <guid>/blog/posts/notes-about-flutter-impeller-performances/</guid>
+      <description>I want to make this post as a reminder of myself about Flutter&#39;s Rendering Engine, Impeller. If you are a flutter develooper, you might already know or heard about new rendering engine named Impeller. As a successor of the previous one, Skia, this new rendering engine promised a better performances. 
+
+As a developer who also often like to try new shining things, I also immideately jumped in when I knew new versions of flutter already released, I remember I am still using the 3.</description>
+    </item>
     <item>
       <title>Rilis V1.17.0 Aplikasi Belajar Membaca</title>
       <link>/blog/posts/rilis-v1.17.0-aplikasi-belajar-membaca/</link>
