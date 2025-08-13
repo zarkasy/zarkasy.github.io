@@ -7,8 +7,16 @@
     <generator>Hugo -- 0.133.1</generator>
     <language>en-us</language>
     <copyright>@AplikasiHebat</copyright>
-    <lastBuildDate>Thu, 03 Jul 2025 09:01:19 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 13 Aug 2025 08:34:02 +0700</lastBuildDate>
     <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rilis Terbaru V.18.0 Coding Game</title>
+      <link>/blog/posts/rilis-terbaru-v.18.0-coding-game/</link>
+      <pubDate>Wed, 13 Aug 2025 08:34:02 +0700</pubDate>
+      <guid>/blog/posts/rilis-terbaru-v.18.0-coding-game/</guid>
+      <description>Bahagia sekali kami hari ini kembali mengumumkan update terbaru pada Aplikasi kami yaitu Belajar Membaca tanpa Mengeja. Pada rilis kali ini kami menambahkan game Coding, yaitu game dimana anak-anak harus memberikan perintah pada mobil agar sampai ke tujuan. Game ini merupakan game ke 30 dari rangkaian menu pembelajaran yang sudah ada pada aplikasi.
+Game ini sengaja dinamakan Coding karena memang ingin mengajarkan dasar-dasar pemograman secara sederhana kepada anak-ananak. Coding atau pemograman sendiri pada dasarnya adalah memberikan perintah pada komputer, di permainan ini anak-anak akan di challenge untuk memberikan perintah yang tepah sehingga mobil bisa sampai pada tujuan.</description>
+    </item>
     <item>
       <title>Notes About Flutter Impeller Performances</title>
       <link>/blog/posts/notes-about-flutter-impeller-performances/</link>
